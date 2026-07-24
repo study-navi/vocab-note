@@ -89,6 +89,7 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 .chip-row{ display:flex; gap:6px; flex-wrap:wrap; }
 .chip{ padding:6px 12px; border-radius:999px; font-size:11.5px; color:var(--ink-dim); background:transparent; border:1px solid rgba(255,255,255,0.12); cursor:pointer; transition:all .15s ease; }
 .chip.active{ color:var(--bg); background:var(--gold); border-color:var(--gold); font-weight:500; }
+.review-chip.active{ background:var(--bad); border-color:var(--bad); color:#fff; }
 
 .stage{ flex:1; display:flex; flex-direction:column; min-height:340px; }
 .card-zone{ flex:1; perspective:1400px; margin-bottom:16px; }
@@ -140,8 +141,8 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
 
       <label class="field-label">校舎</label>
       <select id="branchSelect">
-        <option value="大府校">スクールIE 大府柊山校</option>
-        <option value="共和校">スクールIE 共和校</option>
+        <option value="大府校">大府柊山校</option>
+        <option value="共和校">共和校</option>
       </select>
 
       <label class="field-label">名前(ニックネームでも可)</label>
@@ -195,11 +196,14 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
         <div class="pill" id="modeQuiz" onclick="setMode('quiz')">4択テスト</div>
       </div>
       <div class="chip-row" id="levelChips"></div>
+      <div class="chip-row">
+        <div class="chip review-chip" id="reviewToggle" onclick="toggleReviewMode()">苦手だけ復習(<span id="reviewCount">0</span>)</div>
+      </div>
     </div>
 
     <div class="stage" id="stage"></div>
 
-    <footer>湊音ヒロ / Study IE — 毎晩ひとつずつ、静かに積み上げる</footer>
+    <footer>Study IE — 毎晩ひとつずつ、静かに積み上げる</footer>
   </div>
 </div>
 
@@ -622,6 +626,7 @@ async function afterLoginSetup(){
   renderChips();
   buildDeck();
   render();
+  updateReviewCount();
 }
 
 let state = {
@@ -633,10 +638,31 @@ let state = {
   quizChoices: [],
   quizAnswered: false,
   mastery: {},
+  reviewMode: false,
 };
 
 function wordsForLevel(){
   return state.level === 0 ? WORDS : WORDS.filter(w => w.level === state.level);
+}
+
+// 苦手(わからない/あやふや)・未学習も含めた「復習対象」のプール
+function getStudyPool(){
+  const list = wordsForLevel();
+  if(!state.reviewMode) return list;
+  return list.filter(w => (state.mastery[w.w] ?? 0) !== 2);
+}
+
+function updateReviewCount(){
+  const count = wordsForLevel().filter(w => (state.mastery[w.w] ?? 0) !== 2).length;
+  const el = document.getElementById('reviewCount');
+  if(el) el.textContent = count;
+}
+
+function toggleReviewMode(){
+  state.reviewMode = !state.reviewMode;
+  document.getElementById('reviewToggle').classList.toggle('active', state.reviewMode);
+  buildDeck();
+  render();
 }
 
 function shuffle(arr){
@@ -649,7 +675,7 @@ function shuffle(arr){
 }
 
 function buildDeck(){
-  state.deck = shuffle(wordsForLevel());
+  state.deck = shuffle(getStudyPool());
   state.idx = 0;
   state.flipped = false;
   state.quizAnswered = false;
@@ -668,6 +694,7 @@ function setLevel(lv){
   renderChips();
   buildDeck();
   render();
+  updateReviewCount();
 }
 
 function renderChips(){
@@ -704,7 +731,10 @@ function updateMoon(){
 function renderFlash(){
   const stage = document.getElementById('stage');
   if(state.deck.length === 0){
-    stage.innerHTML = `<div class="empty"><div class="word-en">単語がありません</div><div>レベルを変えてみてください</div></div>`;
+    const msg = state.reviewMode
+      ? `<div class="empty"><div class="word-en">🎉 苦手ゼロ！</div><div>このレベルは「覚えた」判定の単語だけになりました</div></div>`
+      : `<div class="empty"><div class="word-en">単語がありません</div><div>レベルを変えてみてください</div></div>`;
+    stage.innerHTML = msg;
     return;
   }
   const w = state.deck[state.idx];
@@ -744,6 +774,7 @@ function judge(level){
   const w = state.deck[state.idx];
   state.mastery[w.w] = level;
   updateMoon();
+  updateReviewCount();
   saveProgressToServer(w.w, w.level, level);
   nextCard();
 }
@@ -766,7 +797,10 @@ function buildQuizChoices(){
 function renderQuiz(){
   const stage = document.getElementById('stage');
   if(state.deck.length === 0){
-    stage.innerHTML = `<div class="empty"><div class="word-en">単語がありません</div><div>レベルを変えてみてください</div></div>`;
+    const msg = state.reviewMode
+      ? `<div class="empty"><div class="word-en">🎉 苦手ゼロ！</div><div>このレベルは「覚えた」判定の単語だけになりました</div></div>`
+      : `<div class="empty"><div class="word-en">単語がありません</div><div>レベルを変えてみてください</div></div>`;
+    stage.innerHTML = msg;
     return;
   }
   if(!state.quizChoices.length){ buildQuizChoices(); }
@@ -799,6 +833,7 @@ function answerQuiz(btn, isCorrect){
   const status = isCorrect ? 2 : 1;
   state.mastery[w.w] = status;
   updateMoon();
+  updateReviewCount();
   saveProgressToServer(w.w, w.level, status);
   document.getElementById('nextBtn').style.display = 'block';
 }
