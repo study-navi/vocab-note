@@ -116,10 +116,10 @@ const TEACHER_PASSCODE = "studyie2026";
 const TOTAL_WORDS = 300; // WORDS配列と合わせておく(単語数を増やしたらここも更新)
 const TOTAL_L1 = 100, TOTAL_L2 = 100, TOTAL_L3 = 100;
 
-let supabase = null;
+let supabaseClient = null;
 try {
   if (SUPABASE_URL.indexOf("YOUR-PROJECT") === -1) {
-    supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
   }
 } catch(e){ console.error(e); }
 
@@ -142,14 +142,14 @@ async function loadData(){
   tbody.innerHTML = "";
   emptyMsg.classList.add('hidden');
 
-  if(!supabase){
+  if(!supabaseClient){
     emptyMsg.textContent = "Supabaseが未設定です。teacher.html冒頭のSUPABASE_URL / ANON_KEYを設定してください。";
     emptyMsg.classList.remove('hidden');
     summaryRow.innerHTML = "";
     return;
   }
 
-  const { data: students, error: sErr } = await supabase
+  const { data: students, error: sErr } = await supabaseClient
     .from('vocab_students')
     .select('id,name')
     .eq('branch', branch)
@@ -163,7 +163,7 @@ async function loadData(){
   }
 
   const ids = students.map(s=>s.id);
-  const { data: progress, error: pErr } = await supabase
+  const { data: progress, error: pErr } = await supabaseClient
     .from('vocab_progress')
     .select('student_id,word,level,status,updated_at')
     .in('student_id', ids);

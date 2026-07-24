@@ -212,10 +212,10 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
 const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
 const SUPABASE_ANON_KEY = "YOUR-ANON-PUBLIC-KEY";
 
-let supabase = null;
+let supabaseClient = null;
 try {
   if (SUPABASE_URL.indexOf("YOUR-PROJECT") === -1) {
-    supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
   }
 } catch(e){ console.error(e); }
 
@@ -548,7 +548,7 @@ function handleLogin(){
 async function loginStudent(branch, name){
   document.getElementById('loginBtn').disabled = true;
 
-  if(!supabase){
+  if(!supabaseClient){
     currentStudent = { id: null, branch, name };
     showMain();
     const tag = document.getElementById('syncTag');
@@ -559,7 +559,7 @@ async function loginStudent(branch, name){
   }
 
   try{
-    const { data, error } = await supabase
+    const { data, error } = await supabaseClient
       .from('vocab_students')
       .upsert({ branch, name }, { onConflict: 'branch,name' })
       .select()
@@ -597,8 +597,8 @@ function showMain(){
 }
 
 async function loadProgressFromServer(){
-  if(!supabase || !currentStudent.id) return;
-  const { data, error } = await supabase
+  if(!supabaseClient || !currentStudent.id) return;
+  const { data, error } = await supabaseClient
     .from('vocab_progress')
     .select('word,status')
     .eq('student_id', currentStudent.id);
@@ -607,8 +607,8 @@ async function loadProgressFromServer(){
 }
 
 async function saveProgressToServer(word, level, status){
-  if(!supabase || !currentStudent.id) return;
-  const { error } = await supabase
+  if(!supabaseClient || !currentStudent.id) return;
+  const { error } = await supabaseClient
     .from('vocab_progress')
     .upsert({
       student_id: currentStudent.id,
