@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>英単語ノート — 先生用ダッシュボード</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<style>
+:root{
+  --bg:#10152b; --bg-elevate:#161d3a; --surface:#212a52; --surface-2:#2a3563;
+  --ink:#eef1f8; --ink-dim:#94a0c9; --ink-faint:#5c6796;
+  --gold:#e8b95f; --gold-dim:#8a733f; --good:#6fcf97; --warn:#f0c869; --bad:#e8748a;
+  --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{
+  background:var(--bg); color:var(--ink); font-family:var(--sans);
+  min-height:100vh; display:flex; justify-content:center; padding:24px 16px 60px;
+}
+.wrap{ width:100%; max-width:760px; }
+.eyebrow{ font-size:11px; letter-spacing:0.28em; color:var(--gold); font-weight:500; }
+h1{ font-family:var(--serif); font-size:24px; margin-top:4px; margin-bottom:4px; }
+.sub{ font-size:12.5px; color:var(--ink-dim); margin-bottom:22px; }
+
+.gate-card, .panel{
+  background:var(--bg-elevate); border:1px solid rgba(232,185,95,0.12);
+  border-radius:18px; padding:22px 20px; margin-bottom:16px;
+}
+label.field-label{ display:block; font-size:11.5px; color:var(--ink-dim); margin-bottom:6px; }
+select, input[type=password]{
+  width:100%; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,0.12);
+  background:var(--surface); color:var(--ink); font-family:var(--sans); font-size:14.5px; margin-bottom:14px;
+}
+.btn{
+  padding:12px 20px; border-radius:12px; border:none; background:var(--gold);
+  color:var(--bg); font-weight:700; font-size:14px; cursor:pointer;
+}
+.err-msg{ font-size:12px; color:var(--bad); margin-top:6px; display:none; }
+
+.filter-row{ display:flex; gap:10px; align-items:flex-end; margin-bottom:18px; flex-wrap:wrap; }
+.filter-row select{ margin-bottom:0; width:auto; min-width:200px; }
+
+table{ width:100%; border-collapse:collapse; font-size:13.5px; }
+th, td{ text-align:left; padding:10px 8px; border-bottom:1px solid rgba(255,255,255,0.06); }
+th{ color:var(--ink-faint); font-weight:500; font-size:11.5px; letter-spacing:0.04em; }
+td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
+.bar-cell{ min-width:120px; }
+.bar-bg{ background:rgba(255,255,255,0.07); border-radius:999px; height:8px; overflow:hidden; }
+.bar-fill{ background:var(--gold); height:100%; }
+.small{ font-size:11px; color:var(--ink-faint); }
+.summary-row{ display:flex; gap:14px; margin-bottom:18px; flex-wrap:wrap; }
+.summary-item{ background:var(--surface); border-radius:14px; padding:14px 18px; flex:1; min-width:120px; }
+.summary-item .num{ font-family:var(--serif); font-size:22px; color:var(--gold); font-weight:700; }
+.summary-item .lbl{ font-size:11px; color:var(--ink-dim); margin-top:2px; }
+.hidden{ display:none !important; }
+.empty-msg{ color:var(--ink-dim); font-size:13px; padding:20px 0; text-align:center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">STUDY IE — VOCAB NOTE</div>
+  <h1>先生用ダッシュボード</h1>
+  <div class="sub">生徒ごとの学習進捗を確認できます</div>
+
+  <div class="gate-card" id="gateCard">
+    <label class="field-label">合言葉</label>
+    <input type="password" id="passInput" placeholder="合言葉を入力">
+    <button class="btn" onclick="checkPass()">開く</button>
+    <div class="err-msg" id="gateErr">合言葉が違います</div>
+  </div>
+
+  <div id="dashboard" class="hidden">
+    <div class="filter-row">
+      <div>
+        <label class="field-label">校舎</label>
+        <select id="branchFilter" onchange="loadData()">
+          <option value="大府校">スクールIE 大府柊山校</option>
+          <option value="共和校">スクールIE 共和校</option>
+        </select>
+      </div>
+      <button class="btn" onclick="loadData()">更新</button>
+    </div>
+
+    <div class="summary-row" id="summaryRow"></div>
+
+    <div class="panel">
+      <table>
+        <thead>
+          <tr>
+            <th>生徒名</th>
+            <th>覚えた語数</th>
+            <th class="bar-cell">習熟度</th>
+            <th>基礎/標準/発展</th>
+            <th>最終学習</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+      <div class="empty-msg hidden" id="emptyMsg">この校舎にはまだ学習記録がありません</div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* =========================================================
+   ★ ここに Supabase のプロジェクト情報を入れてください(index.htmlと同じ値) ★
+========================================================= */
+const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
+const SUPABASE_ANON_KEY = "YOUR-ANON-PUBLIC-KEY";
+
+/* ★ 先生用の合言葉。厳密なセキュリティではなく簡易的な目隠しです ★ */
+const TEACHER_PASSCODE = "studyie2026";
+
+const TOTAL_WORDS = 300; // WORDS配列と合わせておく(単語数を増やしたらここも更新)
+const TOTAL_L1 = 100, TOTAL_L2 = 100, TOTAL_L3 = 100;
+
+let supabase = null;
+try {
+  if (SUPABASE_URL.indexOf("YOUR-PROJECT") === -1) {
+    supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  }
+} catch(e){ console.error(e); }
+
+function checkPass(){
+  const val = document.getElementById('passInput').value;
+  if(val === TEACHER_PASSCODE){
+    document.getElementById('gateCard').classList.add('hidden');
+    document.getElementById('dashboard').classList.remove('hidden');
+    loadData();
+  } else {
+    document.getElementById('gateErr').style.display = 'block';
+  }
+}
+
+async function loadData(){
+  const branch = document.getElementById('branchFilter').value;
+  const tbody = document.getElementById('tableBody');
+  const emptyMsg = document.getElementById('emptyMsg');
+  const summaryRow = document.getElementById('summaryRow');
+  tbody.innerHTML = "";
+  emptyMsg.classList.add('hidden');
+
+  if(!supabase){
+    emptyMsg.textContent = "Supabaseが未設定です。teacher.html冒頭のSUPABASE_URL / ANON_KEYを設定してください。";
+    emptyMsg.classList.remove('hidden');
+    summaryRow.innerHTML = "";
+    return;
+  }
+
+  const { data: students, error: sErr } = await supabase
+    .from('vocab_students')
+    .select('id,name')
+    .eq('branch', branch)
+    .order('name');
+  if(sErr){ console.error(sErr); return; }
+
+  if(!students.length){
+    emptyMsg.classList.remove('hidden');
+    summaryRow.innerHTML = "";
+    return;
+  }
+
+  const ids = students.map(s=>s.id);
+  const { data: progress, error: pErr } = await supabase
+    .from('vocab_progress')
+    .select('student_id,word,level,status,updated_at')
+    .in('student_id', ids);
+  if(pErr){ console.error(pErr); return; }
+
+  const byStudent = {};
+  students.forEach(s => byStudent[s.id] = { name:s.name, mastered:0, l1:0, l2:0, l3:0, lastUpdate:null });
+
+  progress.forEach(row => {
+    const bucket = byStudent[row.student_id];
+    if(!bucket) return;
+    if(row.status === 2){
+      bucket.mastered++;
+      if(row.level===1) bucket.l1++;
+      if(row.level===2) bucket.l2++;
+      if(row.level===3) bucket.l3++;
+    }
+    if(!bucket.lastUpdate || new Date(row.updated_at) > new Date(bucket.lastUpdate)){
+      bucket.lastUpdate = row.updated_at;
+    }
+  });
+
+  const rows = Object.values(byStudent).sort((a,b)=>b.mastered-a.mastered);
+
+  // サマリー
+  const totalStudents = rows.length;
+  const avgMastered = totalStudents ? Math.round(rows.reduce((s,r)=>s+r.mastered,0)/totalStudents) : 0;
+  const activeStudents = rows.filter(r=>r.lastUpdate && (Date.now()-new Date(r.lastUpdate).getTime()) < 7*24*3600*1000).length;
+  summaryRow.innerHTML = `
+    <div class="summary-item"><div class="num">${totalStudents}</div><div class="lbl">登録生徒数</div></div>
+    <div class="summary-item"><div class="num">${avgMastered}</div><div class="lbl">平均・覚えた語数</div></div>
+    <div class="summary-item"><div class="num">${activeStudents}</div><div class="lbl">直近7日で学習</div></div>
+  `;
+
+  tbody.innerHTML = rows.map(r => {
+    const pct = Math.round((r.mastered/TOTAL_WORDS)*100);
+    const last = r.lastUpdate ? new Date(r.lastUpdate).toLocaleDateString('ja-JP', {month:'numeric', day:'numeric'}) : "-";
+    return `
+      <tr>
+        <td>${r.name}</td>
+        <td class="num">${r.mastered} <span class="small">/ ${TOTAL_WORDS}</span></td>
+        <td class="bar-cell">
+          <div class="bar-bg"><div class="bar-fill" style="width:${pct}%"></div></div>
+          <div class="small">${pct}%</div>
+        </td>
+        <td class="small">${r.l1}/${TOTAL_L1} · ${r.l2}/${TOTAL_L2} · ${r.l3}/${TOTAL_L3}</td>
+        <td class="small">${last}</td>
+      </tr>
+    `;
+  }).join("");
+}
+</script>
+</body>
+</html>
