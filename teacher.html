@@ -76,8 +76,8 @@ td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
       <div>
         <label class="field-label">校舎</label>
         <select id="branchFilter" onchange="loadData()">
-          <option value="大府校">スクールIE 大府柊山校</option>
-          <option value="共和校">スクールIE 共和校</option>
+          <option value="大府校">大府柊山校</option>
+          <option value="共和校">共和校</option>
         </select>
       </div>
       <button class="btn" onclick="loadData()">更新</button>
@@ -113,8 +113,23 @@ const SUPABASE_ANON_KEY = "sb_publishable_R83zSq90hslRd5jl04sIPg_hZlLxfRC";
 /* ★ 先生用の合言葉。厳密なセキュリティではなく簡易的な目隠しです ★ */
 const TEACHER_PASSCODE = "studyie2026";
 
-const TOTAL_WORDS = 300; // WORDS配列と合わせておく(単語数を増やしたらここも更新)
-const TOTAL_L1 = 100, TOTAL_L2 = 100, TOTAL_L3 = 100;
+let TOTAL_WORDS = 0, TOTAL_L1 = 0, TOTAL_L2 = 0, TOTAL_L3 = 0;
+let wordsLoaded = false;
+
+async function loadWordCounts(){
+  try{
+    const res = await fetch('./words.json');
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    const words = await res.json();
+    TOTAL_WORDS = words.length;
+    TOTAL_L1 = words.filter(w=>w.level===1).length;
+    TOTAL_L2 = words.filter(w=>w.level===2).length;
+    TOTAL_L3 = words.filter(w=>w.level===3).length;
+    wordsLoaded = true;
+  }catch(e){
+    console.error(e);
+  }
+}
 
 let supabaseClient = null;
 try {
@@ -123,11 +138,12 @@ try {
   }
 } catch(e){ console.error(e); }
 
-function checkPass(){
+async function checkPass(){
   const val = document.getElementById('passInput').value;
   if(val === TEACHER_PASSCODE){
     document.getElementById('gateCard').classList.add('hidden');
     document.getElementById('dashboard').classList.remove('hidden');
+    if(!wordsLoaded) await loadWordCounts();
     loadData();
   } else {
     document.getElementById('gateErr').style.display = 'block';
@@ -165,7 +181,7 @@ async function loadData(){
   const ids = students.map(s=>s.id);
   const { data: progress, error: pErr } = await supabaseClient
     .from('vocab_progress')
-    .select('student_id,word,level,status,updated_at')
+    .select('student_id,word_id,level,status,updated_at')
     .in('student_id', ids);
   if(pErr){ console.error(pErr); return; }
 
