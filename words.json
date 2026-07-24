@@ -2698,5 +2698,905 @@
     "example": "The initial plan changed later.",
     "exampleJa": "当初の計画は後で変わった。",
     "level": 3
+  },
+  {
+    "id": 301,
+    "word": "advise",
+    "pos": "動",
+    "meaning": "〜に助言する",
+    "example": "She advised him to see a doctor.",
+    "exampleJa": "彼女は彼に医者に診てもらうよう助言した。",
+    "level": 1
+  },
+  {
+    "id": 302,
+    "word": "tip",
+    "pos": "名",
+    "meaning": "助言、チップ",
+    "example": "Here's a tip for saving money.",
+    "exampleJa": "お金を節約するための助言です。",
+    "level": 1
+  },
+  {
+    "id": 303,
+    "word": "blame",
+    "pos": "動",
+    "meaning": "〜のせいにする",
+    "example": "Don't blame yourself for the mistake.",
+    "exampleJa": "その間違いで自分を責めないで。",
+    "level": 1
+  },
+  {
+    "id": 304,
+    "word": "claim",
+    "pos": "動",
+    "meaning": "主張する",
+    "example": "He claimed that he was innocent.",
+    "exampleJa": "彼は自分は無実だと主張した。",
+    "level": 1
+  },
+  {
+    "id": 305,
+    "word": "offer",
+    "pos": "動/名",
+    "meaning": "申し出る、申し出",
+    "example": "She offered to help us.",
+    "exampleJa": "彼女は私たちを手伝うと申し出た。",
+    "level": 1
+  },
+  {
+    "id": 306,
+    "word": "suggest",
+    "pos": "動",
+    "meaning": "提案する",
+    "example": "I suggest we leave early.",
+    "exampleJa": "早めに出発することを提案します。",
+    "level": 1
+  },
+  {
+    "id": 307,
+    "word": "recommend",
+    "pos": "動",
+    "meaning": "勧める",
+    "example": "Can you recommend a good restaurant?",
+    "exampleJa": "良いレストランを勧めてもらえますか。",
+    "level": 1
+  },
+  {
+    "id": 308,
+    "word": "excuse",
+    "pos": "名/動",
+    "meaning": "言い訳、〜を許す",
+    "example": "That's not a good excuse.",
+    "exampleJa": "それは良い言い訳ではない。",
+    "level": 1
+  },
+  {
+    "id": 309,
+    "word": "celebrate",
+    "pos": "動",
+    "meaning": "祝う",
+    "example": "We celebrated her birthday together.",
+    "exampleJa": "私たちは一緒に彼女の誕生日を祝った。",
+    "level": 1
+  },
+  {
+    "id": 310,
+    "word": "congratulate",
+    "pos": "動",
+    "meaning": "祝う、お祝いを言う",
+    "example": "I congratulated him on his success.",
+    "exampleJa": "私は彼の成功を祝った。",
+    "level": 1
+  },
+  {
+    "id": 311,
+    "word": "admire",
+    "pos": "動",
+    "meaning": "称賛する",
+    "example": "I admire her courage.",
+    "exampleJa": "私は彼女の勇気に感心する。",
+    "level": 1
+  },
+  {
+    "id": 312,
+    "word": "award",
+    "pos": "名/動",
+    "meaning": "賞、〜に賞を与える",
+    "example": "She won an award for her novel.",
+    "exampleJa": "彼女は小説で賞を受賞した。",
+    "level": 1
+  },
+  {
+    "id": 313,
+    "word": "express",
+    "pos": "動",
+    "meaning": "表現する",
+    "example": "It's hard to express my feelings.",
+    "exampleJa": "自分の気持ちを表現するのは難しい。",
+    "level": 1
+  },
+  {
+    "id": 314,
+    "word": "promise",
+    "pos": "動/名",
+    "meaning": "約束する、約束",
+    "example": "He promised to call me back.",
+    "exampleJa": "彼は私に折り返し電話すると約束した。",
+    "level": 1
+  },
+  {
+    "id": 315,
+    "word": "skill",
+    "pos": "名",
+    "meaning": "技術、腕前",
+    "example": "Cooking is a useful skill.",
+    "exampleJa": "料理は役に立つ技術だ。",
+    "level": 1
+  },
+  {
+    "id": 316,
+    "word": "ability",
+    "pos": "名",
+    "meaning": "能力",
+    "example": "She has the ability to solve problems.",
+    "exampleJa": "彼女には問題を解決する能力がある。",
+    "level": 1
+  },
+  {
+    "id": 317,
+    "word": "talent",
+    "pos": "名",
+    "meaning": "才能",
+    "example": "He has a talent for music.",
+    "exampleJa": "彼には音楽の才能がある。",
+    "level": 1
+  },
+  {
+    "id": 318,
+    "word": "practice",
+    "pos": "動/名",
+    "meaning": "練習する、練習",
+    "example": "Practice makes perfect.",
+    "exampleJa": "練習は完璧を作る(習うより慣れよ)。",
+    "level": 1
+  },
+  {
+    "id": 319,
+    "word": "manage",
+    "pos": "動",
+    "meaning": "何とかやり遂げる、経営する",
+    "example": "She managed to finish the work on time.",
+    "exampleJa": "彼女は何とか時間通りに仕事を終わらせた。",
+    "level": 1
+  },
+  {
+    "id": 320,
+    "word": "produce",
+    "pos": "動",
+    "meaning": "生産する",
+    "example": "This factory produces cars.",
+    "exampleJa": "この工場は車を生産している。",
+    "level": 1
+  },
+  {
+    "id": 321,
+    "word": "save",
+    "pos": "動",
+    "meaning": "救う、貯める",
+    "example": "He saved a lot of money for college.",
+    "exampleJa": "彼は大学のために多くのお金を貯めた。",
+    "level": 1
+  },
+  {
+    "id": 322,
+    "word": "medicine",
+    "pos": "名",
+    "meaning": "薬、医学",
+    "example": "Take this medicine after meals.",
+    "exampleJa": "食後にこの薬を飲んでください。",
+    "level": 1
+  },
+  {
+    "id": 323,
+    "word": "patient",
+    "pos": "名/形",
+    "meaning": "患者、忍耐強い",
+    "example": "The doctor examined the patient.",
+    "exampleJa": "医者は患者を診察した。",
+    "level": 1
+  },
+  {
+    "id": 324,
+    "word": "condition",
+    "pos": "名",
+    "meaning": "状態、条件",
+    "example": "The car is in good condition.",
+    "exampleJa": "その車は良い状態だ。",
+    "level": 1
+  },
+  {
+    "id": 325,
+    "word": "exercise",
+    "pos": "名/動",
+    "meaning": "運動",
+    "example": "Regular exercise keeps you healthy.",
+    "exampleJa": "定期的な運動は健康を保つ。",
+    "level": 1
+  },
+  {
+    "id": 326,
+    "word": "breathe",
+    "pos": "動",
+    "meaning": "呼吸する",
+    "example": "Take a deep breath and breathe slowly.",
+    "exampleJa": "深呼吸してゆっくり息をして。",
+    "level": 1
+  },
+  {
+    "id": 327,
+    "word": "thirsty",
+    "pos": "形",
+    "meaning": "のどが渇いた",
+    "example": "I'm thirsty after the run.",
+    "exampleJa": "走った後でのどが渇いている。",
+    "level": 1
+  },
+  {
+    "id": 328,
+    "word": "taste",
+    "pos": "動/名",
+    "meaning": "味がする、味",
+    "example": "This soup tastes great.",
+    "exampleJa": "このスープはとても美味しい。",
+    "level": 1
+  },
+  {
+    "id": 329,
+    "word": "rule",
+    "pos": "名",
+    "meaning": "規則",
+    "example": "Please follow the school rules.",
+    "exampleJa": "学校の規則に従ってください。",
+    "level": 1
+  },
+  {
+    "id": 330,
+    "word": "role",
+    "pos": "名",
+    "meaning": "役割",
+    "example": "She played an important role in the project.",
+    "exampleJa": "彼女はそのプロジェクトで重要な役割を果たした。",
+    "level": 1
+  },
+  {
+    "id": 331,
+    "word": "habit",
+    "pos": "名",
+    "meaning": "習慣、癖",
+    "example": "Reading before bed is a good habit.",
+    "exampleJa": "寝る前に読書するのは良い習慣だ。",
+    "level": 1
+  },
+  {
+    "id": 332,
+    "word": "custom",
+    "pos": "名",
+    "meaning": "習慣、風習",
+    "example": "It's a local custom to remove shoes indoors.",
+    "exampleJa": "室内で靴を脱ぐのは地元の習慣だ。",
+    "level": 1
+  },
+  {
+    "id": 333,
+    "word": "society",
+    "pos": "名",
+    "meaning": "社会",
+    "example": "Technology has changed our society.",
+    "exampleJa": "技術は私たちの社会を変えた。",
+    "level": 1
+  },
+  {
+    "id": 334,
+    "word": "law",
+    "pos": "名",
+    "meaning": "法律",
+    "example": "This law protects workers' rights.",
+    "exampleJa": "この法律は労働者の権利を守る。",
+    "level": 1
+  },
+  {
+    "id": 335,
+    "word": "price",
+    "pos": "名",
+    "meaning": "価格",
+    "example": "The price of the ticket increased.",
+    "exampleJa": "チケットの価格が上がった。",
+    "level": 1
+  },
+  {
+    "id": 336,
+    "word": "oppose",
+    "pos": "動",
+    "meaning": "反対する",
+    "example": "Many people opposed the new law.",
+    "exampleJa": "多くの人々がその新しい法律に反対した。",
+    "level": 2
+  },
+  {
+    "id": 337,
+    "word": "communicate",
+    "pos": "動",
+    "meaning": "意思疎通する",
+    "example": "It's important to communicate clearly.",
+    "exampleJa": "明確に意思疎通することは重要だ。",
+    "level": 2
+  },
+  {
+    "id": 338,
+    "word": "information",
+    "pos": "名",
+    "meaning": "情報",
+    "example": "Please give me more information.",
+    "exampleJa": "もっと情報をください。",
+    "level": 2
+  },
+  {
+    "id": 339,
+    "word": "technology",
+    "pos": "名",
+    "meaning": "技術",
+    "example": "New technology has changed our lives.",
+    "exampleJa": "新しい技術は私たちの生活を変えた。",
+    "level": 2
+  },
+  {
+    "id": 340,
+    "word": "research",
+    "pos": "名/動",
+    "meaning": "研究",
+    "example": "She is doing research on climate change.",
+    "exampleJa": "彼女は気候変動について研究している。",
+    "level": 2
+  },
+  {
+    "id": 341,
+    "word": "material",
+    "pos": "名",
+    "meaning": "材料、資料",
+    "example": "This bag is made of recycled material.",
+    "exampleJa": "このバッグはリサイクル素材でできている。",
+    "level": 2
+  },
+  {
+    "id": 342,
+    "word": "artificial",
+    "pos": "形",
+    "meaning": "人工的な",
+    "example": "The lake was created by artificial means.",
+    "exampleJa": "その湖は人工的な手段で作られた。",
+    "level": 2
+  },
+  {
+    "id": 343,
+    "word": "electric",
+    "pos": "形",
+    "meaning": "電気の",
+    "example": "We bought an electric car.",
+    "exampleJa": "私たちは電気自動車を買った。",
+    "level": 2
+  },
+  {
+    "id": 344,
+    "word": "invent",
+    "pos": "動",
+    "meaning": "発明する",
+    "example": "Who invented the telephone?",
+    "exampleJa": "誰が電話を発明したのか。",
+    "level": 2
+  },
+  {
+    "id": 345,
+    "word": "medical",
+    "pos": "形",
+    "meaning": "医療の",
+    "example": "She needs medical attention.",
+    "exampleJa": "彼女は医療処置が必要だ。",
+    "level": 2
+  },
+  {
+    "id": 346,
+    "word": "stress",
+    "pos": "名",
+    "meaning": "ストレス",
+    "example": "Too much stress can affect your health.",
+    "exampleJa": "過度なストレスは健康に影響する。",
+    "level": 2
+  },
+  {
+    "id": 347,
+    "word": "suffer",
+    "pos": "動",
+    "meaning": "苦しむ",
+    "example": "He suffered from a headache all day.",
+    "exampleJa": "彼は一日中頭痛に苦しんだ。",
+    "level": 2
+  },
+  {
+    "id": 348,
+    "word": "physical",
+    "pos": "形",
+    "meaning": "身体的な",
+    "example": "Physical exercise improves your mood.",
+    "exampleJa": "身体的な運動は気分を良くする。",
+    "level": 2
+  },
+  {
+    "id": 349,
+    "word": "fever",
+    "pos": "名",
+    "meaning": "熱",
+    "example": "She has a high fever.",
+    "exampleJa": "彼女は高熱がある。",
+    "level": 2
+  },
+  {
+    "id": 350,
+    "word": "strength",
+    "pos": "名",
+    "meaning": "力、強さ",
+    "example": "He tested his strength against the rope.",
+    "exampleJa": "彼はロープに対して自分の力を試した。",
+    "level": 2
+  },
+  {
+    "id": 351,
+    "word": "tear",
+    "pos": "名/動",
+    "meaning": "涙、引き裂く",
+    "example": "She wiped away her tears.",
+    "exampleJa": "彼女は涙を拭いた。",
+    "level": 2
+  },
+  {
+    "id": 352,
+    "word": "tradition",
+    "pos": "名",
+    "meaning": "伝統",
+    "example": "This festival is an old tradition.",
+    "exampleJa": "この祭りは古い伝統だ。",
+    "level": 2
+  },
+  {
+    "id": 353,
+    "word": "ancestor",
+    "pos": "名",
+    "meaning": "祖先",
+    "example": "Our ancestors lived in this region.",
+    "exampleJa": "私たちの祖先はこの地域に住んでいた。",
+    "level": 2
+  },
+  {
+    "id": 354,
+    "word": "population",
+    "pos": "名",
+    "meaning": "人口",
+    "example": "The population of the city is growing.",
+    "exampleJa": "その都市の人口は増加している。",
+    "level": 2
+  },
+  {
+    "id": 355,
+    "word": "native",
+    "pos": "形",
+    "meaning": "母国の、その土地固有の",
+    "example": "English is not her native language.",
+    "exampleJa": "英語は彼女の母語ではない。",
+    "level": 2
+  },
+  {
+    "id": 356,
+    "word": "local",
+    "pos": "形",
+    "meaning": "地元の",
+    "example": "We visited a local market.",
+    "exampleJa": "私たちは地元の市場を訪れた。",
+    "level": 2
+  },
+  {
+    "id": 357,
+    "word": "survey",
+    "pos": "名/動",
+    "meaning": "調査",
+    "example": "The survey shows most people agree.",
+    "exampleJa": "その調査はほとんどの人が賛成していることを示している。",
+    "level": 2
+  },
+  {
+    "id": 358,
+    "word": "value",
+    "pos": "名/動",
+    "meaning": "価値",
+    "example": "This painting has great value.",
+    "exampleJa": "この絵画には大きな価値がある。",
+    "level": 2
+  },
+  {
+    "id": 359,
+    "word": "treasure",
+    "pos": "名",
+    "meaning": "宝物",
+    "example": "They found hidden treasure on the island.",
+    "exampleJa": "彼らはその島で隠された宝物を見つけた。",
+    "level": 2
+  },
+  {
+    "id": 360,
+    "word": "fashion",
+    "pos": "名",
+    "meaning": "流行、ファッション",
+    "example": "She works in the fashion industry.",
+    "exampleJa": "彼女はファッション業界で働いている。",
+    "level": 2
+  },
+  {
+    "id": 361,
+    "word": "public",
+    "pos": "形/名",
+    "meaning": "公共の、大衆",
+    "example": "The park is open to the public.",
+    "exampleJa": "その公園は一般に公開されている。",
+    "level": 2
+  },
+  {
+    "id": 362,
+    "word": "vote",
+    "pos": "動/名",
+    "meaning": "投票する",
+    "example": "Everyone has the right to vote.",
+    "exampleJa": "誰もが投票する権利を持っている。",
+    "level": 2
+  },
+  {
+    "id": 363,
+    "word": "government",
+    "pos": "名",
+    "meaning": "政府",
+    "example": "The government announced new policies.",
+    "exampleJa": "政府は新しい政策を発表した。",
+    "level": 2
+  },
+  {
+    "id": 364,
+    "word": "nation",
+    "pos": "名",
+    "meaning": "国家",
+    "example": "Many nations joined the agreement.",
+    "exampleJa": "多くの国家がその協定に参加した。",
+    "level": 2
+  },
+  {
+    "id": 365,
+    "word": "capital",
+    "pos": "名",
+    "meaning": "首都、資本",
+    "example": "Tokyo is the capital of Japan.",
+    "exampleJa": "東京は日本の首都だ。",
+    "level": 2
+  },
+  {
+    "id": 366,
+    "word": "state",
+    "pos": "名",
+    "meaning": "州、状態",
+    "example": "California is a state in the U.S.",
+    "exampleJa": "カリフォルニアはアメリカの州の一つだ。",
+    "level": 2
+  },
+  {
+    "id": 367,
+    "word": "political",
+    "pos": "形",
+    "meaning": "政治的な",
+    "example": "She has strong political opinions.",
+    "exampleJa": "彼女は強い政治的意見を持っている。",
+    "level": 2
+  },
+  {
+    "id": 368,
+    "word": "sum",
+    "pos": "名",
+    "meaning": "合計、金額",
+    "example": "He paid a large sum of money.",
+    "exampleJa": "彼は多額のお金を支払った。",
+    "level": 2
+  },
+  {
+    "id": 369,
+    "word": "budget",
+    "pos": "名",
+    "meaning": "予算",
+    "example": "We need to stick to our budget.",
+    "exampleJa": "私たちは予算を守る必要がある。",
+    "level": 2
+  },
+  {
+    "id": 370,
+    "word": "fare",
+    "pos": "名",
+    "meaning": "運賃",
+    "example": "The bus fare increased last month.",
+    "exampleJa": "バスの運賃は先月上がった。",
+    "level": 2
+  },
+  {
+    "id": 371,
+    "word": "bill",
+    "pos": "名",
+    "meaning": "請求書、法案",
+    "example": "I need to pay the electricity bill.",
+    "exampleJa": "電気代の請求書を払わなければならない。",
+    "level": 3
+  },
+  {
+    "id": 372,
+    "word": "trade",
+    "pos": "名/動",
+    "meaning": "貿易、取引する",
+    "example": "The two countries agreed to trade goods.",
+    "exampleJa": "両国は商品を取引することに合意した。",
+    "level": 3
+  },
+  {
+    "id": 373,
+    "word": "wealth",
+    "pos": "名",
+    "meaning": "富",
+    "example": "He accumulated great wealth over time.",
+    "exampleJa": "彼は長い時間をかけて大きな富を築いた。",
+    "level": 3
+  },
+  {
+    "id": 374,
+    "word": "economy",
+    "pos": "名",
+    "meaning": "経済",
+    "example": "The economy is growing rapidly.",
+    "exampleJa": "経済は急速に成長している。",
+    "level": 3
+  },
+  {
+    "id": 375,
+    "word": "cost",
+    "pos": "名/動",
+    "meaning": "費用、費用がかかる",
+    "example": "The repair will cost a lot of money.",
+    "exampleJa": "その修理には多くのお金がかかるだろう。",
+    "level": 3
+  },
+  {
+    "id": 376,
+    "word": "company",
+    "pos": "名",
+    "meaning": "会社",
+    "example": "She works for a large company.",
+    "exampleJa": "彼女は大きな会社で働いている。",
+    "level": 3
+  },
+  {
+    "id": 377,
+    "word": "task",
+    "pos": "名",
+    "meaning": "作業、任務",
+    "example": "He completed the task ahead of schedule.",
+    "exampleJa": "彼は予定より早くその作業を終えた。",
+    "level": 3
+  },
+  {
+    "id": 378,
+    "word": "hurt",
+    "pos": "動",
+    "meaning": "傷つける、痛む",
+    "example": "My leg hurts after the run.",
+    "exampleJa": "走った後で脚が痛む。",
+    "level": 3
+  },
+  {
+    "id": 379,
+    "word": "injure",
+    "pos": "動",
+    "meaning": "けがをさせる",
+    "example": "He injured his knee playing soccer.",
+    "exampleJa": "彼はサッカーをしていて膝を負傷した。",
+    "level": 3
+  },
+  {
+    "id": 380,
+    "word": "damage",
+    "pos": "名/動",
+    "meaning": "損害、損害を与える",
+    "example": "The storm caused a lot of damage.",
+    "exampleJa": "嵐は多くの損害をもたらした。",
+    "level": 3
+  },
+  {
+    "id": 381,
+    "word": "ruin",
+    "pos": "動",
+    "meaning": "台無しにする",
+    "example": "The rain ruined our picnic plans.",
+    "exampleJa": "雨が私たちのピクニックの計画を台無しにした。",
+    "level": 3
+  },
+  {
+    "id": 382,
+    "word": "danger",
+    "pos": "名",
+    "meaning": "危険",
+    "example": "There is danger in that area at night.",
+    "exampleJa": "夜、その地域には危険がある。",
+    "level": 3
+  },
+  {
+    "id": 383,
+    "word": "neighbor",
+    "pos": "名",
+    "meaning": "隣人",
+    "example": "Our neighbor is very friendly.",
+    "exampleJa": "私たちの隣人はとても親切だ。",
+    "level": 3
+  },
+  {
+    "id": 384,
+    "word": "audience",
+    "pos": "名",
+    "meaning": "観客、聴衆",
+    "example": "The audience applauded loudly.",
+    "exampleJa": "観客は大きな拍手を送った。",
+    "level": 3
+  },
+  {
+    "id": 385,
+    "word": "crowd",
+    "pos": "名",
+    "meaning": "群衆",
+    "example": "A large crowd gathered at the stadium.",
+    "exampleJa": "スタジアムに大勢の群衆が集まった。",
+    "level": 3
+  },
+  {
+    "id": 386,
+    "word": "author",
+    "pos": "名",
+    "meaning": "著者",
+    "example": "Who is the author of this book?",
+    "exampleJa": "この本の著者は誰ですか。",
+    "level": 3
+  },
+  {
+    "id": 387,
+    "word": "staff",
+    "pos": "名",
+    "meaning": "職員",
+    "example": "All staff must wear name tags.",
+    "exampleJa": "すべての職員は名札を付けなければならない。",
+    "level": 3
+  },
+  {
+    "id": 388,
+    "word": "clerk",
+    "pos": "名",
+    "meaning": "店員、事務員",
+    "example": "The clerk helped me find the item.",
+    "exampleJa": "店員が商品を見つけるのを手伝ってくれた。",
+    "level": 3
+  },
+  {
+    "id": 389,
+    "word": "customer",
+    "pos": "名",
+    "meaning": "客",
+    "example": "The store values every customer.",
+    "exampleJa": "その店はすべての客を大切にしている。",
+    "level": 3
+  },
+  {
+    "id": 390,
+    "word": "passenger",
+    "pos": "名",
+    "meaning": "乗客",
+    "example": "The train carries many passengers daily.",
+    "exampleJa": "その電車は毎日多くの乗客を運んでいる。",
+    "level": 3
+  },
+  {
+    "id": 391,
+    "word": "elderly",
+    "pos": "形",
+    "meaning": "年配の",
+    "example": "We should help the elderly cross the street.",
+    "exampleJa": "私たちは年配の方が道を渡るのを手伝うべきだ。",
+    "level": 3
+  },
+  {
+    "id": 392,
+    "word": "head",
+    "pos": "動/名",
+    "meaning": "向かう、頭",
+    "example": "They headed toward the mountains.",
+    "exampleJa": "彼らは山の方へ向かった。",
+    "level": 3
+  },
+  {
+    "id": 393,
+    "word": "follow",
+    "pos": "動",
+    "meaning": "従う、ついて行く",
+    "example": "Please follow the instructions carefully.",
+    "exampleJa": "指示に注意深く従ってください。",
+    "level": 3
+  },
+  {
+    "id": 394,
+    "word": "wander",
+    "pos": "動",
+    "meaning": "歩き回る",
+    "example": "We wandered around the old town.",
+    "exampleJa": "私たちは旧市街を歩き回った。",
+    "level": 3
+  },
+  {
+    "id": 395,
+    "word": "travel",
+    "pos": "動/名",
+    "meaning": "旅行する",
+    "example": "She loves to travel abroad.",
+    "exampleJa": "彼女は海外旅行が大好きだ。",
+    "level": 3
+  },
+  {
+    "id": 396,
+    "word": "pass",
+    "pos": "動",
+    "meaning": "通り過ぎる、合格する",
+    "example": "He passed the exam easily.",
+    "exampleJa": "彼は試験に簡単に合格した。",
+    "level": 3
+  },
+  {
+    "id": 397,
+    "word": "likely",
+    "pos": "形",
+    "meaning": "ありそうな",
+    "example": "It's likely to rain tomorrow.",
+    "exampleJa": "明日は雨が降りそうだ。",
+    "level": 3
+  },
+  {
+    "id": 398,
+    "word": "natural",
+    "pos": "形",
+    "meaning": "自然の、当然の",
+    "example": "It's natural to feel nervous before a test.",
+    "exampleJa": "試験前に緊張するのは当然だ。",
+    "level": 3
+  },
+  {
+    "id": 399,
+    "word": "probably",
+    "pos": "副",
+    "meaning": "おそらく",
+    "example": "She will probably arrive late.",
+    "exampleJa": "彼女はおそらく遅れて到着するだろう。",
+    "level": 3
+  },
+  {
+    "id": 400,
+    "word": "face",
+    "pos": "動/名",
+    "meaning": "直面する、顔",
+    "example": "We must face this challenge together.",
+    "exampleJa": "私たちはこの課題に一緒に立ち向かわなければならない。",
+    "level": 3
   }
 ]

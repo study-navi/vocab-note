@@ -92,6 +92,9 @@ td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
             <th>生徒名</th>
             <th>覚えた語数</th>
             <th class="bar-cell">習熟度</th>
+            <th>苦手</th>
+            <th>最優先</th>
+            <th>正答率</th>
             <th>基礎/標準/発展</th>
             <th>最終学習</th>
           </tr>
@@ -181,12 +184,26 @@ async function loadData(){
   const ids = students.map(s=>s.id);
   const { data: progress, error: pErr } = await supabaseClient
     .from('vocab_progress')
-    .select('student_id,word_id,level,status,updated_at')
+    .select('student_id,word_id,level,status,correct_count,wrong_count,last_result,updated_at')
     .in('student_id', ids);
   if(pErr){ console.error(pErr); return; }
 
+  // 苦手判定の基準は生徒画面と共通(要復習/苦手/最優先)
+  function classify(row){
+    const c = row.correct_count || 0, w = row.wrong_count || 0;
+    const total = c + w;
+    const accuracy = total ? c/total : 1;
+    if(w >= 3 && row.last_result === 'wrong') return 'priority';
+    if(w >= 2 && accuracy < 0.7) return 'weak';
+    if(w >= 1) return 'review';
+    return 'ok';
+  }
+
   const byStudent = {};
-  students.forEach(s => byStudent[s.id] = { name:s.name, mastered:0, l1:0, l2:0, l3:0, lastUpdate:null });
+  students.forEach(s => byStudent[s.id] = {
+    name:s.name, mastered:0, l1:0, l2:0, l3:0, lastUpdate:null,
+    correctSum:0, wrongSum:0, weakCount:0, priorityCount:0,
+  });
 
   progress.forEach(row => {
     const bucket = byStudent[row.student_id];
@@ -197,6 +214,11 @@ async function loadData(){
       if(row.level===2) bucket.l2++;
       if(row.level===3) bucket.l3++;
     }
+    bucket.correctSum += row.correct_count || 0;
+    bucket.wrongSum += row.wrong_count || 0;
+    const c = classify(row);
+    if(c === 'weak' || c === 'priority') bucket.weakCount++;
+    if(c === 'priority') bucket.priorityCount++;
     if(!bucket.lastUpdate || new Date(row.updated_at) > new Date(bucket.lastUpdate)){
       bucket.lastUpdate = row.updated_at;
     }
@@ -217,6 +239,8 @@ async function loadData(){
   tbody.innerHTML = rows.map(r => {
     const pct = Math.round((r.mastered/TOTAL_WORDS)*100);
     const last = r.lastUpdate ? new Date(r.lastUpdate).toLocaleDateString('ja-JP', {month:'numeric', day:'numeric'}) : "-";
+    const total = r.correctSum + r.wrongSum;
+    const accuracy = total ? Math.round((r.correctSum/total)*100) : null;
     return `
       <tr>
         <td>${r.name}</td>
@@ -225,6 +249,9 @@ async function loadData(){
           <div class="bar-bg"><div class="bar-fill" style="width:${pct}%"></div></div>
           <div class="small">${pct}%</div>
         </td>
+        <td class="small">${r.weakCount}</td>
+        <td class="small">${r.priorityCount}</td>
+        <td class="small">${accuracy===null ? '-' : accuracy + '%'}</td>
         <td class="small">${r.l1}/${TOTAL_L1} · ${r.l2}/${TOTAL_L2} · ${r.l3}/${TOTAL_L3}</td>
         <td class="small">${last}</td>
       </tr>
