@@ -50,6 +50,11 @@ td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
 .bar-bg{ background:rgba(255,255,255,0.07); border-radius:999px; height:8px; overflow:hidden; }
 .bar-fill{ background:var(--gold); height:100%; }
 .small{ font-size:11px; color:var(--ink-faint); }
+.del-btn{
+  padding:5px 10px; border-radius:8px; border:1px solid rgba(232,116,138,0.4);
+  background:transparent; color:var(--bad); font-size:11px; cursor:pointer;
+}
+.del-btn:hover{ background:rgba(232,116,138,0.15); }
 .summary-row{ display:flex; gap:14px; margin-bottom:18px; flex-wrap:wrap; }
 .summary-item{ background:var(--surface); border-radius:14px; padding:14px 18px; flex:1; min-width:120px; }
 .summary-item .num{ font-family:var(--serif); font-size:22px; color:var(--gold); font-weight:700; }
@@ -97,6 +102,7 @@ td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
             <th>正答率</th>
             <th>基礎/標準/発展</th>
             <th>最終学習</th>
+            <th></th>
           </tr>
         </thead>
         <tbody id="tableBody"></tbody>
@@ -121,7 +127,7 @@ let wordsLoaded = false;
 
 async function loadWordCounts(){
   try{
-    const res = await fetch('./words.json');
+    const res = await fetch('./words.json', { cache: 'no-store' });
     if(!res.ok) throw new Error('HTTP ' + res.status);
     const words = await res.json();
     TOTAL_WORDS = words.length;
@@ -201,7 +207,7 @@ async function loadData(){
 
   const byStudent = {};
   students.forEach(s => byStudent[s.id] = {
-    name:s.name, mastered:0, l1:0, l2:0, l3:0, lastUpdate:null,
+    id:s.id, name:s.name, mastered:0, l1:0, l2:0, l3:0, lastUpdate:null,
     correctSum:0, wrongSum:0, weakCount:0, priorityCount:0,
   });
 
@@ -254,9 +260,23 @@ async function loadData(){
         <td class="small">${accuracy===null ? '-' : accuracy + '%'}</td>
         <td class="small">${r.l1}/${TOTAL_L1} · ${r.l2}/${TOTAL_L2} · ${r.l3}/${TOTAL_L3}</td>
         <td class="small">${last}</td>
+        <td class="small"><button class="del-btn" onclick="deleteStudent('${r.id}','${r.name.replace(/'/g,"\\'")}')">削除</button></td>
       </tr>
     `;
   }).join("");
+}
+
+async function deleteStudent(studentId, studentName){
+  if(!supabaseClient) return;
+  const ok = confirm(`「${studentName}」の記録を削除します。\nこの操作は取り消せません。よろしいですか？`);
+  if(!ok) return;
+  const { error } = await supabaseClient.from('vocab_students').delete().eq('id', studentId);
+  if(error){
+    alert('削除に失敗しました: ' + error.message);
+    console.error(error);
+    return;
+  }
+  loadData();
 }
 </script>
 </body>
