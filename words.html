@@ -7,10 +7,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{
+:root, [data-theme="night"]{
   --bg:#10152b; --bg-elevate:#161d3a; --surface:#212a52; --surface-2:#2a3563;
   --ink:#eef1f8; --ink-dim:#94a0c9; --ink-faint:#5c6796;
   --gold:#e8b95f; --gold-dim:#8a733f; --good:#6fcf97; --warn:#f0c869; --bad:#e8748a;
+  --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
+}
+[data-theme="morning"]{
+  --bg:#fbf6ec; --bg-elevate:#ffffff; --surface:#fff3de; --surface-2:#ffe9c2;
+  --ink:#3a2f1c; --ink-dim:#8a7455; --ink-faint:#b6a482;
+  --gold:#d98a3d; --gold-dim:#b8763a; --good:#4e9d6f; --warn:#d98a3d; --bad:#c0563f;
+  --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
+}
+[data-theme="mint"]{
+  --bg:#0e2321; --bg-elevate:#123832; --surface:#184a41; --surface-2:#1f5c50;
+  --ink:#eafff6; --ink-dim:#8fd9c4; --ink-faint:#4f9a86;
+  --gold:#4fe3b0; --gold-dim:#2e9c78; --good:#7ee8a8; --warn:#e8d24f; --bad:#e87e8a;
+  --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
+}
+[data-theme="sakura"]{
+  --bg:#241820; --bg-elevate:#33212c; --surface:#452b3a; --surface-2:#5a3549;
+  --ink:#fff0f5; --ink-dim:#e0aec4; --ink-faint:#a9758e;
+  --gold:#f2a6c4; --gold-dim:#c47693; --good:#7ee8a8; --warn:#f0c869; --bad:#e8748a;
   --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
 }
 *{box-sizing:border-box; margin:0; padding:0;}
@@ -82,6 +100,7 @@ input[type=text]{
       <select id="sortSelect" class="mini-select" onchange="renderList()">
         <option value="default">並び順：通常</option>
         <option value="leap">並び順：LEAP番号順</option>
+        <option value="target1900">並び順：ターゲット1900番号順</option>
       </select>
     </div>
     <div class="count-line" id="countLine"></div>
@@ -92,9 +111,24 @@ input[type=text]{
 </div>
 
 <script>
+(function applySavedTheme(){
+  let saved = 'night';
+  try{ saved = localStorage.getItem('vocabTheme') || 'night'; }catch(e){}
+  document.documentElement.setAttribute('data-theme', saved);
+})();
+
 let WORDS = [];
 let levelFilter = 0;
-let textbookFilter = 'all'; // all | leap
+const TEXTBOOK_OPTIONS = [
+  {key:'all', label:'すべて', field:null},
+  {key:'leap', label:'LEAP', field:'leapNo'},
+  {key:'target1900', label:'ターゲット1900', field:'targetNo'},
+];
+function textbookField(key){
+  const opt = TEXTBOOK_OPTIONS.find(o => o.key === key);
+  return opt ? opt.field : null;
+}
+let textbookFilter = 'all';
 
 async function init(){
   const wrap = document.getElementById('wordList');
@@ -114,16 +148,15 @@ async function init(){
 
 function renderTextbookChips(){
   const wrap = document.getElementById('textbookChips');
-  const names = {all:'すべて', leap:'LEAP'};
   wrap.innerHTML = "";
-  ['all','leap'].forEach(key=>{
-    const count = key==='all' ? WORDS.length : WORDS.filter(w=>w.leapNo != null).length;
+  TEXTBOOK_OPTIONS.forEach(opt=>{
+    const count = opt.field ? WORDS.filter(w=>w[opt.field] != null).length : WORDS.length;
     const chip = document.createElement('div');
-    chip.className = 'chip' + (textbookFilter===key ? ' active' : '');
-    chip.textContent = `教材：${names[key]}(${count})`;
+    chip.className = 'chip' + (textbookFilter===opt.key ? ' active' : '');
+    chip.textContent = `教材：${opt.label}(${count})`;
     chip.onclick = () => {
-      textbookFilter = key;
-      if(key === 'leap') document.getElementById('sortSelect').value = 'leap';
+      textbookFilter = opt.key;
+      if(opt.key !== 'all') document.getElementById('sortSelect').value = opt.key;
       renderTextbookChips();
       renderChips();
       renderList();
@@ -135,7 +168,8 @@ function renderTextbookChips(){
 function renderChips(){
   const wrap = document.getElementById('levelChips');
   const names = {0:'すべて', 1:'基礎', 2:'標準', 3:'発展'};
-  const base = textbookFilter==='leap' ? WORDS.filter(w=>w.leapNo != null) : WORDS;
+  const tbField = textbookField(textbookFilter);
+  const base = tbField ? WORDS.filter(w=>w[tbField] != null) : WORDS;
   wrap.innerHTML = "";
   [0,1,2,3].forEach(lv=>{
     const count = lv===0 ? base.length : base.filter(w=>w.level===lv).length;
@@ -149,18 +183,22 @@ function renderChips(){
 
 function renderList(){
   const q = document.getElementById('searchInput').value.trim().toLowerCase();
-  let list = textbookFilter==='leap' ? WORDS.filter(w=>w.leapNo != null) : WORDS.slice();
+  const tbField = textbookField(textbookFilter);
+  let list = tbField ? WORDS.filter(w=>w[tbField] != null) : WORDS.slice();
   list = levelFilter===0 ? list : list.filter(w=>w.level===levelFilter);
   if(q){
     list = list.filter(w =>
       w.word.toLowerCase().includes(q) ||
       w.meaning.toLowerCase().includes(q) ||
-      (w.leapNo && String(w.leapNo) === q)
+      (w.leapNo && String(w.leapNo) === q) ||
+      (w.targetNo && String(w.targetNo) === q)
     );
   }
   const sortMode = document.getElementById('sortSelect').value;
   if(sortMode === 'leap'){
     list = list.slice().sort((a,b) => (a.leapNo ?? 99999) - (b.leapNo ?? 99999));
+  }else if(sortMode === 'target1900'){
+    list = list.slice().sort((a,b) => (a.targetNo ?? 99999) - (b.targetNo ?? 99999));
   }
   document.getElementById('countLine').textContent = `${list.length}件表示中`;
 
@@ -174,13 +212,15 @@ function renderList(){
   emptyMsg.classList.add('hidden');
 
   const levelNames = {1:'基礎', 2:'標準', 3:'発展'};
-  wrap.innerHTML = list.map(w => `
+  wrap.innerHTML = list.map(w => {
+    const badges = [w.leapNo ? `LEAP No.${w.leapNo}` : null, w.targetNo ? `Target No.${w.targetNo}` : null].filter(Boolean).join(' / ');
+    return `
     <div class="word-card" onclick="this.classList.toggle('open')">
       <div class="word-card-top">
         <div class="word-en">${w.word}</div>
         <div class="pos-tag">${w.pos}</div>
         <div class="level-badge">LEVEL ${w.level} · ${levelNames[w.level]}</div>
-        ${w.leapNo ? `<div class="leap-badge">LEAP No.${w.leapNo}</div>` : ''}
+        ${badges ? `<div class="leap-badge">${badges}</div>` : ''}
       </div>
       <div class="word-ja">${w.meaning}</div>
       <div class="word-example">
@@ -188,7 +228,8 @@ function renderList(){
         <div class="word-example-ja">${w.exampleJa}</div>
       </div>
     </div>
-  `).join("");
+  `;
+  }).join("");
 }
 
 init();
