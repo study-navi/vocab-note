@@ -11208,5 +11208,2005 @@
     "exampleJa": "ある程度まではあなたに同意する。",
     "level": 3,
     "leapNo": 983
+  },
+  {
+    "id": 1122,
+    "word": "extremely",
+    "pos": "副",
+    "meaning": "極度に",
+    "example": "She was extremely tired after the trip.",
+    "exampleJa": "彼女は旅の後、極度に疲れていた。",
+    "level": 1,
+    "leapNo": 984
+  },
+  {
+    "id": 1123,
+    "word": "total",
+    "pos": "形/名",
+    "meaning": "全体の、合計",
+    "example": "The total cost was higher than expected.",
+    "exampleJa": "合計費用は予想よりも高かった。",
+    "level": 1,
+    "leapNo": 985
+  },
+  {
+    "id": 1124,
+    "word": "largely",
+    "pos": "副",
+    "meaning": "主に",
+    "example": "His success was largely due to hard work.",
+    "exampleJa": "彼の成功は主に努力によるものだった。",
+    "level": 1,
+    "leapNo": 986
+  },
+  {
+    "id": 1125,
+    "word": "moderate",
+    "pos": "形",
+    "meaning": "適度な",
+    "example": "She does moderate exercise every day.",
+    "exampleJa": "彼女は毎日適度な運動をしている。",
+    "level": 1,
+    "leapNo": 987
+  },
+  {
+    "id": 1126,
+    "word": "somewhat",
+    "pos": "副",
+    "meaning": "いくぶん",
+    "example": "The situation improved somewhat this week.",
+    "exampleJa": "状況は今週いくぶん改善した。",
+    "level": 1,
+    "leapNo": 988
+  },
+  {
+    "id": 1127,
+    "word": "subtle",
+    "pos": "形",
+    "meaning": "微妙な",
+    "example": "There was a subtle difference between the two.",
+    "exampleJa": "その2つには微妙な違いがあった。",
+    "level": 1,
+    "leapNo": 989
+  },
+  {
+    "id": 1128,
+    "word": "possibly",
+    "pos": "副",
+    "meaning": "ひょっとすると",
+    "example": "It could possibly rain tomorrow.",
+    "exampleJa": "明日はひょっとすると雨が降るかもしれない。",
+    "level": 1,
+    "leapNo": 990
+  },
+  {
+    "id": 1129,
+    "word": "necessarily",
+    "pos": "副",
+    "meaning": "必ずしも",
+    "example": "Expensive doesn't necessarily mean better.",
+    "exampleJa": "高価だからといって必ずしも良いとは限らない。",
+    "level": 1,
+    "leapNo": 992
+  },
+  {
+    "id": 1130,
+    "word": "frankly",
+    "pos": "副",
+    "meaning": "率直に",
+    "example": "Frankly, I don't agree with the plan.",
+    "exampleJa": "率直に言うと、その計画には賛成しない。",
+    "level": 1,
+    "leapNo": 993
+  },
+  {
+    "id": 1131,
+    "word": "ironically",
+    "pos": "副",
+    "meaning": "皮肉なことに",
+    "example": "Ironically, the fire station caught fire.",
+    "exampleJa": "皮肉なことに、消防署が火事になった。",
+    "level": 1,
+    "leapNo": 994
+  },
+  {
+    "id": 1132,
+    "word": "moreover",
+    "pos": "副",
+    "meaning": "その上",
+    "example": "The plan is expensive; moreover, it's risky.",
+    "exampleJa": "その計画は費用がかかる。その上、危険でもある。",
+    "level": 1,
+    "leapNo": 995
+  },
+  {
+    "id": 1133,
+    "word": "otherwise",
+    "pos": "副",
+    "meaning": "さもなければ",
+    "example": "Hurry up, otherwise we'll be late.",
+    "exampleJa": "急いで、さもなければ遅刻するよ。",
+    "level": 1,
+    "leapNo": 996
+  },
+  {
+    "id": 1134,
+    "word": "regardless",
+    "pos": "副",
+    "meaning": "それにもかかわらず",
+    "example": "She continued regardless of the criticism.",
+    "exampleJa": "彼女は批判にもかかわらず続けた。",
+    "level": 1,
+    "leapNo": 997
+  },
+  {
+    "id": 1135,
+    "word": "worth",
+    "pos": "形",
+    "meaning": "価値がある",
+    "example": "This book is worth reading.",
+    "exampleJa": "この本は読む価値がある。",
+    "level": 1,
+    "leapNo": 998
+  },
+  {
+    "id": 1136,
+    "word": "according to",
+    "pos": "前",
+    "meaning": "〜によれば",
+    "example": "According to the news, it will rain tomorrow.",
+    "exampleJa": "ニュースによれば、明日は雨が降るそうだ。",
+    "level": 1,
+    "leapNo": 999
+  },
+  {
+    "id": 1137,
+    "word": "propose",
+    "pos": "動",
+    "meaning": "提案する",
+    "example": "He proposed a new plan at the meeting.",
+    "exampleJa": "彼は会議で新しい計画を提案した。",
+    "level": 1,
+    "leapNo": 1001
+  },
+  {
+    "id": 1138,
+    "word": "dismiss",
+    "pos": "動",
+    "meaning": "退ける、解雇する",
+    "example": "The judge dismissed the case.",
+    "exampleJa": "裁判官はその訴訟を却下した。",
+    "level": 1,
+    "leapNo": 1002
+  },
+  {
+    "id": 1139,
+    "word": "bless",
+    "pos": "動",
+    "meaning": "祝福する",
+    "example": "The priest blessed the couple.",
+    "exampleJa": "司祭はそのカップルを祝福した。",
+    "level": 1,
+    "leapNo": 1003
+  },
+  {
+    "id": 1140,
+    "word": "glory",
+    "pos": "名",
+    "meaning": "栄光",
+    "example": "The team celebrated their moment of glory.",
+    "exampleJa": "チームは栄光の瞬間を祝った。",
+    "level": 1,
+    "leapNo": 1004
+  },
+  {
+    "id": 1141,
+    "word": "compliment",
+    "pos": "名/動",
+    "meaning": "褒め言葉",
+    "example": "She gave me a nice compliment on my work.",
+    "exampleJa": "彼女は私の仕事について素敵な褒め言葉をくれた。",
+    "level": 1,
+    "leapNo": 1005
+  },
+  {
+    "id": 1142,
+    "word": "feast",
+    "pos": "名",
+    "meaning": "宴会、ごちそう",
+    "example": "They prepared a feast for the festival.",
+    "exampleJa": "彼らは祭りのためにごちそうを用意した。",
+    "level": 1,
+    "leapNo": 1006
+  },
+  {
+    "id": 1143,
+    "word": "declare",
+    "pos": "動",
+    "meaning": "宣言する",
+    "example": "The country declared its independence.",
+    "exampleJa": "その国は独立を宣言した。",
+    "level": 1,
+    "leapNo": 1007
+  },
+  {
+    "id": 1144,
+    "word": "highlight",
+    "pos": "動/名",
+    "meaning": "強調する、見どころ",
+    "example": "The report highlights key issues.",
+    "exampleJa": "その報告書は重要な問題を強調している。",
+    "level": 1,
+    "leapNo": 1008
+  },
+  {
+    "id": 1145,
+    "word": "recite",
+    "pos": "動",
+    "meaning": "暗唱する",
+    "example": "The student recited the poem from memory.",
+    "exampleJa": "その生徒は詩を暗唱で発表した。",
+    "level": 1,
+    "leapNo": 1010
+  },
+  {
+    "id": 1146,
+    "word": "ray",
+    "pos": "名",
+    "meaning": "光線",
+    "example": "A ray of sunlight came through the window.",
+    "exampleJa": "一筋の日光が窓から差し込んだ。",
+    "level": 1,
+    "leapNo": 1011
+  },
+  {
+    "id": 1147,
+    "word": "radiation",
+    "pos": "名",
+    "meaning": "放射線",
+    "example": "The hospital uses radiation for treatment.",
+    "exampleJa": "病院は治療に放射線を使用する。",
+    "level": 1,
+    "leapNo": 1012
+  },
+  {
+    "id": 1148,
+    "word": "laboratory",
+    "pos": "名",
+    "meaning": "研究室",
+    "example": "She works in a research laboratory.",
+    "exampleJa": "彼女は研究所で働いている。",
+    "level": 1,
+    "leapNo": 1013
+  },
+  {
+    "id": 1149,
+    "word": "oxygen",
+    "pos": "名",
+    "meaning": "酸素",
+    "example": "Plants produce oxygen during photosynthesis.",
+    "exampleJa": "植物は光合成の際に酸素を作り出す。",
+    "level": 1,
+    "leapNo": 1014
+  },
+  {
+    "id": 1150,
+    "word": "molecule",
+    "pos": "名",
+    "meaning": "分子",
+    "example": "Water is made of hydrogen and oxygen molecules.",
+    "exampleJa": "水は水素と酸素の分子でできている。",
+    "level": 1,
+    "leapNo": 1015
+  },
+  {
+    "id": 1151,
+    "word": "compound",
+    "pos": "名",
+    "meaning": "化合物",
+    "example": "This chemical compound is used in medicine.",
+    "exampleJa": "この化合物は医薬品に使われている。",
+    "level": 1,
+    "leapNo": 1016
+  },
+  {
+    "id": 1152,
+    "word": "tissue",
+    "pos": "名",
+    "meaning": "組織、ティッシュ",
+    "example": "The doctor examined the damaged tissue.",
+    "exampleJa": "医者は損傷した組織を検査した。",
+    "level": 1,
+    "leapNo": 1017
+  },
+  {
+    "id": 1153,
+    "word": "cell",
+    "pos": "名",
+    "meaning": "細胞",
+    "example": "The human body has trillions of cells.",
+    "exampleJa": "人間の体には何兆もの細胞がある。",
+    "level": 1,
+    "leapNo": 1018
+  },
+  {
+    "id": 1154,
+    "word": "gene",
+    "pos": "名",
+    "meaning": "遺伝子",
+    "example": "This gene affects eye color.",
+    "exampleJa": "この遺伝子は目の色に影響する。",
+    "level": 1,
+    "leapNo": 1019
+  },
+  {
+    "id": 1155,
+    "word": "substance",
+    "pos": "名",
+    "meaning": "物質",
+    "example": "This substance is harmful if inhaled.",
+    "exampleJa": "この物質は吸い込むと有害だ。",
+    "level": 1,
+    "leapNo": 1020
+  },
+  {
+    "id": 1156,
+    "word": "solid",
+    "pos": "形/名",
+    "meaning": "固体の",
+    "example": "Ice is water in its solid form.",
+    "exampleJa": "氷は固体状態の水だ。",
+    "level": 1,
+    "leapNo": 1021
+  },
+  {
+    "id": 1157,
+    "word": "satellite",
+    "pos": "名",
+    "meaning": "衛星",
+    "example": "The satellite orbits the earth every 90 minutes.",
+    "exampleJa": "その衛星は90分ごとに地球を周回する。",
+    "level": 1,
+    "leapNo": 1022
+  },
+  {
+    "id": 1158,
+    "word": "orbit",
+    "pos": "名/動",
+    "meaning": "軌道",
+    "example": "The moon orbits the earth.",
+    "exampleJa": "月は地球を周回している。",
+    "level": 1,
+    "leapNo": 1023
+  },
+  {
+    "id": 1159,
+    "word": "launch",
+    "pos": "動",
+    "meaning": "打ち上げる、開始する",
+    "example": "They launched a new product last month.",
+    "exampleJa": "彼らは先月新製品を発売した。",
+    "level": 1,
+    "leapNo": 1024
+  },
+  {
+    "id": 1160,
+    "word": "desperate",
+    "pos": "形",
+    "meaning": "必死の",
+    "example": "She made a desperate attempt to save time.",
+    "exampleJa": "彼女は時間を節約しようと必死の試みをした。",
+    "level": 1,
+    "leapNo": 1029
+  },
+  {
+    "id": 1161,
+    "word": "dedicate",
+    "pos": "動",
+    "meaning": "捧げる",
+    "example": "He dedicated his life to teaching.",
+    "exampleJa": "彼は自分の人生を教育に捧げた。",
+    "level": 1,
+    "leapNo": 1030
+  },
+  {
+    "id": 1162,
+    "word": "pain",
+    "pos": "名",
+    "meaning": "痛み",
+    "example": "She felt a sharp pain in her back.",
+    "exampleJa": "彼女は背中に鋭い痛みを感じた。",
+    "level": 1,
+    "leapNo": 1031
+  },
+  {
+    "id": 1163,
+    "word": "strain",
+    "pos": "名/動",
+    "meaning": "負担、痛める",
+    "example": "Too much work put a strain on his health.",
+    "exampleJa": "働きすぎが彼の健康に負担をかけた。",
+    "level": 1,
+    "leapNo": 1032
+  },
+  {
+    "id": 1164,
+    "word": "remedy",
+    "pos": "名",
+    "meaning": "治療法",
+    "example": "There is no simple remedy for this disease.",
+    "exampleJa": "この病気に簡単な治療法はない。",
+    "level": 1,
+    "leapNo": 1033
+  },
+  {
+    "id": 1165,
+    "word": "pharmacy",
+    "pos": "名",
+    "meaning": "薬局",
+    "example": "I bought this medicine at the pharmacy.",
+    "exampleJa": "この薬は薬局で買った。",
+    "level": 1,
+    "leapNo": 1034
+  },
+  {
+    "id": 1166,
+    "word": "physician",
+    "pos": "名",
+    "meaning": "医師",
+    "example": "She consulted her physician about the symptoms.",
+    "exampleJa": "彼女は症状について医師に相談した。",
+    "level": 1,
+    "leapNo": 1035
+  },
+  {
+    "id": 1167,
+    "word": "disorder",
+    "pos": "名",
+    "meaning": "(心身の)不調",
+    "example": "He was diagnosed with a sleep disorder.",
+    "exampleJa": "彼は睡眠障害と診断された。",
+    "level": 1,
+    "leapNo": 1036
+  },
+  {
+    "id": 1168,
+    "word": "pregnant",
+    "pos": "形",
+    "meaning": "妊娠した",
+    "example": "She is seven months pregnant.",
+    "exampleJa": "彼女は妊娠7か月だ。",
+    "level": 1,
+    "leapNo": 1037
+  },
+  {
+    "id": 1169,
+    "word": "clinical",
+    "pos": "形",
+    "meaning": "臨床の",
+    "example": "The drug passed several clinical trials.",
+    "exampleJa": "その薬はいくつかの臨床試験に合格した。",
+    "level": 1,
+    "leapNo": 1038
+  },
+  {
+    "id": 1170,
+    "word": "heal",
+    "pos": "動",
+    "meaning": "治る、治す",
+    "example": "The wound healed quickly.",
+    "exampleJa": "その傷は早く治った。",
+    "level": 1,
+    "leapNo": 1039
+  },
+  {
+    "id": 1171,
+    "word": "infect",
+    "pos": "動",
+    "meaning": "感染させる",
+    "example": "The virus can infect many people quickly.",
+    "exampleJa": "そのウイルスは多くの人にすぐ感染することがある。",
+    "level": 1,
+    "leapNo": 1040
+  },
+  {
+    "id": 1172,
+    "word": "ankle",
+    "pos": "名",
+    "meaning": "足首",
+    "example": "She twisted her ankle while running.",
+    "exampleJa": "彼女は走っている時に足首をひねった。",
+    "level": 1,
+    "leapNo": 1041
+  },
+  {
+    "id": 1173,
+    "word": "thumb",
+    "pos": "名",
+    "meaning": "親指",
+    "example": "He hurt his thumb while cooking.",
+    "exampleJa": "彼は料理中に親指をけがした。",
+    "level": 1,
+    "leapNo": 1042
+  },
+  {
+    "id": 1174,
+    "word": "forehead",
+    "pos": "名",
+    "meaning": "額",
+    "example": "Sweat dripped from his forehead.",
+    "exampleJa": "彼の額から汗が滴り落ちた。",
+    "level": 1,
+    "leapNo": 1043
+  },
+  {
+    "id": 1175,
+    "word": "chin",
+    "pos": "名",
+    "meaning": "あご",
+    "example": "She rested her chin on her hands.",
+    "exampleJa": "彼女はあごを手に乗せた。",
+    "level": 1,
+    "leapNo": 1044
+  },
+  {
+    "id": 1176,
+    "word": "chest",
+    "pos": "名",
+    "meaning": "胸",
+    "example": "He felt a tightness in his chest.",
+    "exampleJa": "彼は胸の締め付けを感じた。",
+    "level": 1,
+    "leapNo": 1045
+  },
+  {
+    "id": 1177,
+    "word": "breast",
+    "pos": "名",
+    "meaning": "胸",
+    "example": "The doctor recommended a breast exam.",
+    "exampleJa": "医師は乳房検査を勧めた。",
+    "level": 1,
+    "leapNo": 1046
+  },
+  {
+    "id": 1178,
+    "word": "lung",
+    "pos": "名",
+    "meaning": "肺",
+    "example": "Smoking can damage your lungs.",
+    "exampleJa": "喫煙は肺を傷めることがある。",
+    "level": 1,
+    "leapNo": 1047
+  },
+  {
+    "id": 1179,
+    "word": "organ",
+    "pos": "名",
+    "meaning": "臓器",
+    "example": "The heart is a vital organ.",
+    "exampleJa": "心臓は重要な臓器だ。",
+    "level": 1,
+    "leapNo": 1048
+  },
+  {
+    "id": 1180,
+    "word": "vision",
+    "pos": "名",
+    "meaning": "視力、未来像",
+    "example": "She has a clear vision for the company's future.",
+    "exampleJa": "彼女は会社の将来について明確なビジョンを持っている。",
+    "level": 1,
+    "leapNo": 1049
+  },
+  {
+    "id": 1181,
+    "word": "skeleton",
+    "pos": "名",
+    "meaning": "骨格",
+    "example": "The museum displays a dinosaur skeleton.",
+    "exampleJa": "その博物館は恐竜の骨格を展示している。",
+    "level": 1,
+    "leapNo": 1050
+  },
+  {
+    "id": 1182,
+    "word": "sensation",
+    "pos": "名",
+    "meaning": "感覚",
+    "example": "She felt a strange sensation in her arm.",
+    "exampleJa": "彼女は腕に奇妙な感覚を感じた。",
+    "level": 1,
+    "leapNo": 1051
+  },
+  {
+    "id": 1183,
+    "word": "code",
+    "pos": "名",
+    "meaning": "規定、暗号",
+    "example": "Please follow the dress code for the event.",
+    "exampleJa": "そのイベントの服装規定に従ってください。",
+    "level": 1,
+    "leapNo": 1052
+  },
+  {
+    "id": 1184,
+    "word": "agenda",
+    "pos": "名",
+    "meaning": "議題",
+    "example": "Let's move on to the next item on the agenda.",
+    "exampleJa": "議題の次の項目に進みましょう。",
+    "level": 1,
+    "leapNo": 1053
+  },
+  {
+    "id": 1185,
+    "word": "liberty",
+    "pos": "名",
+    "meaning": "自由",
+    "example": "People fought for liberty and equality.",
+    "exampleJa": "人々は自由と平等のために戦った。",
+    "level": 1,
+    "leapNo": 1054
+  },
+  {
+    "id": 1186,
+    "word": "committee",
+    "pos": "名",
+    "meaning": "委員会",
+    "example": "She was elected to the school committee.",
+    "exampleJa": "彼女は学校委員会に選出された。",
+    "level": 1,
+    "leapNo": 1055
+  },
+  {
+    "id": 1187,
+    "word": "humanity",
+    "pos": "名",
+    "meaning": "人類、人間性",
+    "example": "The disaster affected all of humanity.",
+    "exampleJa": "その災害は全人類に影響を与えた。",
+    "level": 1,
+    "leapNo": 1056
+  },
+  {
+    "id": 1188,
+    "word": "mankind",
+    "pos": "名",
+    "meaning": "人類",
+    "example": "The invention changed the course of mankind.",
+    "exampleJa": "その発明は人類の歩みを変えた。",
+    "level": 1,
+    "leapNo": 1057
+  },
+  {
+    "id": 1189,
+    "word": "justice",
+    "pos": "名",
+    "meaning": "正義",
+    "example": "The trial was seen as a victory for justice.",
+    "exampleJa": "その裁判は正義の勝利と見なされた。",
+    "level": 2,
+    "leapNo": 1059
+  },
+  {
+    "id": 1190,
+    "word": "insurance",
+    "pos": "名",
+    "meaning": "保険",
+    "example": "We bought travel insurance for the trip.",
+    "exampleJa": "私たちは旅行のために旅行保険に入った。",
+    "level": 2,
+    "leapNo": 1060
+  },
+  {
+    "id": 1191,
+    "word": "hardship",
+    "pos": "名",
+    "meaning": "苦難",
+    "example": "The family faced great hardship after the storm.",
+    "exampleJa": "その家族は嵐の後、大きな苦難に直面した。",
+    "level": 2,
+    "leapNo": 1061
+  },
+  {
+    "id": 1192,
+    "word": "poverty",
+    "pos": "名",
+    "meaning": "貧困",
+    "example": "The program aims to reduce poverty.",
+    "exampleJa": "そのプログラムは貧困を減らすことを目指している。",
+    "level": 2,
+    "leapNo": 1062
+  },
+  {
+    "id": 1193,
+    "word": "chaos",
+    "pos": "名",
+    "meaning": "大混乱",
+    "example": "The airport was in chaos after the storm.",
+    "exampleJa": "嵐の後、空港は大混乱に陥った。",
+    "level": 2,
+    "leapNo": 1063
+  },
+  {
+    "id": 1194,
+    "word": "isolation",
+    "pos": "名",
+    "meaning": "孤立",
+    "example": "He felt a deep sense of isolation.",
+    "exampleJa": "彼は深い孤立感を覚えた。",
+    "level": 2,
+    "leapNo": 1064
+  },
+  {
+    "id": 1195,
+    "word": "region",
+    "pos": "名",
+    "meaning": "地域",
+    "example": "This region is famous for its wine.",
+    "exampleJa": "この地域はワインで有名だ。",
+    "level": 2,
+    "leapNo": 1065
+  },
+  {
+    "id": 1196,
+    "word": "proof",
+    "pos": "名",
+    "meaning": "証拠",
+    "example": "We need proof before we can act.",
+    "exampleJa": "行動する前に証拠が必要だ。",
+    "level": 2,
+    "leapNo": 1066
+  },
+  {
+    "id": 1197,
+    "word": "warranty",
+    "pos": "名",
+    "meaning": "保証",
+    "example": "The laptop comes with a two-year warranty.",
+    "exampleJa": "そのノートパソコンには2年保証が付いている。",
+    "level": 2,
+    "leapNo": 1067
+  },
+  {
+    "id": 1198,
+    "word": "principle",
+    "pos": "名",
+    "meaning": "原理、主義",
+    "example": "She stuck to her principles no matter what.",
+    "exampleJa": "彼女は何があっても自分の主義を貫いた。",
+    "level": 2,
+    "leapNo": 1068
+  },
+  {
+    "id": 1199,
+    "word": "origin",
+    "pos": "名",
+    "meaning": "起源",
+    "example": "The origin of this custom is unclear.",
+    "exampleJa": "この習慣の起源ははっきりしない。",
+    "level": 2,
+    "leapNo": 1069
+  },
+  {
+    "id": 1200,
+    "word": "setting",
+    "pos": "名",
+    "meaning": "環境、設定",
+    "example": "The story is set in a small village.",
+    "exampleJa": "その物語は小さな村を舞台にしている。",
+    "level": 2,
+    "leapNo": 1070
+  },
+  {
+    "id": 1201,
+    "word": "mission",
+    "pos": "名",
+    "meaning": "任務、使命",
+    "example": "The team completed their mission successfully.",
+    "exampleJa": "チームは任務を無事に完了した。",
+    "level": 2,
+    "leapNo": 1071
+  },
+  {
+    "id": 1202,
+    "word": "project",
+    "pos": "名",
+    "meaning": "計画、企画",
+    "example": "She is working on a new research project.",
+    "exampleJa": "彼女は新しい研究プロジェクトに取り組んでいる。",
+    "level": 2,
+    "leapNo": 1072
+  },
+  {
+    "id": 1203,
+    "word": "monument",
+    "pos": "名",
+    "meaning": "記念碑",
+    "example": "The monument honors soldiers who died in the war.",
+    "exampleJa": "その記念碑は戦争で亡くなった兵士を称えている。",
+    "level": 2,
+    "leapNo": 1073
+  },
+  {
+    "id": 1204,
+    "word": "revolution",
+    "pos": "名",
+    "meaning": "革命",
+    "example": "The internet caused a revolution in communication.",
+    "exampleJa": "インターネットはコミュニケーションに革命をもたらした。",
+    "level": 2,
+    "leapNo": 1074
+  },
+  {
+    "id": 1205,
+    "word": "contract",
+    "pos": "名",
+    "meaning": "契約",
+    "example": "They signed a contract for the new project.",
+    "exampleJa": "彼らは新しいプロジェクトの契約に署名した。",
+    "level": 2,
+    "leapNo": 1075
+  },
+  {
+    "id": 1206,
+    "word": "infrastructure",
+    "pos": "名",
+    "meaning": "インフラ",
+    "example": "The city invested in public infrastructure.",
+    "exampleJa": "その市は公共インフラに投資した。",
+    "level": 2,
+    "leapNo": 1076
+  },
+  {
+    "id": 1207,
+    "word": "negotiate",
+    "pos": "動",
+    "meaning": "交渉する",
+    "example": "They negotiated a better price.",
+    "exampleJa": "彼らはより良い価格を交渉した。",
+    "level": 2,
+    "leapNo": 1077
+  },
+  {
+    "id": 1208,
+    "word": "cooperate",
+    "pos": "動",
+    "meaning": "協力する",
+    "example": "The two countries agreed to cooperate.",
+    "exampleJa": "両国は協力することに合意した。",
+    "level": 2,
+    "leapNo": 1078
+  },
+  {
+    "id": 1209,
+    "word": "restore",
+    "pos": "動",
+    "meaning": "回復する、修復する",
+    "example": "They restored the old building carefully.",
+    "exampleJa": "彼らはその古い建物を丁寧に修復した。",
+    "level": 2,
+    "leapNo": 1079
+  },
+  {
+    "id": 1210,
+    "word": "found",
+    "pos": "動",
+    "meaning": "設立する",
+    "example": "The company was founded in 1990.",
+    "exampleJa": "その会社は1990年に設立された。",
+    "level": 2,
+    "leapNo": 1080
+  },
+  {
+    "id": 1211,
+    "word": "conservative",
+    "pos": "形",
+    "meaning": "保守的な",
+    "example": "He holds fairly conservative views.",
+    "exampleJa": "彼はかなり保守的な考えを持っている。",
+    "level": 2,
+    "leapNo": 1081
+  },
+  {
+    "id": 1212,
+    "word": "affair",
+    "pos": "名",
+    "meaning": "事柄、情事",
+    "example": "This is a private affair and none of your business.",
+    "exampleJa": "これは個人的な事柄で、あなたには関係ない。",
+    "level": 2,
+    "leapNo": 1082
+  },
+  {
+    "id": 1213,
+    "word": "agency",
+    "pos": "名",
+    "meaning": "機関、代理店",
+    "example": "She works for a travel agency.",
+    "exampleJa": "彼女は旅行代理店で働いている。",
+    "level": 2,
+    "leapNo": 1083
+  },
+  {
+    "id": 1214,
+    "word": "council",
+    "pos": "名",
+    "meaning": "議会",
+    "example": "The city council approved the budget.",
+    "exampleJa": "市議会は予算を承認した。",
+    "level": 2,
+    "leapNo": 1084
+  },
+  {
+    "id": 1215,
+    "word": "kingdom",
+    "pos": "名",
+    "meaning": "王国",
+    "example": "The story takes place in an ancient kingdom.",
+    "exampleJa": "その物語は古代の王国を舞台にしている。",
+    "level": 2,
+    "leapNo": 1085
+  },
+  {
+    "id": 1216,
+    "word": "republic",
+    "pos": "名",
+    "meaning": "共和国",
+    "example": "France became a republic after the revolution.",
+    "exampleJa": "フランスは革命後に共和国になった。",
+    "level": 2,
+    "leapNo": 1086
+  },
+  {
+    "id": 1217,
+    "word": "empire",
+    "pos": "名",
+    "meaning": "帝国",
+    "example": "The empire lasted for several centuries.",
+    "exampleJa": "その帝国は数世紀にわたって続いた。",
+    "level": 2,
+    "leapNo": 1087
+  },
+  {
+    "id": 1218,
+    "word": "aid",
+    "pos": "名",
+    "meaning": "援助",
+    "example": "The country received financial aid after the disaster.",
+    "exampleJa": "その国は災害後に財政援助を受けた。",
+    "level": 2,
+    "leapNo": 1088
+  },
+  {
+    "id": 1219,
+    "word": "reform",
+    "pos": "名/動",
+    "meaning": "改革",
+    "example": "The government promised education reform.",
+    "exampleJa": "政府は教育改革を約束した。",
+    "level": 2,
+    "leapNo": 1089
+  },
+  {
+    "id": 1220,
+    "word": "minister",
+    "pos": "名",
+    "meaning": "大臣",
+    "example": "The prime minister addressed the nation.",
+    "exampleJa": "首相は国民に向けて演説した。",
+    "level": 2,
+    "leapNo": 1090
+  },
+  {
+    "id": 1221,
+    "word": "parliament",
+    "pos": "名",
+    "meaning": "議会",
+    "example": "The bill was passed by parliament.",
+    "exampleJa": "その法案は議会で可決された。",
+    "level": 2,
+    "leapNo": 1091
+  },
+  {
+    "id": 1222,
+    "word": "territory",
+    "pos": "名",
+    "meaning": "領土",
+    "example": "The two nations disputed the border territory.",
+    "exampleJa": "両国はその国境地域を巡って争った。",
+    "level": 2,
+    "leapNo": 1092
+  },
+  {
+    "id": 1223,
+    "word": "poll",
+    "pos": "名",
+    "meaning": "世論調査",
+    "example": "A recent poll shows growing support for the policy.",
+    "exampleJa": "最近の世論調査はその政策への支持の高まりを示している。",
+    "level": 2,
+    "leapNo": 1093
+  },
+  {
+    "id": 1224,
+    "word": "property",
+    "pos": "名",
+    "meaning": "財産、不動産",
+    "example": "They own several pieces of property.",
+    "exampleJa": "彼らはいくつかの不動産を所有している。",
+    "level": 2,
+    "leapNo": 1095
+  },
+  {
+    "id": 1225,
+    "word": "stock",
+    "pos": "名",
+    "meaning": "株、在庫",
+    "example": "She invested in tech company stock.",
+    "exampleJa": "彼女はテック企業の株に投資した。",
+    "level": 2,
+    "leapNo": 1097
+  },
+  {
+    "id": 1226,
+    "word": "labor",
+    "pos": "名",
+    "meaning": "労働",
+    "example": "The factory relies heavily on manual labor.",
+    "exampleJa": "その工場は肉体労働に大きく頼っている。",
+    "level": 2,
+    "leapNo": 1098
+  },
+  {
+    "id": 1227,
+    "word": "overwork",
+    "pos": "動",
+    "meaning": "働きすぎる",
+    "example": "He overworked himself and got sick.",
+    "exampleJa": "彼は働きすぎて病気になった。",
+    "level": 2,
+    "leapNo": 1099
+  },
+  {
+    "id": 1228,
+    "word": "firm",
+    "pos": "名/形",
+    "meaning": "会社、堅い",
+    "example": "She works at a law firm downtown.",
+    "exampleJa": "彼女は繁華街の法律事務所で働いている。",
+    "level": 2,
+    "leapNo": 1100
+  },
+  {
+    "id": 1229,
+    "word": "union",
+    "pos": "名",
+    "meaning": "労働組合、連合",
+    "example": "The workers formed a union.",
+    "exampleJa": "労働者たちは組合を結成した。",
+    "level": 2,
+    "leapNo": 1101
+  },
+  {
+    "id": 1230,
+    "word": "administration",
+    "pos": "名",
+    "meaning": "運営、行政",
+    "example": "She works in the university administration.",
+    "exampleJa": "彼女は大学の運営部門で働いている。",
+    "level": 2,
+    "leapNo": 1102
+  },
+  {
+    "id": 1231,
+    "word": "secretary",
+    "pos": "名",
+    "meaning": "秘書",
+    "example": "His secretary scheduled the meeting.",
+    "exampleJa": "彼の秘書がその会議の予定を組んだ。",
+    "level": 2,
+    "leapNo": 1103
+  },
+  {
+    "id": 1232,
+    "word": "editor",
+    "pos": "名",
+    "meaning": "編集者",
+    "example": "She is the editor of a fashion magazine.",
+    "exampleJa": "彼女はファッション雑誌の編集者だ。",
+    "level": 2,
+    "leapNo": 1104
+  },
+  {
+    "id": 1233,
+    "word": "client",
+    "pos": "名",
+    "meaning": "依頼人、顧客",
+    "example": "The lawyer met with his client.",
+    "exampleJa": "弁護士は依頼人と面会した。",
+    "level": 2,
+    "leapNo": 1105
+  },
+  {
+    "id": 1234,
+    "word": "recruit",
+    "pos": "動/名",
+    "meaning": "採用する、新人",
+    "example": "The company plans to recruit new engineers.",
+    "exampleJa": "その会社は新しいエンジニアを採用する予定だ。",
+    "level": 2,
+    "leapNo": 1106
+  },
+  {
+    "id": 1235,
+    "word": "basis",
+    "pos": "名",
+    "meaning": "基礎、根拠",
+    "example": "The plan has no scientific basis.",
+    "exampleJa": "その計画には科学的根拠がない。",
+    "level": 2,
+    "leapNo": 1107
+  },
+  {
+    "id": 1236,
+    "word": "element",
+    "pos": "名",
+    "meaning": "要素、元素",
+    "example": "Trust is an important element of friendship.",
+    "exampleJa": "信頼は友情の重要な要素だ。",
+    "level": 2,
+    "leapNo": 1108
+  },
+  {
+    "id": 1237,
+    "word": "unify",
+    "pos": "動",
+    "meaning": "統一する",
+    "example": "The reform aims to unify the tax system.",
+    "exampleJa": "その改革は税制を統一することを目指している。",
+    "level": 2,
+    "leapNo": 1110
+  },
+  {
+    "id": 1238,
+    "word": "combine",
+    "pos": "動",
+    "meaning": "結びつける",
+    "example": "She combines work and family well.",
+    "exampleJa": "彼女は仕事と家庭をうまく両立させている。",
+    "level": 2,
+    "leapNo": 1111
+  },
+  {
+    "id": 1239,
+    "word": "unite",
+    "pos": "動",
+    "meaning": "団結する",
+    "example": "The community united to help the victims.",
+    "exampleJa": "地域社会は被害者を助けるために団結した。",
+    "level": 2,
+    "leapNo": 1112
+  },
+  {
+    "id": 1240,
+    "word": "link",
+    "pos": "名/動",
+    "meaning": "つながり、結びつける",
+    "example": "There is a link between diet and health.",
+    "exampleJa": "食事と健康の間にはつながりがある。",
+    "level": 2,
+    "leapNo": 1113
+  },
+  {
+    "id": 1241,
+    "word": "relevant",
+    "pos": "形",
+    "meaning": "関連のある",
+    "example": "This information is not relevant to our topic.",
+    "exampleJa": "この情報は私たちの話題とは関連がない。",
+    "level": 2,
+    "leapNo": 1114
+  },
+  {
+    "id": 1242,
+    "word": "murder",
+    "pos": "名",
+    "meaning": "殺人",
+    "example": "The police investigated the murder case.",
+    "exampleJa": "警察はその殺人事件を捜査した。",
+    "level": 2,
+    "leapNo": 1115
+  },
+  {
+    "id": 1243,
+    "word": "arrest",
+    "pos": "動",
+    "meaning": "逮捕する",
+    "example": "The police arrested the suspect yesterday.",
+    "exampleJa": "警察は昨日容疑者を逮捕した。",
+    "level": 2,
+    "leapNo": 1116
+  },
+  {
+    "id": 1244,
+    "word": "prison",
+    "pos": "名",
+    "meaning": "刑務所",
+    "example": "He was sent to prison for five years.",
+    "exampleJa": "彼は5年間刑務所に送られた。",
+    "level": 2,
+    "leapNo": 1117
+  },
+  {
+    "id": 1245,
+    "word": "vice",
+    "pos": "名",
+    "meaning": "悪徳、副〜",
+    "example": "Gambling can become a serious vice.",
+    "exampleJa": "ギャンブルは深刻な悪徳になり得る。",
+    "level": 2,
+    "leapNo": 1118
+  },
+  {
+    "id": 1246,
+    "word": "witness",
+    "pos": "名/動",
+    "meaning": "目撃者、目撃する",
+    "example": "She witnessed the accident from her window.",
+    "exampleJa": "彼女は窓からその事故を目撃した。",
+    "level": 2,
+    "leapNo": 1119
+  },
+  {
+    "id": 1247,
+    "word": "bullet",
+    "pos": "名",
+    "meaning": "弾丸",
+    "example": "The bullet missed him by inches.",
+    "exampleJa": "その弾丸は彼にわずかに当たらなかった。",
+    "level": 2,
+    "leapNo": 1120
+  },
+  {
+    "id": 1248,
+    "word": "sword",
+    "pos": "名",
+    "meaning": "剣",
+    "example": "The knight carried a long sword.",
+    "exampleJa": "その騎士は長い剣を持っていた。",
+    "level": 2,
+    "leapNo": 1121
+  },
+  {
+    "id": 1249,
+    "word": "wound",
+    "pos": "名/動",
+    "meaning": "傷",
+    "example": "The soldier suffered a serious wound.",
+    "exampleJa": "その兵士は深刻な傷を負った。",
+    "level": 2,
+    "leapNo": 1122
+  },
+  {
+    "id": 1250,
+    "word": "triumph",
+    "pos": "名",
+    "meaning": "勝利",
+    "example": "Winning the championship was a great triumph.",
+    "exampleJa": "選手権優勝は大きな勝利だった。",
+    "level": 2,
+    "leapNo": 1123
+  },
+  {
+    "id": 1251,
+    "word": "military",
+    "pos": "形/名",
+    "meaning": "軍事の",
+    "example": "He served in the military for ten years.",
+    "exampleJa": "彼は10年間軍に従事した。",
+    "level": 2,
+    "leapNo": 1124
+  },
+  {
+    "id": 1252,
+    "word": "strategy",
+    "pos": "名",
+    "meaning": "戦略",
+    "example": "The team developed a new marketing strategy.",
+    "exampleJa": "チームは新しいマーケティング戦略を立てた。",
+    "level": 2,
+    "leapNo": 1125
+  },
+  {
+    "id": 1253,
+    "word": "conquer",
+    "pos": "動",
+    "meaning": "征服する",
+    "example": "The empire conquered many lands.",
+    "exampleJa": "その帝国は多くの土地を征服した。",
+    "level": 2,
+    "leapNo": 1126
+  },
+  {
+    "id": 1254,
+    "word": "defend",
+    "pos": "動",
+    "meaning": "守る",
+    "example": "The lawyer defended her client in court.",
+    "exampleJa": "弁護士は法廷で依頼人を弁護した。",
+    "level": 2,
+    "leapNo": 1127
+  },
+  {
+    "id": 1255,
+    "word": "dominate",
+    "pos": "動",
+    "meaning": "支配する",
+    "example": "The team dominated the entire game.",
+    "exampleJa": "そのチームは試合全体を支配した。",
+    "level": 2,
+    "leapNo": 1128
+  },
+  {
+    "id": 1256,
+    "word": "rob",
+    "pos": "動",
+    "meaning": "奪う、強盗する",
+    "example": "Someone tried to rob the bank last night.",
+    "exampleJa": "昨夜、誰かがその銀行を襲おうとした。",
+    "level": 3,
+    "leapNo": 1129
+  },
+  {
+    "id": 1257,
+    "word": "devastate",
+    "pos": "動",
+    "meaning": "壊滅させる",
+    "example": "The earthquake devastated the town.",
+    "exampleJa": "地震はその町を壊滅させた。",
+    "level": 3,
+    "leapNo": 1131
+  },
+  {
+    "id": 1258,
+    "word": "crash",
+    "pos": "動/名",
+    "meaning": "衝突する",
+    "example": "The car crashed into a tree.",
+    "exampleJa": "その車は木に衝突した。",
+    "level": 3,
+    "leapNo": 1132
+  },
+  {
+    "id": 1259,
+    "word": "hazard",
+    "pos": "名",
+    "meaning": "危険",
+    "example": "Smoking is a health hazard.",
+    "exampleJa": "喫煙は健康上の危険だ。",
+    "level": 3,
+    "leapNo": 1133
+  },
+  {
+    "id": 1260,
+    "word": "debris",
+    "pos": "名",
+    "meaning": "破片、がれき",
+    "example": "Workers cleared the debris after the storm.",
+    "exampleJa": "作業員は嵐の後、がれきを片付けた。",
+    "level": 3,
+    "leapNo": 1134
+  },
+  {
+    "id": 1261,
+    "word": "orphan",
+    "pos": "名",
+    "meaning": "孤児",
+    "example": "The charity supports orphans around the world.",
+    "exampleJa": "その慈善団体は世界中の孤児を支援している。",
+    "level": 3,
+    "leapNo": 1135
+  },
+  {
+    "id": 1262,
+    "word": "slave",
+    "pos": "名",
+    "meaning": "奴隷",
+    "example": "History records the suffering of slaves.",
+    "exampleJa": "歴史は奴隷たちの苦しみを記録している。",
+    "level": 3,
+    "leapNo": 1136
+  },
+  {
+    "id": 1263,
+    "word": "acquaintance",
+    "pos": "名",
+    "meaning": "知人",
+    "example": "He is just an acquaintance, not a close friend.",
+    "exampleJa": "彼はただの知人で、親しい友人ではない。",
+    "level": 3,
+    "leapNo": 1137
+  },
+  {
+    "id": 1264,
+    "word": "merchant",
+    "pos": "名",
+    "meaning": "商人",
+    "example": "The merchant sold spices from the East.",
+    "exampleJa": "その商人は東方から来た香辛料を売った。",
+    "level": 3,
+    "leapNo": 1138
+  },
+  {
+    "id": 1265,
+    "word": "resident",
+    "pos": "名",
+    "meaning": "住人",
+    "example": "Local residents opposed the new plan.",
+    "exampleJa": "地元の住民は新しい計画に反対した。",
+    "level": 3,
+    "leapNo": 1139
+  },
+  {
+    "id": 1266,
+    "word": "crew",
+    "pos": "名",
+    "meaning": "乗組員",
+    "example": "The flight crew welcomed the passengers.",
+    "exampleJa": "乗務員は乗客を出迎えた。",
+    "level": 3,
+    "leapNo": 1140
+  },
+  {
+    "id": 1267,
+    "word": "chase",
+    "pos": "動",
+    "meaning": "追いかける",
+    "example": "The dog chased the ball across the yard.",
+    "exampleJa": "犬は庭を横切ってボールを追いかけた。",
+    "level": 3,
+    "leapNo": 1141
+  },
+  {
+    "id": 1268,
+    "word": "proceed",
+    "pos": "動",
+    "meaning": "進む",
+    "example": "Please proceed to the next gate.",
+    "exampleJa": "次のゲートへお進みください。",
+    "level": 3,
+    "leapNo": 1142
+  },
+  {
+    "id": 1269,
+    "word": "fade",
+    "pos": "動",
+    "meaning": "薄れる",
+    "example": "The colors began to fade in the sunlight.",
+    "exampleJa": "色は日光で薄れ始めた。",
+    "level": 3,
+    "leapNo": 1143
+  },
+  {
+    "id": 1270,
+    "word": "dissolve",
+    "pos": "動",
+    "meaning": "溶ける",
+    "example": "Sugar dissolves quickly in hot water.",
+    "exampleJa": "砂糖は熱いお湯にすぐ溶ける。",
+    "level": 3,
+    "leapNo": 1144
+  },
+  {
+    "id": 1271,
+    "word": "float",
+    "pos": "動",
+    "meaning": "浮かぶ",
+    "example": "The boat floated calmly on the lake.",
+    "exampleJa": "そのボートは湖に静かに浮かんでいた。",
+    "level": 3,
+    "leapNo": 1145
+  },
+  {
+    "id": 1272,
+    "word": "sink",
+    "pos": "動",
+    "meaning": "沈む",
+    "example": "The ship began to sink slowly.",
+    "exampleJa": "その船はゆっくり沈み始めた。",
+    "level": 3,
+    "leapNo": 1146
+  },
+  {
+    "id": 1273,
+    "word": "bounce",
+    "pos": "動",
+    "meaning": "跳ねる",
+    "example": "The ball bounced off the wall.",
+    "exampleJa": "ボールは壁に跳ね返った。",
+    "level": 3,
+    "leapNo": 1147
+  },
+  {
+    "id": 1274,
+    "word": "transform",
+    "pos": "動",
+    "meaning": "変える",
+    "example": "The city transformed into a modern hub.",
+    "exampleJa": "その都市は現代的な拠点へと変わった。",
+    "level": 3,
+    "leapNo": 1148
+  },
+  {
+    "id": 1275,
+    "word": "shift",
+    "pos": "動/名",
+    "meaning": "移す、変化",
+    "example": "Public opinion has shifted on this issue.",
+    "exampleJa": "この問題に関する世論は変化した。",
+    "level": 3,
+    "leapNo": 1149
+  },
+  {
+    "id": 1276,
+    "word": "modify",
+    "pos": "動",
+    "meaning": "修正する",
+    "example": "We need to modify the design slightly.",
+    "exampleJa": "私たちはデザインを少し修正する必要がある。",
+    "level": 3,
+    "leapNo": 1150
+  },
+  {
+    "id": 1277,
+    "word": "revise",
+    "pos": "動",
+    "meaning": "改訂する",
+    "example": "She revised the essay before submitting it.",
+    "exampleJa": "彼女は提出する前にそのエッセイを改訂した。",
+    "level": 3,
+    "leapNo": 1151
+  },
+  {
+    "id": 1278,
+    "word": "enhance",
+    "pos": "動",
+    "meaning": "高める",
+    "example": "Regular practice will enhance your skills.",
+    "exampleJa": "定期的な練習はあなたの技術を高めるだろう。",
+    "level": 3,
+    "leapNo": 1152
+  },
+  {
+    "id": 1279,
+    "word": "lower",
+    "pos": "動",
+    "meaning": "下げる",
+    "example": "Please lower your voice in the library.",
+    "exampleJa": "図書館では声を小さくしてください。",
+    "level": 3,
+    "leapNo": 1153
+  },
+  {
+    "id": 1280,
+    "word": "voyage",
+    "pos": "名",
+    "meaning": "航海",
+    "example": "They set off on a long voyage across the ocean.",
+    "exampleJa": "彼らは海を渡る長い航海に出発した。",
+    "level": 3,
+    "leapNo": 1154
+  },
+  {
+    "id": 1281,
+    "word": "confirm",
+    "pos": "動",
+    "meaning": "確認する",
+    "example": "Please confirm your appointment by email.",
+    "exampleJa": "メールで予約を確認してください。",
+    "level": 3,
+    "leapNo": 1155
+  },
+  {
+    "id": 1282,
+    "word": "ensure",
+    "pos": "動",
+    "meaning": "確実にする",
+    "example": "We must ensure the safety of all students.",
+    "exampleJa": "私たちは全生徒の安全を確実にしなければならない。",
+    "level": 3,
+    "leapNo": 1156
+  },
+  {
+    "id": 1283,
+    "word": "address",
+    "pos": "動",
+    "meaning": "取り組む",
+    "example": "The speech addressed climate change.",
+    "exampleJa": "そのスピーチは気候変動に取り組んだ。",
+    "level": 3,
+    "leapNo": 1157
+  },
+  {
+    "id": 1284,
+    "word": "approach",
+    "pos": "名/動",
+    "meaning": "取り組み方、近づく",
+    "example": "We need a new approach to this problem.",
+    "exampleJa": "この問題への新しい取り組み方が必要だ。",
+    "level": 3,
+    "leapNo": 1158
+  },
+  {
+    "id": 1285,
+    "word": "resolve",
+    "pos": "動",
+    "meaning": "解決する",
+    "example": "They resolved the conflict peacefully.",
+    "exampleJa": "彼らはその対立を平和的に解決した。",
+    "level": 3,
+    "leapNo": 1159
+  },
+  {
+    "id": 1286,
+    "word": "settle",
+    "pos": "動",
+    "meaning": "解決する、定住する",
+    "example": "The family settled in a small town.",
+    "exampleJa": "その家族は小さな町に定住した。",
+    "level": 3,
+    "leapNo": 1160
+  },
+  {
+    "id": 1287,
+    "word": "enrich",
+    "pos": "動",
+    "meaning": "豊かにする",
+    "example": "Travel can enrich your life experience.",
+    "exampleJa": "旅行はあなたの人生経験を豊かにすることができる。",
+    "level": 3,
+    "leapNo": 1161
+  },
+  {
+    "id": 1288,
+    "word": "warn",
+    "pos": "動",
+    "meaning": "警告する",
+    "example": "She warned him about the danger.",
+    "exampleJa": "彼女は彼に危険について警告した。",
+    "level": 3,
+    "leapNo": 1162
+  },
+  {
+    "id": 1289,
+    "word": "force",
+    "pos": "名/動",
+    "meaning": "力、強いる",
+    "example": "The storm hit the coast with great force.",
+    "exampleJa": "嵐は大きな力で海岸を襲った。",
+    "level": 3,
+    "leapNo": 1163
+  },
+  {
+    "id": 1290,
+    "word": "applause",
+    "pos": "名",
+    "meaning": "拍手",
+    "example": "The audience gave loud applause.",
+    "exampleJa": "観客は大きな拍手を送った。",
+    "level": 3,
+    "leapNo": 1165
+  },
+  {
+    "id": 1291,
+    "word": "leap",
+    "pos": "動/名",
+    "meaning": "跳ぶ",
+    "example": "The cat leaped onto the table.",
+    "exampleJa": "猫はテーブルに飛び乗った。",
+    "level": 3,
+    "leapNo": 1166
+  },
+  {
+    "id": 1292,
+    "word": "grab",
+    "pos": "動",
+    "meaning": "つかむ",
+    "example": "He grabbed his bag and ran out.",
+    "exampleJa": "彼はかばんをつかんで走り出た。",
+    "level": 3,
+    "leapNo": 1167
+  },
+  {
+    "id": 1293,
+    "word": "seize",
+    "pos": "動",
+    "meaning": "つかむ",
+    "example": "She seized the opportunity to speak.",
+    "exampleJa": "彼女は話す機会をつかんだ。",
+    "level": 3,
+    "leapNo": 1168
+  },
+  {
+    "id": 1294,
+    "word": "cast",
+    "pos": "動",
+    "meaning": "投げる、配役する",
+    "example": "The director cast her in the leading role.",
+    "exampleJa": "監督は彼女を主役に配役した。",
+    "level": 3,
+    "leapNo": 1169
+  },
+  {
+    "id": 1295,
+    "word": "stun",
+    "pos": "動",
+    "meaning": "気絶させる、驚かせる",
+    "example": "The news stunned everyone in the room.",
+    "exampleJa": "その知らせは部屋にいた全員を驚かせた。",
+    "level": 3,
+    "leapNo": 1170
+  },
+  {
+    "id": 1296,
+    "word": "illuminate",
+    "pos": "動",
+    "meaning": "照らす",
+    "example": "Lanterns illuminated the garden at night.",
+    "exampleJa": "ランタンが夜の庭を照らした。",
+    "level": 3,
+    "leapNo": 1171
+  },
+  {
+    "id": 1297,
+    "word": "uncover",
+    "pos": "動",
+    "meaning": "明らかにする",
+    "example": "The investigation uncovered new evidence.",
+    "exampleJa": "その捜査は新たな証拠を明らかにした。",
+    "level": 3,
+    "leapNo": 1172
+  },
+  {
+    "id": 1298,
+    "word": "mend",
+    "pos": "動",
+    "meaning": "修繕する",
+    "example": "She mended the torn shirt.",
+    "exampleJa": "彼女は破れたシャツを繕った。",
+    "level": 3,
+    "leapNo": 1173
+  },
+  {
+    "id": 1299,
+    "word": "react",
+    "pos": "動",
+    "meaning": "反応する",
+    "example": "He reacted quickly to the emergency.",
+    "exampleJa": "彼は緊急事態に素早く反応した。",
+    "level": 3,
+    "leapNo": 1174
+  },
+  {
+    "id": 1300,
+    "word": "endure",
+    "pos": "動",
+    "meaning": "耐える",
+    "example": "They endured harsh conditions during the trip.",
+    "exampleJa": "彼らは旅の間、厳しい状況に耐えた。",
+    "level": 3,
+    "leapNo": 1175
+  },
+  {
+    "id": 1301,
+    "word": "bind",
+    "pos": "動",
+    "meaning": "結びつける",
+    "example": "Shared experiences bind people together.",
+    "exampleJa": "共通の経験は人々を結びつける。",
+    "level": 3,
+    "leapNo": 1176
+  },
+  {
+    "id": 1302,
+    "word": "encounter",
+    "pos": "動/名",
+    "meaning": "遭遇する",
+    "example": "We encountered a problem during the test.",
+    "exampleJa": "私たちはテスト中に問題に遭遇した。",
+    "level": 3,
+    "leapNo": 1177
+  },
+  {
+    "id": 1303,
+    "word": "trace",
+    "pos": "動/名",
+    "meaning": "たどる、跡",
+    "example": "Police traced the call to a local number.",
+    "exampleJa": "警察はその電話を地元の番号までたどった。",
+    "level": 3,
+    "leapNo": 1178
+  },
+  {
+    "id": 1304,
+    "word": "undergo",
+    "pos": "動",
+    "meaning": "経験する",
+    "example": "She underwent surgery last week.",
+    "exampleJa": "彼女は先週手術を受けた。",
+    "level": 3,
+    "leapNo": 1179
+  },
+  {
+    "id": 1305,
+    "word": "seal",
+    "pos": "動",
+    "meaning": "封をする",
+    "example": "He sealed the envelope and mailed it.",
+    "exampleJa": "彼は封筒に封をして郵送した。",
+    "level": 3,
+    "leapNo": 1180
+  },
+  {
+    "id": 1306,
+    "word": "incorporate",
+    "pos": "動",
+    "meaning": "取り入れる",
+    "example": "The design incorporates traditional elements.",
+    "exampleJa": "そのデザインは伝統的な要素を取り入れている。",
+    "level": 3,
+    "leapNo": 1181
+  },
+  {
+    "id": 1307,
+    "word": "emerge",
+    "pos": "動",
+    "meaning": "現れる",
+    "example": "A new leader emerged after the crisis.",
+    "exampleJa": "危機の後、新しい指導者が現れた。",
+    "level": 3,
+    "leapNo": 1182
+  },
+  {
+    "id": 1308,
+    "word": "unfold",
+    "pos": "動",
+    "meaning": "展開する",
+    "example": "The story unfolds slowly in the first chapter.",
+    "exampleJa": "その物語は第一章でゆっくりと展開する。",
+    "level": 3,
+    "leapNo": 1183
+  },
+  {
+    "id": 1309,
+    "word": "possess",
+    "pos": "動",
+    "meaning": "所有している",
+    "example": "She possesses great talent for music.",
+    "exampleJa": "彼女は音楽の素晴らしい才能を持っている。",
+    "level": 3,
+    "leapNo": 1186
+  },
+  {
+    "id": 1310,
+    "word": "retain",
+    "pos": "動",
+    "meaning": "保持する",
+    "example": "The company retained its top employees.",
+    "exampleJa": "その会社は優秀な社員を保持した。",
+    "level": 3,
+    "leapNo": 1187
+  },
+  {
+    "id": 1311,
+    "word": "secure",
+    "pos": "動/形",
+    "meaning": "確保する、安全な",
+    "example": "They secured funding for the project.",
+    "exampleJa": "彼らはそのプロジェクトの資金を確保した。",
+    "level": 3,
+    "leapNo": 1188
+  },
+  {
+    "id": 1312,
+    "word": "capture",
+    "pos": "動",
+    "meaning": "捕らえる",
+    "example": "The photo captures a beautiful sunset.",
+    "exampleJa": "その写真は美しい夕日を捉えている。",
+    "level": 3,
+    "leapNo": 1189
+  },
+  {
+    "id": 1313,
+    "word": "monitor",
+    "pos": "動",
+    "meaning": "監視する",
+    "example": "Doctors monitored her condition closely.",
+    "exampleJa": "医師たちは彼女の容態を注意深く監視した。",
+    "level": 3,
+    "leapNo": 1190
+  },
+  {
+    "id": 1314,
+    "word": "investigate",
+    "pos": "動",
+    "meaning": "調査する",
+    "example": "Police are investigating the incident.",
+    "exampleJa": "警察はその事件を捜査している。",
+    "level": 3,
+    "leapNo": 1191
+  },
+  {
+    "id": 1315,
+    "word": "detect",
+    "pos": "動",
+    "meaning": "検知する",
+    "example": "The device can detect smoke early.",
+    "exampleJa": "その装置は煙を早期に検知できる。",
+    "level": 3,
+    "leapNo": 1192
+  },
+  {
+    "id": 1316,
+    "word": "inquiry",
+    "pos": "名",
+    "meaning": "問い合わせ、調査",
+    "example": "We received an inquiry about the product.",
+    "exampleJa": "製品についての問い合わせを受けた。",
+    "level": 3,
+    "leapNo": 1193
+  },
+  {
+    "id": 1317,
+    "word": "specialize",
+    "pos": "動",
+    "meaning": "専門にする",
+    "example": "She specializes in child psychology.",
+    "exampleJa": "彼女は児童心理学を専門にしている。",
+    "level": 3,
+    "leapNo": 1194
+  },
+  {
+    "id": 1318,
+    "word": "semester",
+    "pos": "名",
+    "meaning": "学期",
+    "example": "The new semester starts in September.",
+    "exampleJa": "新学期は9月に始まる。",
+    "level": 3,
+    "leapNo": 1195
+  },
+  {
+    "id": 1319,
+    "word": "biology",
+    "pos": "名",
+    "meaning": "生物学",
+    "example": "He is studying biology at university.",
+    "exampleJa": "彼は大学で生物学を学んでいる。",
+    "level": 3,
+    "leapNo": 1196
+  },
+  {
+    "id": 1320,
+    "word": "ecology",
+    "pos": "名",
+    "meaning": "生態学",
+    "example": "The course focuses on marine ecology.",
+    "exampleJa": "その授業は海洋生態学に焦点を当てている。",
+    "level": 3,
+    "leapNo": 1197
+  },
+  {
+    "id": 1321,
+    "word": "philosophy",
+    "pos": "名",
+    "meaning": "哲学",
+    "example": "She has a unique philosophy about life.",
+    "exampleJa": "彼女は人生について独自の哲学を持っている。",
+    "level": 3,
+    "leapNo": 1198
   }
 ]
