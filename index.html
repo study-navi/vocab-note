@@ -104,6 +104,7 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 .face{ position:absolute; inset:0; backface-visibility:hidden; border-radius:22px; padding:28px 24px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(165deg, var(--surface-2) 0%, var(--surface) 100%); border:1px solid rgba(232,185,95,0.12); box-shadow:0 20px 40px -20px rgba(0,0,0,0.5); }
 .face .level-tag{ position:absolute; top:16px; left:18px; font-size:10.5px; color:var(--ink-faint); letter-spacing:0.06em; }
 .face .pos-tag{ position:absolute; top:16px; right:18px; font-size:10.5px; color:var(--gold-dim); padding:3px 9px; border:1px solid var(--gold-dim); border-radius:999px; }
+.leap-tag{ position:absolute; bottom:16px; right:18px; font-size:9.5px; color:var(--ink-faint); letter-spacing:0.03em; }
 .face-back{ transform:rotateY(180deg); }
 .word-en{ font-family:var(--serif); font-size:34px; font-weight:700; color:var(--ink); word-break:break-word; }
 .hint{ font-size:11px; color:var(--ink-faint); margin-top:14px; letter-spacing:0.04em; }
@@ -170,6 +171,7 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
           <div id="whoBranch"></div>
           <b id="whoName"></b>
           <div class="switch-link" onclick="logout()">生徒を切り替える</div>
+          <div class="switch-link"><a href="./words.html" style="color:inherit;">単語一覧を見る</a></div>
         </div>
       </div>
       <div class="sub" id="wordCountSub">高校英語 精選単語</div>
@@ -610,6 +612,7 @@ function renderFlash(){
   const frontMain = ja2en ? w.meaning : w.word;
   const frontHint = ja2en ? "タップして単語を見る" : "タップして意味を見る";
   const backMain = ja2en ? w.word : w.meaning;
+  const leapTag = w.leapNo ? `<div class="leap-tag">LEAP No.${w.leapNo}</div>` : '';
   stage.innerHTML = `
     <div class="card-zone">
       <div class="card ${state.flipped?'flipped':''}" id="flashCard" onclick="flipCard()">
@@ -619,6 +622,7 @@ function renderFlash(){
             <div class="pos-tag">${w.pos}</div>
             <div class="word-en">${frontMain}</div>
             <div class="hint">${frontHint}</div>
+            ${leapTag}
           </div>
           <div class="face face-back">
             <div class="level-tag">${state.idx+1} / ${state.deck.length}</div>
@@ -700,6 +704,7 @@ function renderQuiz(){
   const questionLabel = ja2en ? "この意味に合う単語は？" : "この単語の意味は？";
   const questionMain = ja2en ? w.meaning : w.word;
   const answerField = ja2en ? 'word' : 'meaning';
+  const leapTag = w.leapNo ? `<div class="leap-tag">LEAP No.${w.leapNo}</div>` : '';
   const choicesHtml = state.quizChoices.map(c => {
     return `<button class="choice-btn" onclick="answerQuiz(this, ${JSON.stringify(c)===JSON.stringify(w[answerField])})">${c}</button>`;
   }).join("");
@@ -709,6 +714,7 @@ function renderQuiz(){
       <div class="level-tag">${state.idx+1} / ${state.deck.length} · LEVEL ${w.level}</div>
       <div class="quiz-q-label">${questionLabel}</div>
       <div class="quiz-q">${questionMain}</div>
+      ${leapTag}
     </div>
     <div class="choices" id="choicesWrap">${choicesHtml}</div>
     <button class="next-btn" id="nextBtn" style="display:none" onclick="nextQuiz()">次へ</button>

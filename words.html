@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>単語一覧 — 英単語ノート</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#10152b; --bg-elevate:#161d3a; --surface:#212a52; --surface-2:#2a3563;
+  --ink:#eef1f8; --ink-dim:#94a0c9; --ink-faint:#5c6796;
+  --gold:#e8b95f; --gold-dim:#8a733f; --good:#6fcf97; --warn:#f0c869; --bad:#e8748a;
+  --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{
+  background:var(--bg); color:var(--ink); font-family:var(--sans);
+  min-height:100vh; display:flex; justify-content:center; padding:20px 14px 60px;
+}
+.wrap{ width:100%; max-width:760px; }
+.eyebrow{ font-size:11px; letter-spacing:0.28em; color:var(--gold); font-weight:500; }
+h1{ font-family:var(--serif); font-size:22px; margin-top:4px; margin-bottom:4px; }
+.sub{ font-size:12px; color:var(--ink-dim); margin-bottom:18px; }
+a.back-link{ font-size:11.5px; color:var(--gold-dim); text-decoration:underline; }
+
+.controls{
+  background:var(--bg-elevate); border:1px solid rgba(232,185,95,0.12);
+  border-radius:16px; padding:14px 16px; margin:14px 0; display:flex; flex-direction:column; gap:10px;
+}
+input[type=text]{
+  width:100%; padding:10px 14px; border-radius:10px; border:1px solid rgba(255,255,255,0.12);
+  background:var(--surface); color:var(--ink); font-family:var(--sans); font-size:14px;
+}
+.chip-row{ display:flex; gap:6px; flex-wrap:wrap; }
+.chip{
+  padding:6px 12px; border-radius:999px; font-size:11.5px; color:var(--ink-dim);
+  background:transparent; border:1px solid rgba(255,255,255,0.12); cursor:pointer;
+}
+.chip.active{ color:var(--bg); background:var(--gold); border-color:var(--gold); font-weight:500; }
+.count-line{ font-size:11px; color:var(--ink-faint); }
+
+.word-list{ display:flex; flex-direction:column; gap:8px; }
+.word-card{
+  background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.06);
+  border-radius:14px; padding:14px 16px; cursor:pointer;
+}
+.word-card-top{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; }
+.word-en{ font-family:var(--serif); font-size:18px; font-weight:700; }
+.pos-tag{ font-size:10px; color:var(--gold-dim); border:1px solid var(--gold-dim); padding:2px 8px; border-radius:999px; }
+.level-badge{ font-size:10px; color:var(--ink-faint); }
+.leap-badge{ font-size:10px; color:var(--ink-faint); margin-left:auto; }
+.word-ja{ font-family:var(--serif); color:var(--gold); font-size:14px; margin-top:6px; }
+.word-example{
+  font-size:12.5px; color:var(--ink-dim); margin-top:8px; line-height:1.6;
+  display:none;
+}
+.word-card.open .word-example{ display:block; }
+.word-example-ja{ font-size:11.5px; color:var(--ink-faint); margin-top:2px; }
+.empty-msg{ text-align:center; color:var(--ink-dim); font-size:13px; padding:30px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">STUDY IE — VOCAB NOTE</div>
+  <h1>単語一覧</h1>
+  <div class="sub">タップすると例文が開きます <a class="back-link" href="./">← 学習に戻る</a></div>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="単語・意味・LEAP番号で検索" oninput="renderList()">
+    <div class="chip-row" id="levelChips"></div>
+    <div class="count-line" id="countLine"></div>
+  </div>
+
+  <div class="word-list" id="wordList"></div>
+  <div class="empty-msg hidden" id="emptyMsg">該当する単語が見つかりません</div>
+</div>
+
+<script>
+let WORDS = [];
+let levelFilter = 0;
+
+async function init(){
+  const wrap = document.getElementById('wordList');
+  try{
+    const res = await fetch('./words.json', { cache: 'no-store' });
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    WORDS = await res.json();
+  }catch(e){
+    console.error(e);
+    wrap.innerHTML = `<div class="empty-msg">⚠ 単語データを読み込めませんでした</div>`;
+    return;
+  }
+  renderChips();
+  renderList();
+}
+
+function renderChips(){
+  const wrap = document.getElementById('levelChips');
+  const names = {0:'すべて', 1:'基礎', 2:'標準', 3:'発展'};
+  wrap.innerHTML = "";
+  [0,1,2,3].forEach(lv=>{
+    const count = lv===0 ? WORDS.length : WORDS.filter(w=>w.level===lv).length;
+    const chip = document.createElement('div');
+    chip.className = 'chip' + (levelFilter===lv ? ' active' : '');
+    chip.textContent = `${names[lv]}(${count})`;
+    chip.onclick = () => { levelFilter = lv; renderChips(); renderList(); };
+    wrap.appendChild(chip);
+  });
+}
+
+function renderList(){
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  let list = levelFilter===0 ? WORDS : WORDS.filter(w=>w.level===levelFilter);
+  if(q){
+    list = list.filter(w =>
+      w.word.toLowerCase().includes(q) ||
+      w.meaning.toLowerCase().includes(q) ||
+      (w.leapNo && String(w.leapNo) === q)
+    );
+  }
+  document.getElementById('countLine').textContent = `${list.length}件表示中`;
+
+  const wrap = document.getElementById('wordList');
+  const emptyMsg = document.getElementById('emptyMsg');
+  if(!list.length){
+    wrap.innerHTML = "";
+    emptyMsg.classList.remove('hidden');
+    return;
+  }
+  emptyMsg.classList.add('hidden');
+
+  const levelNames = {1:'基礎', 2:'標準', 3:'発展'};
+  wrap.innerHTML = list.map(w => `
+    <div class="word-card" onclick="this.classList.toggle('open')">
+      <div class="word-card-top">
+        <div class="word-en">${w.word}</div>
+        <div class="pos-tag">${w.pos}</div>
+        <div class="level-badge">LEVEL ${w.level} · ${levelNames[w.level]}</div>
+        ${w.leapNo ? `<div class="leap-badge">LEAP No.${w.leapNo}</div>` : ''}
+      </div>
+      <div class="word-ja">${w.meaning}</div>
+      <div class="word-example">
+        ${w.example}
+        <div class="word-example-ja">${w.exampleJa}</div>
+      </div>
+    </div>
+  `).join("");
+}
+
+init();
+</script>
+</body>
+</html>

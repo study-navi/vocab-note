@@ -6,7 +6,8 @@
     "meaning": "〜を達成する",
     "example": "She worked hard to achieve her dream.",
     "exampleJa": "彼女は夢を叶えるために懸命に努力した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 40
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "meaning": "助言、アドバイス",
     "example": "Can you give me some advice?",
     "exampleJa": "何かアドバイスをもらえますか。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "meaning": "〜する余裕がある",
     "example": "We can't afford a new car this year.",
     "exampleJa": "今年は新しい車を買う余裕がない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 738
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "meaning": "同意する",
     "example": "I agree with your opinion.",
     "exampleJa": "あなたの意見に賛成です。",
-    "level": 1
+    "level": 1,
+    "leapNo": 1
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "meaning": "〜を許す",
     "example": "My parents allow me to stay out late.",
     "exampleJa": "両親は私が遅くまで外出することを許してくれる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 198
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "meaning": "〜だけれども",
     "example": "Although it was raining, we went out.",
     "exampleJa": "雨が降っていたが、私たちは出かけた。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "meaning": "量、額",
     "example": "A large amount of money was spent.",
     "exampleJa": "多額のお金が使われた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 839
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "meaning": "古代の",
     "example": "They studied ancient Rome.",
     "exampleJa": "彼らは古代ローマを研究した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 302
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "meaning": "謝る",
     "example": "He apologized for being late.",
     "exampleJa": "彼は遅刻したことを謝った。",
-    "level": 1
+    "level": 1,
+    "leapNo": 14
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "meaning": "現れる、〜のように見える",
     "example": "She suddenly appeared at the door.",
     "exampleJa": "彼女は突然ドアのところに現れた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 156
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "meaning": "申し込む、適用する",
     "example": "I applied for the scholarship.",
     "exampleJa": "私はその奨学金に応募した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 283
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "meaning": "感謝する、真価を認める",
     "example": "I really appreciate your help.",
     "exampleJa": "あなたの助けに本当に感謝します。",
-    "level": 1
+    "level": 1,
+    "leapNo": 189
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "meaning": "手配する、並べる",
     "example": "Let's arrange a meeting for next week.",
     "exampleJa": "来週の会議を手配しましょう。",
-    "level": 1
+    "level": 1,
+    "leapNo": 844
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "meaning": "到着する",
     "example": "The train will arrive at nine.",
     "exampleJa": "電車は9時に到着する。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "meaning": "恥じて",
     "example": "He felt ashamed of his mistake.",
     "exampleJa": "彼は自分の過ちを恥じた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 957
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "meaning": "試みる、試み",
     "example": "She made an attempt to solve the puzzle.",
     "exampleJa": "彼女はそのパズルを解こうと試みた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 1025
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "meaning": "出席する",
     "example": "All students must attend the ceremony.",
     "exampleJa": "全生徒はその式典に出席しなければならない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 653
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "meaning": "引き付ける",
     "example": "The museum attracts many visitors.",
     "exampleJa": "その博物館は多くの来場者を引き付ける。",
-    "level": 1
+    "level": 1,
+    "leapNo": 942
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "meaning": "避ける",
     "example": "You should avoid eating too much sugar.",
     "exampleJa": "糖分を取りすぎるのは避けるべきだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 125
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@
     "meaning": "気づいている",
     "example": "I wasn't aware of the change.",
     "exampleJa": "私はその変化に気づいていなかった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 690
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@
     "meaning": "ふるまう",
     "example": "The children behaved very well.",
     "exampleJa": "子供たちはとても行儀よくふるまった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 152
   },
   {
     "id": 22,
@@ -195,7 +216,8 @@
     "meaning": "信じる",
     "example": "I believe you are right.",
     "exampleJa": "あなたは正しいと思う。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 23,
@@ -204,7 +226,8 @@
     "meaning": "所属する",
     "example": "This book belongs to the library.",
     "exampleJa": "この本は図書館のものです。",
-    "level": 1
+    "level": 1,
+    "leapNo": 159
   },
   {
     "id": 24,
@@ -213,7 +236,8 @@
     "meaning": "利益、恩恵",
     "example": "Exercise has many benefits.",
     "exampleJa": "運動には多くの利点がある。",
-    "level": 1
+    "level": 1,
+    "leapNo": 495
   },
   {
     "id": 25,
@@ -222,7 +246,8 @@
     "meaning": "勇敢な",
     "example": "It was brave of him to speak up.",
     "exampleJa": "彼が声を上げたのは勇敢だった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 733
   },
   {
     "id": 26,
@@ -231,7 +256,8 @@
     "meaning": "能力がある",
     "example": "She is capable of solving the problem.",
     "exampleJa": "彼女はその問題を解決する能力がある。",
-    "level": 1
+    "level": 1,
+    "leapNo": 1027
   },
   {
     "id": 27,
@@ -240,7 +266,8 @@
     "meaning": "注意深い",
     "example": "Be careful when you cross the street.",
     "exampleJa": "通りを渡るときは気をつけて。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 28,
@@ -249,7 +276,8 @@
     "meaning": "引き起こす、原因",
     "example": "What caused the accident?",
     "exampleJa": "何がその事故を引き起こしたのか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 381
   },
   {
     "id": 29,
@@ -258,7 +286,8 @@
     "meaning": "世紀",
     "example": "This castle was built in the 16th century.",
     "exampleJa": "この城は16世紀に建てられた。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 30,
@@ -267,7 +296,8 @@
     "meaning": "確信して、ある特定の",
     "example": "I'm certain that he is right.",
     "exampleJa": "彼が正しいと確信している。",
-    "level": 1
+    "level": 1,
+    "leapNo": 122
   },
   {
     "id": 31,
@@ -276,7 +306,8 @@
     "meaning": "難題、挑戦する",
     "example": "Learning a new language is a challenge.",
     "exampleJa": "新しい言語を学ぶのは難題だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 442
   },
   {
     "id": 32,
@@ -285,7 +316,8 @@
     "meaning": "性格、登場人物",
     "example": "He has a strong character.",
     "exampleJa": "彼は強い性格をしている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 229
   },
   {
     "id": 33,
@@ -294,7 +326,8 @@
     "meaning": "安い",
     "example": "This restaurant is cheap and delicious.",
     "exampleJa": "このレストランは安くて美味しい。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 34,
@@ -303,7 +336,8 @@
     "meaning": "応援する、励ます",
     "example": "We cheered for our team.",
     "exampleJa": "私たちはチームを応援した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 129
   },
   {
     "id": 35,
@@ -312,7 +346,8 @@
     "meaning": "選択",
     "example": "You have made a good choice.",
     "exampleJa": "あなたは良い選択をした。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 36,
@@ -321,7 +356,8 @@
     "meaning": "快適さ、慰める",
     "example": "She comforted the crying child.",
     "exampleJa": "彼女は泣いている子供を慰めた。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 37,
@@ -330,7 +366,8 @@
     "meaning": "共通の、普通の",
     "example": "It's a common mistake among beginners.",
     "exampleJa": "それは初心者によくある間違いだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 265
   },
   {
     "id": 38,
@@ -339,7 +376,8 @@
     "meaning": "地域社会",
     "example": "He is active in the local community.",
     "exampleJa": "彼は地域社会で活発に活動している。",
-    "level": 1
+    "level": 1,
+    "leapNo": 497
   },
   {
     "id": 39,
@@ -348,7 +386,8 @@
     "meaning": "比較する",
     "example": "Let's compare the two products.",
     "exampleJa": "その2つの商品を比較しよう。",
-    "level": 1
+    "level": 1,
+    "leapNo": 195
   },
   {
     "id": 40,
@@ -357,7 +396,8 @@
     "meaning": "不平を言う",
     "example": "She complained about the noise.",
     "exampleJa": "彼女は騒音について不満を言った。",
-    "level": 1
+    "level": 1,
+    "leapNo": 9
   },
   {
     "id": 41,
@@ -366,7 +406,8 @@
     "meaning": "完成させる、完全な",
     "example": "He completed the project on time.",
     "exampleJa": "彼はそのプロジェクトを期限内に完成させた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 388
   },
   {
     "id": 42,
@@ -375,7 +416,8 @@
     "meaning": "心配、関係する",
     "example": "Pollution is a major concern.",
     "exampleJa": "汚染は大きな懸念事項だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 43,
@@ -384,7 +426,8 @@
     "meaning": "自信",
     "example": "She answered with confidence.",
     "exampleJa": "彼女は自信を持って答えた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 971
   },
   {
     "id": 44,
@@ -393,7 +436,8 @@
     "meaning": "つなぐ",
     "example": "This bridge connects the two islands.",
     "exampleJa": "この橋は2つの島をつないでいる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 552
   },
   {
     "id": 45,
@@ -402,7 +446,8 @@
     "meaning": "考慮する",
     "example": "Please consider my proposal.",
     "exampleJa": "私の提案を考慮してください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 191
   },
   {
     "id": 46,
@@ -411,7 +456,8 @@
     "meaning": "含む",
     "example": "This drink contains a lot of sugar.",
     "exampleJa": "この飲み物には多くの糖分が含まれている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 163
   },
   {
     "id": 47,
@@ -420,7 +466,8 @@
     "meaning": "続ける",
     "example": "Please continue your story.",
     "exampleJa": "あなたの話を続けてください。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 48,
@@ -429,7 +476,8 @@
     "meaning": "正しい、訂正する",
     "example": "Check your answer is correct.",
     "exampleJa": "あなたの答えが正しいか確認しなさい。",
-    "level": 1
+    "level": 1,
+    "leapNo": 236
   },
   {
     "id": 49,
@@ -438,7 +486,8 @@
     "meaning": "勇気",
     "example": "It takes courage to admit a mistake.",
     "exampleJa": "間違いを認めるには勇気がいる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 972
   },
   {
     "id": 50,
@@ -447,7 +496,8 @@
     "meaning": "創造する",
     "example": "Artists create beautiful works.",
     "exampleJa": "芸術家は美しい作品を創造する。",
-    "level": 1
+    "level": 1,
+    "leapNo": 44
   },
   {
     "id": 51,
@@ -456,7 +506,8 @@
     "meaning": "海外へ、海外で",
     "example": "She wants to study abroad next year.",
     "exampleJa": "彼女は来年海外留学したいと思っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 72
   },
   {
     "id": 52,
@@ -465,7 +516,8 @@
     "meaning": "絶対的な",
     "example": "There is no absolute answer to this question.",
     "exampleJa": "この問いに絶対的な答えはない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1384
   },
   {
     "id": 53,
@@ -474,7 +526,8 @@
     "meaning": "学問の",
     "example": "He has a strong academic background.",
     "exampleJa": "彼は強い学歴的背景を持っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 54,
@@ -483,7 +536,8 @@
     "meaning": "同行する",
     "example": "A nurse accompanied the patient.",
     "exampleJa": "看護師がその患者に付き添った。",
-    "level": 2
+    "level": 2,
+    "leapNo": 587
   },
   {
     "id": 55,
@@ -492,7 +546,8 @@
     "meaning": "成し遂げる",
     "example": "They accomplished their goal together.",
     "exampleJa": "彼らは一緒に目標を成し遂げた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 436
   },
   {
     "id": 56,
@@ -501,7 +556,8 @@
     "meaning": "正確な",
     "example": "The forecast was surprisingly accurate.",
     "exampleJa": "その予報は驚くほど正確だった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 755
   },
   {
     "id": 57,
@@ -510,7 +566,8 @@
     "meaning": "認める",
     "example": "He acknowledged his mistake.",
     "exampleJa": "彼は自分の間違いを認めた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1216
   },
   {
     "id": 58,
@@ -519,7 +576,8 @@
     "meaning": "習得する、獲得する",
     "example": "Children acquire language naturally.",
     "exampleJa": "子供は自然に言語を習得する。",
-    "level": 2
+    "level": 2,
+    "leapNo": 673
   },
   {
     "id": 59,
@@ -528,7 +586,8 @@
     "meaning": "適応する",
     "example": "Animals adapt to their environment.",
     "exampleJa": "動物は環境に適応する。",
-    "level": 2
+    "level": 2,
+    "leapNo": 845
   },
   {
     "id": 60,
@@ -537,7 +596,8 @@
     "meaning": "十分な",
     "example": "We don't have adequate time to prepare.",
     "exampleJa": "準備する十分な時間がない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1984
   },
   {
     "id": 61,
@@ -546,7 +606,8 @@
     "meaning": "調整する",
     "example": "Please adjust the volume.",
     "exampleJa": "音量を調整してください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 282
   },
   {
     "id": 62,
@@ -555,7 +616,8 @@
     "meaning": "採用する、養子にする",
     "example": "The company adopted a new policy.",
     "exampleJa": "その会社は新しい方針を採用した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 638
   },
   {
     "id": 63,
@@ -564,7 +626,8 @@
     "meaning": "進歩、前進する",
     "example": "Technology continues to advance rapidly.",
     "exampleJa": "技術は急速に進歩し続けている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 590
   },
   {
     "id": 64,
@@ -573,7 +636,8 @@
     "meaning": "利点",
     "example": "Living near the station has many advantages.",
     "exampleJa": "駅の近くに住むことには多くの利点がある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 233
   },
   {
     "id": 65,
@@ -582,7 +646,8 @@
     "meaning": "攻撃的な、積極的な",
     "example": "He took an aggressive approach to sales.",
     "exampleJa": "彼は営業に積極的な姿勢で臨んだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 741
   },
   {
     "id": 66,
@@ -591,7 +656,8 @@
     "meaning": "変える",
     "example": "They altered their plan at the last minute.",
     "exampleJa": "彼らは直前に計画を変更した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1591
   },
   {
     "id": 67,
@@ -600,7 +666,8 @@
     "meaning": "代わりの手段、代替の",
     "example": "We need to find an alternative solution.",
     "exampleJa": "代わりの解決策を見つける必要がある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 866
   },
   {
     "id": 68,
@@ -609,7 +676,8 @@
     "meaning": "分析する",
     "example": "Scientists analyzed the data carefully.",
     "exampleJa": "科学者たちはそのデータを注意深く分析した。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 69,
@@ -618,7 +686,8 @@
     "meaning": "予期する",
     "example": "We anticipate a busy weekend.",
     "exampleJa": "私たちは忙しい週末を予期している。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1700
   },
   {
     "id": 70,
@@ -627,7 +696,8 @@
     "meaning": "明らかな",
     "example": "It became apparent that he was lying.",
     "exampleJa": "彼が嘘をついていることが明らかになった。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 71,
@@ -636,7 +706,8 @@
     "meaning": "訴える、魅力",
     "example": "The idea appeals to young people.",
     "exampleJa": "その考えは若者に訴えかける。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1164
   },
   {
     "id": 72,
@@ -645,7 +716,8 @@
     "meaning": "適切な",
     "example": "Wear appropriate clothes for the interview.",
     "exampleJa": "面接には適切な服装をしなさい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 239
   },
   {
     "id": 73,
@@ -654,7 +726,8 @@
     "meaning": "おおよその",
     "example": "Give me an approximate number.",
     "exampleJa": "おおよその数字を教えてください。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 74,
@@ -663,7 +736,8 @@
     "meaning": "議論する、主張する",
     "example": "They argued about the best solution.",
     "exampleJa": "彼らは最善の解決策について議論した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 7
   },
   {
     "id": 75,
@@ -672,7 +746,8 @@
     "meaning": "側面",
     "example": "Consider every aspect of the problem.",
     "exampleJa": "問題のあらゆる側面を考慮しなさい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 546
   },
   {
     "id": 76,
@@ -681,7 +756,8 @@
     "meaning": "主張する",
     "example": "She asserted her opinion firmly.",
     "exampleJa": "彼女は自分の意見をきっぱりと主張した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1401
   },
   {
     "id": 77,
@@ -690,7 +766,8 @@
     "meaning": "評価する",
     "example": "The teacher assessed each student's progress.",
     "exampleJa": "教師は各生徒の進歩を評価した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1707
   },
   {
     "id": 78,
@@ -699,7 +776,8 @@
     "meaning": "割り当てる",
     "example": "The teacher assigned homework to us.",
     "exampleJa": "先生は私たちに宿題を割り当てた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 530
   },
   {
     "id": 79,
@@ -708,7 +786,8 @@
     "meaning": "関連付ける",
     "example": "People associate this color with calmness.",
     "exampleJa": "人々はこの色を穏やかさと結びつける。",
-    "level": 2
+    "level": 2,
+    "leapNo": 554
   },
   {
     "id": 80,
@@ -717,7 +796,8 @@
     "meaning": "想定する",
     "example": "Don't assume you already know the answer.",
     "exampleJa": "すでに答えを知っていると思い込まないで。",
-    "level": 2
+    "level": 2,
+    "leapNo": 686
   },
   {
     "id": 81,
@@ -726,7 +806,8 @@
     "meaning": "保証する",
     "example": "I assure you everything will be fine.",
     "exampleJa": "すべてうまくいくと保証します。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1706
   },
   {
     "id": 82,
@@ -735,7 +816,8 @@
     "meaning": "達成する",
     "example": "She attained her long-term goal.",
     "exampleJa": "彼女は長年の目標を達成した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1028
   },
   {
     "id": 83,
@@ -744,7 +826,8 @@
     "meaning": "態度",
     "example": "He has a positive attitude toward life.",
     "exampleJa": "彼は人生に対して前向きな態度を持っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 228
   },
   {
     "id": 84,
@@ -753,7 +836,8 @@
     "meaning": "〜のせいにする、特質",
     "example": "She attributed her success to hard work.",
     "exampleJa": "彼女は自分の成功を努力のおかげだとした。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1947
   },
   {
     "id": 85,
@@ -762,7 +846,8 @@
     "meaning": "権威、当局",
     "example": "He speaks with authority on the subject.",
     "exampleJa": "彼はその話題について権威を持って話す。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1058
   },
   {
     "id": 86,
@@ -771,7 +856,8 @@
     "meaning": "利用可能な",
     "example": "This seat is available now.",
     "exampleJa": "この席は今空いている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 800
   },
   {
     "id": 87,
@@ -780,7 +866,8 @@
     "meaning": "障壁",
     "example": "Language can be a barrier to communication.",
     "exampleJa": "言語はコミュニケーションの障壁になりうる。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 88,
@@ -789,7 +876,8 @@
     "meaning": "有益な",
     "example": "Regular exercise is beneficial for health.",
     "exampleJa": "定期的な運動は健康に有益だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 89,
@@ -798,7 +886,8 @@
     "meaning": "簡潔な、短い",
     "example": "He gave a brief explanation.",
     "exampleJa": "彼は簡潔な説明をした。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1285
   },
   {
     "id": 90,
@@ -807,7 +896,8 @@
     "meaning": "容量、能力",
     "example": "The hall has a capacity of 500 people.",
     "exampleJa": "そのホールは500人収容できる。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1026
   },
   {
     "id": 91,
@@ -816,7 +906,8 @@
     "meaning": "分野、部類",
     "example": "This book falls into the fiction category.",
     "exampleJa": "この本はフィクションの部類に入る。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1294
   },
   {
     "id": 92,
@@ -825,7 +916,8 @@
     "meaning": "状況",
     "example": "Under no circumstance should you leave.",
     "exampleJa": "いかなる状況でも去るべきではない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1330
   },
   {
     "id": 93,
@@ -834,7 +926,8 @@
     "meaning": "市民の",
     "example": "They fought for civil rights.",
     "exampleJa": "彼らは市民権のために戦った。",
-    "level": 2
+    "level": 2,
+    "leapNo": 472
   },
   {
     "id": 94,
@@ -843,7 +936,8 @@
     "meaning": "明確にする",
     "example": "Could you clarify what you mean?",
     "exampleJa": "あなたが言いたいことを明確にしてもらえますか。",
-    "level": 2
+    "level": 2,
+    "leapNo": 938
   },
   {
     "id": 95,
@@ -852,7 +946,8 @@
     "meaning": "分類する",
     "example": "Animals are classified into groups.",
     "exampleJa": "動物はグループに分類される。",
-    "level": 2
+    "level": 2,
+    "leapNo": 681
   },
   {
     "id": 96,
@@ -861,7 +956,8 @@
     "meaning": "崩壊する",
     "example": "The old bridge collapsed during the storm.",
     "exampleJa": "古い橋は嵐の間に崩壊した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1607
   },
   {
     "id": 97,
@@ -870,7 +966,8 @@
     "meaning": "意見、コメントする",
     "example": "He made a positive comment on my work.",
     "exampleJa": "彼は私の作品に好意的なコメントをした。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 98,
@@ -879,7 +976,8 @@
     "meaning": "委ねる、約束する",
     "example": "She committed herself to the project.",
     "exampleJa": "彼女はそのプロジェクトに専念した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 694
   },
   {
     "id": 99,
@@ -888,7 +986,8 @@
     "meaning": "補う、補償する",
     "example": "The company compensated for the damage.",
     "exampleJa": "会社はその損害を補償した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1463
   },
   {
     "id": 100,
@@ -897,7 +996,8 @@
     "meaning": "複雑な",
     "example": "The issue is more complex than it looks.",
     "exampleJa": "その問題は見た目より複雑だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 767
   },
   {
     "id": 101,
@@ -906,7 +1006,8 @@
     "meaning": "廃止する",
     "example": "The law was finally abolished last year.",
     "exampleJa": "その法律は昨年ついに廃止された。",
-    "level": 3
+    "level": 3,
+    "leapNo": 504
   },
   {
     "id": 102,
@@ -915,7 +1016,8 @@
     "meaning": "突然の",
     "example": "His abrupt departure surprised everyone.",
     "exampleJa": "彼の突然の退出はみんなを驚かせた。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 103,
@@ -924,7 +1026,8 @@
     "meaning": "吸収する",
     "example": "Plants absorb water through their roots.",
     "exampleJa": "植物は根から水を吸収する。",
-    "level": 3
+    "level": 3,
+    "leapNo": 944
   },
   {
     "id": 104,
@@ -933,7 +1036,8 @@
     "meaning": "豊富な",
     "example": "The region has abundant natural resources.",
     "exampleJa": "その地域は豊富な天然資源を持つ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1861
   },
   {
     "id": 105,
@@ -942,7 +1046,8 @@
     "meaning": "加速する",
     "example": "The car accelerated suddenly.",
     "exampleJa": "車は突然加速した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1598
   },
   {
     "id": 106,
@@ -951,7 +1056,8 @@
     "meaning": "利用しやすい",
     "example": "The website should be accessible to everyone.",
     "exampleJa": "そのウェブサイトは誰にでも使いやすくあるべきだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 107,
@@ -960,7 +1066,8 @@
     "meaning": "収容する、適応させる",
     "example": "The hotel can accommodate 300 guests.",
     "exampleJa": "そのホテルは300人の宿泊客を収容できる。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 108,
@@ -969,7 +1076,8 @@
     "meaning": "蓄積する",
     "example": "Dust accumulated on the shelf over time.",
     "exampleJa": "棚には時間とともに埃が積もった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1859
   },
   {
     "id": 109,
@@ -978,7 +1086,8 @@
     "meaning": "固執する、順守する",
     "example": "You must adhere to the rules.",
     "exampleJa": "あなたは規則を順守しなければならない。",
-    "level": 3
+    "level": 3,
+    "leapNo": 2015
   },
   {
     "id": 110,
@@ -987,7 +1096,8 @@
     "meaning": "不利な、逆の",
     "example": "The drug has some adverse effects.",
     "exampleJa": "その薬にはいくつかの副作用がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1820
   },
   {
     "id": 111,
@@ -996,7 +1106,8 @@
     "meaning": "美的な",
     "example": "The design has great aesthetic value.",
     "exampleJa": "そのデザインには大きな美的価値がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1968
   },
   {
     "id": 112,
@@ -1005,7 +1116,8 @@
     "meaning": "割り当てる",
     "example": "The budget was allocated to each department.",
     "exampleJa": "予算は各部門に割り当てられた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1665
   },
   {
     "id": 113,
@@ -1014,7 +1126,8 @@
     "meaning": "相反する感情を持つ",
     "example": "She felt ambivalent about the decision.",
     "exampleJa": "彼女はその決定について複雑な思いを抱いた。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 114,
@@ -1023,7 +1136,8 @@
     "meaning": "修正する",
     "example": "The committee decided to amend the rule.",
     "exampleJa": "委員会はその規則を修正することにした。",
-    "level": 3
+    "level": 3,
+    "leapNo": 2034
   },
   {
     "id": 115,
@@ -1032,7 +1146,8 @@
     "meaning": "類似した",
     "example": "The situation is analogous to what happened last year.",
     "exampleJa": "その状況は昨年起きたことと類似している。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 116,
@@ -1041,7 +1156,8 @@
     "meaning": "異常、例外",
     "example": "Scientists noticed an anomaly in the data.",
     "exampleJa": "科学者たちはデータの中に異常を見つけた。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 117,
@@ -1050,7 +1166,8 @@
     "meaning": "はっきり述べる、明瞭な",
     "example": "He articulated his ideas clearly.",
     "exampleJa": "彼は自分の考えをはっきりと述べた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1408
   },
   {
     "id": 118,
@@ -1059,7 +1176,8 @@
     "meaning": "確かめる",
     "example": "We need to ascertain the facts first.",
     "exampleJa": "まず事実を確かめる必要がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 119,
@@ -1068,7 +1186,8 @@
     "meaning": "同化する",
     "example": "Immigrants often assimilate into the culture.",
     "exampleJa": "移民はしばしばその文化に同化する。",
-    "level": 3
+    "level": 3,
+    "leapNo": 2068
   },
   {
     "id": 120,
@@ -1077,7 +1196,8 @@
     "meaning": "増強する",
     "example": "The company augmented its workforce.",
     "exampleJa": "その会社は労働力を増強した。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 121,
@@ -1086,7 +1206,8 @@
     "meaning": "自律的な",
     "example": "The region became politically autonomous.",
     "exampleJa": "その地域は政治的に自治権を得た。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 122,
@@ -1095,7 +1216,8 @@
     "meaning": "慈悲深い",
     "example": "He was known as a benevolent leader.",
     "exampleJa": "彼は慈悲深い指導者として知られていた。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 123,
@@ -1104,7 +1226,8 @@
     "meaning": "同時に起こる",
     "example": "The two events coincided by chance.",
     "exampleJa": "その2つの出来事は偶然同時に起きた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1681
   },
   {
     "id": 124,
@@ -1113,7 +1236,8 @@
     "meaning": "強制する",
     "example": "No one can coerce you into signing this.",
     "exampleJa": "誰もあなたにこれへの署名を強制できない。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 125,
@@ -1122,7 +1246,8 @@
     "meaning": "認知の",
     "example": "The study focuses on cognitive development.",
     "exampleJa": "その研究は認知発達に焦点を当てている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1714
   },
   {
     "id": 126,
@@ -1131,7 +1256,8 @@
     "meaning": "説得力のある",
     "example": "She gave a compelling argument.",
     "exampleJa": "彼女は説得力のある主張をした。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 127,
@@ -1140,7 +1266,8 @@
     "meaning": "順守",
     "example": "The factory operates in compliance with safety laws.",
     "exampleJa": "その工場は安全法に準拠して稼働している。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 128,
@@ -1149,7 +1276,8 @@
     "meaning": "理解する",
     "example": "It's hard to comprehend such a huge number.",
     "exampleJa": "そのような膨大な数を理解するのは難しい。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1710
   },
   {
     "id": 129,
@@ -1158,7 +1286,8 @@
     "meaning": "妥協",
     "example": "They reached a compromise after long talks.",
     "exampleJa": "彼らは長い話し合いの末に妥協に達した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1709
   },
   {
     "id": 130,
@@ -1167,7 +1296,8 @@
     "meaning": "隠す",
     "example": "He tried to conceal his disappointment.",
     "exampleJa": "彼は自分の失望を隠そうとした。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1676
   },
   {
     "id": 131,
@@ -1176,7 +1306,8 @@
     "meaning": "〜に役立つ",
     "example": "A quiet room is conducive to studying.",
     "exampleJa": "静かな部屋は勉強に適している。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 132,
@@ -1185,7 +1316,8 @@
     "meaning": "設定する",
     "example": "You need to configure the settings first.",
     "exampleJa": "まず設定を構成する必要がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 133,
@@ -1194,7 +1326,8 @@
     "meaning": "推測",
     "example": "His theory is based on pure conjecture.",
     "exampleJa": "彼の理論は単なる推測に基づいている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 2074
   },
   {
     "id": 134,
@@ -1203,7 +1336,8 @@
     "meaning": "含意",
     "example": "The word has a negative connotation.",
     "exampleJa": "その言葉には否定的な含みがある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 2194
   },
   {
     "id": 135,
@@ -1212,7 +1346,8 @@
     "meaning": "統合する",
     "example": "The two companies consolidated their operations.",
     "exampleJa": "その2社は業務を統合した。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 136,
@@ -1221,7 +1356,8 @@
     "meaning": "構成する",
     "example": "Women constitute half of the workforce.",
     "exampleJa": "女性は労働力の半分を構成している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1109
   },
   {
     "id": 137,
@@ -1230,7 +1366,8 @@
     "meaning": "熟考する",
     "example": "She contemplated her future career.",
     "exampleJa": "彼女は自分の将来の仕事について熟考した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 2073
   },
   {
     "id": 138,
@@ -1239,7 +1376,8 @@
     "meaning": "矛盾する",
     "example": "His statement contradicts the earlier report.",
     "exampleJa": "彼の発言は以前の報告と矛盾している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1548
   },
   {
     "id": 139,
@@ -1248,7 +1386,8 @@
     "meaning": "工夫して行う、企てる",
     "example": "She contrived a clever plan to escape.",
     "exampleJa": "彼女は逃げるための巧妙な計画を企てた。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 140,
@@ -1257,7 +1396,8 @@
     "meaning": "論争",
     "example": "The plan caused a lot of controversy.",
     "exampleJa": "その計画は多くの論争を引き起こした。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 141,
@@ -1266,7 +1406,8 @@
     "meaning": "従来の、慣習的な",
     "example": "They rejected conventional methods.",
     "exampleJa": "彼らは従来の方法を拒否した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1290
   },
   {
     "id": 142,
@@ -1275,7 +1416,8 @@
     "meaning": "相関する",
     "example": "Income tends to correlate with education level.",
     "exampleJa": "収入は教育レベルと相関する傾向がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 143,
@@ -1284,7 +1426,8 @@
     "meaning": "裏付ける",
     "example": "New evidence corroborated his story.",
     "exampleJa": "新たな証拠が彼の話を裏付けた。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 144,
@@ -1293,7 +1436,8 @@
     "meaning": "信頼できる",
     "example": "We need a credible source for this claim.",
     "exampleJa": "この主張には信頼できる情報源が必要だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 145,
@@ -1302,7 +1446,8 @@
     "meaning": "累積的な",
     "example": "The cumulative effect of small changes is huge.",
     "exampleJa": "小さな変化の累積的な効果は大きい。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 146,
@@ -1311,7 +1456,8 @@
     "meaning": "不足している",
     "example": "His diet is deficient in vitamins.",
     "exampleJa": "彼の食事はビタミンが不足している。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 147,
@@ -1320,7 +1466,8 @@
     "meaning": "意図的な、熟考する",
     "example": "It was a deliberate act, not an accident.",
     "exampleJa": "それは事故ではなく意図的な行為だった。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 148,
@@ -1329,7 +1476,8 @@
     "meaning": "使い果たす",
     "example": "Overfishing has depleted the fish population.",
     "exampleJa": "乱獲が魚の個体数を枯渇させた。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 149,
@@ -1338,7 +1486,8 @@
     "meaning": "奪う",
     "example": "Lack of sleep deprives you of energy.",
     "exampleJa": "睡眠不足はあなたからエネルギーを奪う。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1130
   },
   {
     "id": 150,
@@ -1347,7 +1496,8 @@
     "meaning": "引き出す、由来する",
     "example": "The word derives from Latin.",
     "exampleJa": "その単語はラテン語に由来する。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1184
   },
   {
     "id": 151,
@@ -1356,7 +1506,8 @@
     "meaning": "決める、決心する",
     "example": "She decided to study abroad.",
     "exampleJa": "彼女は留学することに決めた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 176
   },
   {
     "id": 152,
@@ -1365,7 +1516,8 @@
     "meaning": "減る、減少",
     "example": "The population is decreasing every year.",
     "exampleJa": "人口は毎年減少している。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 153,
@@ -1374,7 +1526,8 @@
     "meaning": "定義する",
     "example": "Please define this word.",
     "exampleJa": "この単語を定義してください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 928
   },
   {
     "id": 154,
@@ -1383,7 +1536,8 @@
     "meaning": "配達する、届ける",
     "example": "The company delivers pizza fast.",
     "exampleJa": "その会社はピザを素早く届ける。",
-    "level": 1
+    "level": 1,
+    "leapNo": 867
   },
   {
     "id": 155,
@@ -1392,7 +1546,8 @@
     "meaning": "要求する、要求",
     "example": "Workers demanded higher wages.",
     "exampleJa": "労働者はより高い賃金を要求した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 410
   },
   {
     "id": 156,
@@ -1401,7 +1556,8 @@
     "meaning": "頼る、次第である",
     "example": "It depends on the weather.",
     "exampleJa": "それは天気次第だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 357
   },
   {
     "id": 157,
@@ -1410,7 +1566,8 @@
     "meaning": "説明する",
     "example": "Can you describe the picture?",
     "exampleJa": "その絵を説明してもらえますか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 22
   },
   {
     "id": 158,
@@ -1419,7 +1576,8 @@
     "meaning": "望む、欲求",
     "example": "She desires a peaceful life.",
     "exampleJa": "彼女は平穏な生活を望んでいる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 411
   },
   {
     "id": 159,
@@ -1428,7 +1586,8 @@
     "meaning": "〜にもかかわらず",
     "example": "Despite the rain, they played outside.",
     "exampleJa": "雨にもかかわらず彼らは外で遊んだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 1000
   },
   {
     "id": 160,
@@ -1437,7 +1596,8 @@
     "meaning": "破壊する",
     "example": "The fire destroyed the building.",
     "exampleJa": "火事はその建物を破壊した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 102
   },
   {
     "id": 161,
@@ -1446,7 +1606,8 @@
     "meaning": "詳細",
     "example": "Please explain in detail.",
     "exampleJa": "詳しく説明してください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 232
   },
   {
     "id": 162,
@@ -1455,7 +1616,8 @@
     "meaning": "決定する",
     "example": "The result determines our next step.",
     "exampleJa": "結果が私たちの次の一歩を決める。",
-    "level": 1
+    "level": 1,
+    "leapNo": 678
   },
   {
     "id": 163,
@@ -1464,7 +1626,8 @@
     "meaning": "発達させる",
     "example": "The city developed rapidly.",
     "exampleJa": "その都市は急速に発展した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 34
   },
   {
     "id": 164,
@@ -1473,7 +1636,8 @@
     "meaning": "装置",
     "example": "This device measures temperature.",
     "exampleJa": "この装置は温度を測る。",
-    "level": 1
+    "level": 1,
+    "leapNo": 429
   },
   {
     "id": 165,
@@ -1482,7 +1646,8 @@
     "meaning": "異なる",
     "example": "Opinions differ from person to person.",
     "exampleJa": "意見は人によって異なる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 262
   },
   {
     "id": 166,
@@ -1491,7 +1656,8 @@
     "meaning": "難しい",
     "example": "The exam was very difficult.",
     "exampleJa": "その試験はとても難しかった。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 167,
@@ -1500,7 +1666,8 @@
     "meaning": "直接の、指導する",
     "example": "She directs the school play.",
     "exampleJa": "彼女は学校の演劇を演出する。",
-    "level": 1
+    "level": 1,
+    "leapNo": 259
   },
   {
     "id": 168,
@@ -1509,7 +1676,8 @@
     "meaning": "消える",
     "example": "The sun disappeared behind the clouds.",
     "exampleJa": "太陽は雲の後ろに消えた。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 169,
@@ -1518,7 +1686,8 @@
     "meaning": "発見する",
     "example": "He discovered a new star.",
     "exampleJa": "彼は新しい星を発見した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 33
   },
   {
     "id": 170,
@@ -1527,7 +1696,8 @@
     "meaning": "話し合う",
     "example": "Let's discuss the plan tomorrow.",
     "exampleJa": "明日その計画について話し合おう。",
-    "level": 1
+    "level": 1,
+    "leapNo": 5
   },
   {
     "id": 171,
@@ -1536,7 +1706,8 @@
     "meaning": "距離",
     "example": "The distance to the station is short.",
     "exampleJa": "駅までの距離は短い。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 172,
@@ -1545,7 +1716,8 @@
     "meaning": "疑い、疑う",
     "example": "I doubt he will come.",
     "exampleJa": "彼が来るかどうか疑わしい。",
-    "level": 1
+    "level": 1,
+    "leapNo": 695
   },
   {
     "id": 173,
@@ -1554,7 +1726,8 @@
     "meaning": "予定されて",
     "example": "The bus is due at noon.",
     "exampleJa": "バスは正午に到着予定だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 375
   },
   {
     "id": 174,
@@ -1563,7 +1736,8 @@
     "meaning": "義務",
     "example": "It's our duty to help others.",
     "exampleJa": "他人を助けるのは私たちの義務だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 507
   },
   {
     "id": 175,
@@ -1572,7 +1746,8 @@
     "meaning": "熱望して",
     "example": "She is eager to learn English.",
     "exampleJa": "彼女は英語を学びたがっている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 739
   },
   {
     "id": 176,
@@ -1581,7 +1756,8 @@
     "meaning": "稼ぐ",
     "example": "He earns a good salary.",
     "exampleJa": "彼はよい給料を稼いでいる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 98
   },
   {
     "id": 177,
@@ -1590,7 +1766,8 @@
     "meaning": "効果",
     "example": "The medicine had no effect.",
     "exampleJa": "その薬は効果がなかった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 378
   },
   {
     "id": 178,
@@ -1599,7 +1776,8 @@
     "meaning": "努力",
     "example": "She made a great effort to pass.",
     "exampleJa": "彼女は合格するために大変な努力をした。",
-    "level": 1
+    "level": 1,
+    "leapNo": 38
   },
   {
     "id": 179,
@@ -1608,7 +1786,8 @@
     "meaning": "どちらか",
     "example": "You can choose either option.",
     "exampleJa": "どちらの選択肢を選んでもいい。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 180,
@@ -1617,7 +1796,8 @@
     "meaning": "年上の",
     "example": "He is my elder brother.",
     "exampleJa": "彼は私の兄だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 181,
@@ -1626,7 +1806,8 @@
     "meaning": "恥ずかしい思いをさせる",
     "example": "The question embarrassed him.",
     "exampleJa": "その質問は彼を困惑させた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 956
   },
   {
     "id": 182,
@@ -1635,7 +1816,8 @@
     "meaning": "緊急事態",
     "example": "Call 119 in an emergency.",
     "exampleJa": "緊急時は119番に電話しなさい。",
-    "level": 1
+    "level": 1,
+    "leapNo": 848
   },
   {
     "id": 183,
@@ -1644,7 +1826,8 @@
     "meaning": "感情",
     "example": "She hid her emotions.",
     "exampleJa": "彼女は感情を隠した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 968
   },
   {
     "id": 184,
@@ -1653,7 +1836,8 @@
     "meaning": "励ます",
     "example": "The teacher encouraged the students.",
     "exampleJa": "先生は生徒たちを励ました。",
-    "level": 1
+    "level": 1,
+    "leapNo": 130
   },
   {
     "id": 185,
@@ -1662,7 +1846,8 @@
     "meaning": "エネルギー",
     "example": "We need clean energy.",
     "exampleJa": "私たちはクリーンなエネルギーが必要だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 186,
@@ -1671,7 +1856,8 @@
     "meaning": "従事する、引き込む",
     "example": "The book engaged my attention.",
     "exampleJa": "その本は私の関心を引きつけた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 617
   },
   {
     "id": 187,
@@ -1680,7 +1866,8 @@
     "meaning": "楽しむ",
     "example": "They enjoyed the concert.",
     "exampleJa": "彼らはコンサートを楽しんだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 188,
@@ -1689,7 +1876,8 @@
     "meaning": "巨大な",
     "example": "They live in an enormous house.",
     "exampleJa": "彼らは巨大な家に住んでいる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 842
   },
   {
     "id": 189,
@@ -1698,7 +1886,8 @@
     "meaning": "全体の",
     "example": "She read the entire book.",
     "exampleJa": "彼女はその本を全部読んだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 1387
   },
   {
     "id": 190,
@@ -1707,7 +1896,8 @@
     "meaning": "環境",
     "example": "We must protect the environment.",
     "exampleJa": "私たちは環境を守らなければならない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 711
   },
   {
     "id": 191,
@@ -1716,7 +1906,8 @@
     "meaning": "等しい",
     "example": "All people are equal.",
     "exampleJa": "すべての人は平等だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 482
   },
   {
     "id": 192,
@@ -1725,7 +1916,8 @@
     "meaning": "逃げる",
     "example": "The bird escaped from the cage.",
     "exampleJa": "鳥はかごから逃げた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 639
   },
   {
     "id": 193,
@@ -1734,7 +1926,8 @@
     "meaning": "特に",
     "example": "I like fruits, especially apples.",
     "exampleJa": "私は果物が好きだ、特にりんごが。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 194,
@@ -1743,7 +1936,8 @@
     "meaning": "設立する",
     "example": "The company was established in 1990.",
     "exampleJa": "その会社は1990年に設立された。",
-    "level": 1
+    "level": 1,
+    "leapNo": 45
   },
   {
     "id": 195,
@@ -1752,7 +1946,8 @@
     "meaning": "見積もる、見積もり",
     "example": "They estimated the cost.",
     "exampleJa": "彼らは費用を見積もった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 682
   },
   {
     "id": 196,
@@ -1761,7 +1956,8 @@
     "meaning": "出来事",
     "example": "The wedding was a happy event.",
     "exampleJa": "その結婚式は幸せな出来事だった。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 197,
@@ -1770,7 +1966,8 @@
     "meaning": "最終的に",
     "example": "Eventually, she found the answer.",
     "exampleJa": "最終的に彼女は答えを見つけた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 991
   },
   {
     "id": 198,
@@ -1779,7 +1976,8 @@
     "meaning": "証拠",
     "example": "There is no evidence for this.",
     "exampleJa": "これには証拠がない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 79
   },
   {
     "id": 199,
@@ -1788,7 +1986,8 @@
     "meaning": "正確な",
     "example": "Tell me the exact time.",
     "exampleJa": "正確な時刻を教えてください。",
-    "level": 1
+    "level": 1,
+    "leapNo": null
   },
   {
     "id": 200,
@@ -1797,7 +1996,8 @@
     "meaning": "調べる",
     "example": "The doctor examined the patient.",
     "exampleJa": "医者は患者を診察した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 670
   },
   {
     "id": 201,
@@ -1806,7 +2006,8 @@
     "meaning": "交換する",
     "example": "They exchanged phone numbers.",
     "exampleJa": "彼らは電話番号を交換した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 863
   },
   {
     "id": 202,
@@ -1815,7 +2016,8 @@
     "meaning": "興奮させる",
     "example": "The news excited everyone.",
     "exampleJa": "その知らせはみんなを興奮させた。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 203,
@@ -1824,7 +2026,8 @@
     "meaning": "存在する",
     "example": "Does life exist on Mars?",
     "exampleJa": "火星に生命は存在するのか。",
-    "level": 2
+    "level": 2,
+    "leapNo": 660
   },
   {
     "id": 204,
@@ -1833,7 +2036,8 @@
     "meaning": "拡大する",
     "example": "The company expanded overseas.",
     "exampleJa": "その会社は海外に事業を拡大した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 607
   },
   {
     "id": 205,
@@ -1842,7 +2046,8 @@
     "meaning": "予期する",
     "example": "We expect rain tomorrow.",
     "exampleJa": "明日は雨が降ると予想している。",
-    "level": 2
+    "level": 2,
+    "leapNo": 184
   },
   {
     "id": 206,
@@ -1851,7 +2056,8 @@
     "meaning": "経験、経験する",
     "example": "She has a lot of experience.",
     "exampleJa": "彼女は多くの経験を持っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 289
   },
   {
     "id": 207,
@@ -1860,7 +2066,8 @@
     "meaning": "実験",
     "example": "They did a science experiment.",
     "exampleJa": "彼らは科学実験をした。",
-    "level": 2
+    "level": 2,
+    "leapNo": 430
   },
   {
     "id": 208,
@@ -1869,7 +2076,8 @@
     "meaning": "説明する",
     "example": "Please explain the rule.",
     "exampleJa": "そのルールを説明してください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 21
   },
   {
     "id": 209,
@@ -1878,7 +2086,8 @@
     "meaning": "探検する",
     "example": "They explored the old castle.",
     "exampleJa": "彼らはその古い城を探検した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 154
   },
   {
     "id": 210,
@@ -1887,7 +2096,8 @@
     "meaning": "さらす",
     "example": "Don't expose the film to light.",
     "exampleJa": "フィルムを光にさらしてはいけない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 649
   },
   {
     "id": 211,
@@ -1896,7 +2106,8 @@
     "meaning": "伸ばす",
     "example": "They extended the deadline.",
     "exampleJa": "彼らは締め切りを延長した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 608
   },
   {
     "id": 212,
@@ -1905,7 +2116,8 @@
     "meaning": "追加の",
     "example": "There is an extra chair.",
     "exampleJa": "予備の椅子が一つある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 279
   },
   {
     "id": 213,
@@ -1914,7 +2126,8 @@
     "meaning": "極端な",
     "example": "He has extreme opinions.",
     "exampleJa": "彼は極端な意見を持っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 214,
@@ -1923,7 +2136,8 @@
     "meaning": "事実",
     "example": "That is an important fact.",
     "exampleJa": "それは重要な事実だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 215,
@@ -1932,7 +2146,8 @@
     "meaning": "要因",
     "example": "Price is a key factor.",
     "exampleJa": "価格は重要な要因だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1981
   },
   {
     "id": 216,
@@ -1941,7 +2156,8 @@
     "meaning": "失敗する",
     "example": "He failed the test.",
     "exampleJa": "彼は試験に落ちた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 137
   },
   {
     "id": 217,
@@ -1950,7 +2166,8 @@
     "meaning": "公平な",
     "example": "The judge was fair.",
     "exampleJa": "裁判官は公平だった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 238
   },
   {
     "id": 218,
@@ -1959,7 +2176,8 @@
     "meaning": "よく知られた",
     "example": "This song sounds familiar.",
     "exampleJa": "この歌は聞き覚えがある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 260
   },
   {
     "id": 219,
@@ -1968,7 +2186,8 @@
     "meaning": "締める",
     "example": "Please fasten your seatbelt.",
     "exampleJa": "シートベルトを締めてください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 612
   },
   {
     "id": 220,
@@ -1977,7 +2196,8 @@
     "meaning": "欠点、責任",
     "example": "It's not your fault.",
     "exampleJa": "あなたのせいではない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 234
   },
   {
     "id": 221,
@@ -1986,7 +2206,8 @@
     "meaning": "好意",
     "example": "Could you do me a favor?",
     "exampleJa": "お願いを聞いてもらえますか。",
-    "level": 2
+    "level": 2,
+    "leapNo": 372
   },
   {
     "id": 222,
@@ -1995,7 +2216,8 @@
     "meaning": "特徴",
     "example": "This phone has many features.",
     "exampleJa": "この電話には多くの機能がある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 231
   },
   {
     "id": 223,
@@ -2004,7 +2226,8 @@
     "meaning": "料金",
     "example": "The entrance fee is 500 yen.",
     "exampleJa": "入場料は500円だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 89
   },
   {
     "id": 224,
@@ -2013,7 +2236,8 @@
     "meaning": "女性の",
     "example": "The female staff wore uniforms.",
     "exampleJa": "女性スタッフは制服を着ていた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 114
   },
   {
     "id": 225,
@@ -2022,7 +2246,8 @@
     "meaning": "柵",
     "example": "A fence surrounds the garden.",
     "exampleJa": "柵が庭を囲んでいる。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 226,
@@ -2031,7 +2256,8 @@
     "meaning": "小説、フィクション",
     "example": "She writes science fiction.",
     "exampleJa": "彼女はSF小説を書く。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 227,
@@ -2040,7 +2266,8 @@
     "meaning": "分野、畑",
     "example": "He works in the field of medicine.",
     "exampleJa": "彼は医学の分野で働いている。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 228,
@@ -2049,7 +2276,8 @@
     "meaning": "数字、人物",
     "example": "Look at the sales figures.",
     "exampleJa": "売上高を見てください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 277
   },
   {
     "id": 229,
@@ -2058,7 +2286,8 @@
     "meaning": "財政",
     "example": "She studies finance at college.",
     "exampleJa": "彼女は大学で財政学を学んでいる。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 230,
@@ -2067,7 +2296,8 @@
     "meaning": "終える",
     "example": "They finished the project.",
     "exampleJa": "彼らはそのプロジェクトを終えた。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 231,
@@ -2076,7 +2306,8 @@
     "meaning": "柔軟な",
     "example": "We need a flexible schedule.",
     "exampleJa": "私たちには柔軟な予定が必要だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 782
   },
   {
     "id": 232,
@@ -2085,7 +2316,8 @@
     "meaning": "集中する",
     "example": "Focus on your work.",
     "exampleJa": "仕事に集中しなさい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 197
   },
   {
     "id": 233,
@@ -2094,7 +2326,8 @@
     "meaning": "禁じる",
     "example": "Smoking is forbidden here.",
     "exampleJa": "ここでは喫煙が禁じられている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 597
   },
   {
     "id": 234,
@@ -2103,7 +2336,8 @@
     "meaning": "予報",
     "example": "The forecast says it will rain.",
     "exampleJa": "予報では雨が降るそうだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 723
   },
   {
     "id": 235,
@@ -2112,7 +2346,8 @@
     "meaning": "外国の",
     "example": "She studies a foreign language.",
     "exampleJa": "彼女は外国語を学んでいる。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 236,
@@ -2121,7 +2356,8 @@
     "meaning": "永遠に",
     "example": "Nothing lasts forever.",
     "exampleJa": "永遠に続くものはない。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 237,
@@ -2130,7 +2366,8 @@
     "meaning": "許す",
     "example": "She forgave her friend.",
     "exampleJa": "彼女は友人を許した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 697
   },
   {
     "id": 238,
@@ -2139,7 +2376,8 @@
     "meaning": "形、形成する",
     "example": "Ice forms in cold weather.",
     "exampleJa": "氷は寒い時にできる。",
-    "level": 2
+    "level": 2,
+    "leapNo": 46
   },
   {
     "id": 239,
@@ -2148,7 +2386,8 @@
     "meaning": "正式な",
     "example": "Wear formal clothes to the party.",
     "exampleJa": "パーティーには正装で来てください。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 240,
@@ -2157,7 +2396,8 @@
     "meaning": "以前の",
     "example": "The former president spoke today.",
     "exampleJa": "前大統領が今日話した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 855
   },
   {
     "id": 241,
@@ -2166,7 +2406,8 @@
     "meaning": "運、財産",
     "example": "She made a fortune in business.",
     "exampleJa": "彼女は商売で財を成した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1094
   },
   {
     "id": 242,
@@ -2175,7 +2416,8 @@
     "meaning": "頻繁な",
     "example": "Frequent buses run here.",
     "exampleJa": "ここでは頻繁にバスが走っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 243,
@@ -2184,7 +2426,8 @@
     "meaning": "友好的な",
     "example": "The staff were very friendly.",
     "exampleJa": "スタッフはとても親切だった。",
-    "level": 2
+    "level": 2,
+    "leapNo": null
   },
   {
     "id": 244,
@@ -2193,7 +2436,8 @@
     "meaning": "怖がらせる",
     "example": "The loud noise frightened the cat.",
     "exampleJa": "大きな音が猫を怖がらせた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 370
   },
   {
     "id": 245,
@@ -2202,7 +2446,8 @@
     "meaning": "機能、機能する",
     "example": "This button has no function.",
     "exampleJa": "このボタンには機能がない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 544
   },
   {
     "id": 246,
@@ -2211,7 +2456,8 @@
     "meaning": "資金",
     "example": "They raised funds for charity.",
     "exampleJa": "彼らは慈善のために資金を集めた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 1096
   },
   {
     "id": 247,
@@ -2220,7 +2466,8 @@
     "meaning": "得る",
     "example": "She gained confidence over time.",
     "exampleJa": "彼女は次第に自信をつけた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 671
   },
   {
     "id": 248,
@@ -2229,7 +2476,8 @@
     "meaning": "集める",
     "example": "We gathered around the fire.",
     "exampleJa": "私たちは火の周りに集まった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 167
   },
   {
     "id": 249,
@@ -2238,7 +2486,8 @@
     "meaning": "性別",
     "example": "Gender should not limit choices.",
     "exampleJa": "性別が選択を制限すべきではない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 469
   },
   {
     "id": 250,
@@ -2247,7 +2496,8 @@
     "meaning": "一般的な",
     "example": "This is a general rule.",
     "exampleJa": "これは一般的な規則だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 829
   },
   {
     "id": 251,
@@ -2256,7 +2506,8 @@
     "meaning": "生み出す",
     "example": "Solar panels generate electricity.",
     "exampleJa": "太陽光パネルは電気を生み出す。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1185
   },
   {
     "id": 252,
@@ -2265,7 +2516,8 @@
     "meaning": "気前の良い",
     "example": "He is generous with his time.",
     "exampleJa": "彼は自分の時間を惜しみなく使う。",
-    "level": 3
+    "level": 3,
+    "leapNo": 734
   },
   {
     "id": 253,
@@ -2274,7 +2526,8 @@
     "meaning": "本物の",
     "example": "This is a genuine leather bag.",
     "exampleJa": "これは本革のバッグだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1987
   },
   {
     "id": 254,
@@ -2283,7 +2536,8 @@
     "meaning": "身振り",
     "example": "She made a friendly gesture.",
     "exampleJa": "彼女は親しみのある身振りをした。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 255,
@@ -2292,7 +2546,8 @@
     "meaning": "世界的な",
     "example": "Climate change is a global issue.",
     "exampleJa": "気候変動は世界的な問題だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 476
   },
   {
     "id": 256,
@@ -2301,7 +2556,8 @@
     "meaning": "統治する",
     "example": "Laws govern our society.",
     "exampleJa": "法律は私たちの社会を統治している。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 257,
@@ -2310,7 +2566,8 @@
     "meaning": "与える、助成金",
     "example": "The university granted her a scholarship.",
     "exampleJa": "大学は彼女に奨学金を与えた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 698
   },
   {
     "id": 258,
@@ -2319,7 +2576,8 @@
     "meaning": "感謝して",
     "example": "I am grateful for your help.",
     "exampleJa": "あなたの助けに感謝しています。",
-    "level": 3
+    "level": 3,
+    "leapNo": 13
   },
   {
     "id": 259,
@@ -2328,7 +2586,8 @@
     "meaning": "保証する",
     "example": "The store guarantees a refund.",
     "exampleJa": "その店は返金を保証している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 894
   },
   {
     "id": 260,
@@ -2337,7 +2596,8 @@
     "meaning": "有罪の、罪悪感のある",
     "example": "He felt guilty about lying.",
     "exampleJa": "彼は嘘をついたことに罪悪感を覚えた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 746
   },
   {
     "id": 261,
@@ -2346,7 +2606,8 @@
     "meaning": "生息地",
     "example": "Pollution destroys wildlife habitats.",
     "exampleJa": "汚染は野生生物の生息地を破壊する。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1231
   },
   {
     "id": 262,
@@ -2355,7 +2616,8 @@
     "meaning": "扱う",
     "example": "She handled the problem calmly.",
     "exampleJa": "彼女はその問題を冷静に対処した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 592
   },
   {
     "id": 263,
@@ -2364,7 +2626,8 @@
     "meaning": "調和",
     "example": "They live in harmony with nature.",
     "exampleJa": "彼らは自然と調和して暮らしている。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 264,
@@ -2373,7 +2636,8 @@
     "meaning": "ためらう",
     "example": "Don't hesitate to ask questions.",
     "exampleJa": "遠慮せず質問してください。",
-    "level": 3
+    "level": 3,
+    "leapNo": 959
   },
   {
     "id": 265,
@@ -2382,7 +2646,8 @@
     "meaning": "雇う",
     "example": "The company hired new staff.",
     "exampleJa": "その会社は新しいスタッフを雇った。",
-    "level": 3
+    "level": 3,
+    "leapNo": 526
   },
   {
     "id": 266,
@@ -2391,7 +2656,8 @@
     "meaning": "名誉、敬意を表する",
     "example": "It was an honor to meet you.",
     "exampleJa": "お会いできて光栄でした。",
-    "level": 3
+    "level": 3,
+    "leapNo": 413
   },
   {
     "id": 267,
@@ -2400,7 +2666,8 @@
     "meaning": "地平線",
     "example": "The sun set below the horizon.",
     "exampleJa": "太陽は地平線の下に沈んだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 712
   },
   {
     "id": 268,
@@ -2409,7 +2676,8 @@
     "meaning": "主催者、主催する",
     "example": "The city hosted the Olympics.",
     "exampleJa": "その都市はオリンピックを開催した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1649
   },
   {
     "id": 269,
@@ -2418,7 +2686,8 @@
     "meaning": "しかしながら",
     "example": "It was raining; however, we went out.",
     "exampleJa": "雨が降っていた。しかし私たちは出かけた。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 270,
@@ -2427,7 +2696,8 @@
     "meaning": "巨大な",
     "example": "They built a huge stadium.",
     "exampleJa": "彼らは巨大なスタジアムを建てた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1274
   },
   {
     "id": 271,
@@ -2436,7 +2706,8 @@
     "meaning": "謙虚な",
     "example": "She remained humble despite success.",
     "exampleJa": "彼女は成功しても謙虚なままだった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1776
   },
   {
     "id": 272,
@@ -2445,7 +2716,8 @@
     "meaning": "湿気の多い",
     "example": "Summer here is very humid.",
     "exampleJa": "ここの夏はとても湿気が多い。",
-    "level": 3
+    "level": 3,
+    "leapNo": 724
   },
   {
     "id": 273,
@@ -2454,7 +2726,8 @@
     "meaning": "理想的な",
     "example": "This is an ideal place to relax.",
     "exampleJa": "ここはくつろぐのに理想的な場所だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 237
   },
   {
     "id": 274,
@@ -2463,7 +2736,8 @@
     "meaning": "同一の",
     "example": "The twins looked identical.",
     "exampleJa": "その双子はそっくりだった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1554
   },
   {
     "id": 275,
@@ -2472,7 +2746,8 @@
     "meaning": "特定する",
     "example": "Police identified the suspect.",
     "exampleJa": "警察は容疑者を特定した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1214
   },
   {
     "id": 276,
@@ -2481,7 +2756,8 @@
     "meaning": "無視する",
     "example": "She ignored his advice.",
     "exampleJa": "彼女は彼の助言を無視した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 975
   },
   {
     "id": 277,
@@ -2490,7 +2766,8 @@
     "meaning": "違法の",
     "example": "Parking here is illegal.",
     "exampleJa": "ここに駐車するのは違法だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 278,
@@ -2499,7 +2776,8 @@
     "meaning": "説明する、図解する",
     "example": "The chart illustrates the trend.",
     "exampleJa": "その図はその傾向を示している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1405
   },
   {
     "id": 279,
@@ -2508,7 +2786,8 @@
     "meaning": "イメージ、画像",
     "example": "The company improved its image.",
     "exampleJa": "その会社はイメージを改善した。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 280,
@@ -2517,7 +2796,8 @@
     "meaning": "想像する",
     "example": "Imagine a world without wars.",
     "exampleJa": "戦争のない世界を想像してみて。",
-    "level": 3
+    "level": 3,
+    "leapNo": 182
   },
   {
     "id": 281,
@@ -2526,7 +2806,8 @@
     "meaning": "即座の",
     "example": "They need an immediate answer.",
     "exampleJa": "彼らは即座の返答を必要としている。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 282,
@@ -2535,7 +2816,8 @@
     "meaning": "移民",
     "example": "Many immigrants live in this city.",
     "exampleJa": "多くの移民がこの街に住んでいる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 500
   },
   {
     "id": 283,
@@ -2544,7 +2826,8 @@
     "meaning": "影響",
     "example": "The storm had a big impact on crops.",
     "exampleJa": "嵐は作物に大きな影響を与えた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 480
   },
   {
     "id": 284,
@@ -2553,7 +2836,8 @@
     "meaning": "ほのめかす",
     "example": "Her silence implied disagreement.",
     "exampleJa": "彼女の沈黙は不同意を示唆していた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1009
   },
   {
     "id": 285,
@@ -2562,7 +2846,8 @@
     "meaning": "輸入する",
     "example": "Japan imports a lot of oil.",
     "exampleJa": "日本は多くの石油を輸入している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 524
   },
   {
     "id": 286,
@@ -2571,7 +2856,8 @@
     "meaning": "感銘を与える",
     "example": "Her speech impressed the audience.",
     "exampleJa": "彼女のスピーチは聴衆に感銘を与えた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 19
   },
   {
     "id": 287,
@@ -2580,7 +2866,8 @@
     "meaning": "改善する",
     "example": "He improved his English skills.",
     "exampleJa": "彼は英語力を向上させた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 42
   },
   {
     "id": 288,
@@ -2589,7 +2876,8 @@
     "meaning": "出来事",
     "example": "A strange incident happened last night.",
     "exampleJa": "昨夜奇妙な出来事が起きた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1329
   },
   {
     "id": 289,
@@ -2598,7 +2886,8 @@
     "meaning": "含む",
     "example": "The price includes tax.",
     "exampleJa": "その価格には税金が含まれている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 162
   },
   {
     "id": 290,
@@ -2607,7 +2896,8 @@
     "meaning": "収入",
     "example": "Her income increased this year.",
     "exampleJa": "彼女の収入は今年増えた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 512
   },
   {
     "id": 291,
@@ -2616,7 +2906,8 @@
     "meaning": "増える、増加",
     "example": "The population continues to increase.",
     "exampleJa": "人口は増え続けている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 268
   },
   {
     "id": 292,
@@ -2625,7 +2916,8 @@
     "meaning": "示す",
     "example": "The sign indicates the exit.",
     "exampleJa": "その標識は出口を示している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 932
   },
   {
     "id": 293,
@@ -2634,7 +2926,8 @@
     "meaning": "個人、個々の",
     "example": "Each individual has unique talents.",
     "exampleJa": "それぞれの個人が独自の才能を持つ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 498
   },
   {
     "id": 294,
@@ -2643,7 +2936,8 @@
     "meaning": "産業",
     "example": "The car industry is growing fast.",
     "exampleJa": "自動車産業は急成長している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 511
   },
   {
     "id": 295,
@@ -2652,7 +2946,8 @@
     "meaning": "避けられない",
     "example": "Change is inevitable.",
     "exampleJa": "変化は避けられない。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1283
   },
   {
     "id": 296,
@@ -2661,7 +2956,8 @@
     "meaning": "影響、影響を与える",
     "example": "Music influences our mood.",
     "exampleJa": "音楽は私たちの気分に影響を与える。",
-    "level": 3
+    "level": 3,
+    "leapNo": 379
   },
   {
     "id": 297,
@@ -2670,7 +2966,8 @@
     "meaning": "知らせる",
     "example": "Please inform us of any changes.",
     "exampleJa": "変更があれば私たちに知らせてください。",
-    "level": 3
+    "level": 3,
+    "leapNo": null
   },
   {
     "id": 298,
@@ -2679,7 +2976,8 @@
     "meaning": "材料",
     "example": "Flour is a key ingredient in bread.",
     "exampleJa": "小麦粉はパンの主な材料だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 903
   },
   {
     "id": 299,
@@ -2688,7 +2986,8 @@
     "meaning": "受け継ぐ",
     "example": "She inherited her mother's talent.",
     "exampleJa": "彼女は母親の才能を受け継いだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1885
   },
   {
     "id": 300,
@@ -2697,7 +2996,8 @@
     "meaning": "最初の",
     "example": "The initial plan changed later.",
     "exampleJa": "当初の計画は後で変わった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 1314
   },
   {
     "id": 301,
@@ -2706,7 +3006,8 @@
     "meaning": "〜に助言する",
     "example": "She advised him to see a doctor.",
     "exampleJa": "彼女は彼に医者に診てもらうよう助言した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 3
   },
   {
     "id": 302,
@@ -2715,7 +3016,8 @@
     "meaning": "助言、チップ",
     "example": "Here's a tip for saving money.",
     "exampleJa": "お金を節約するための助言です。",
-    "level": 1
+    "level": 1,
+    "leapNo": 4
   },
   {
     "id": 303,
@@ -2724,7 +3026,8 @@
     "meaning": "〜のせいにする",
     "example": "Don't blame yourself for the mistake.",
     "exampleJa": "その間違いで自分を責めないで。",
-    "level": 1
+    "level": 1,
+    "leapNo": 6
   },
   {
     "id": 304,
@@ -2733,7 +3036,8 @@
     "meaning": "主張する",
     "example": "He claimed that he was innocent.",
     "exampleJa": "彼は自分は無実だと主張した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 8
   },
   {
     "id": 305,
@@ -2742,7 +3046,8 @@
     "meaning": "申し出る、申し出",
     "example": "She offered to help us.",
     "exampleJa": "彼女は私たちを手伝うと申し出た。",
-    "level": 1
+    "level": 1,
+    "leapNo": 10
   },
   {
     "id": 306,
@@ -2751,7 +3056,8 @@
     "meaning": "提案する",
     "example": "I suggest we leave early.",
     "exampleJa": "早めに出発することを提案します。",
-    "level": 1
+    "level": 1,
+    "leapNo": 11
   },
   {
     "id": 307,
@@ -2760,7 +3066,8 @@
     "meaning": "勧める",
     "example": "Can you recommend a good restaurant?",
     "exampleJa": "良いレストランを勧めてもらえますか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 12
   },
   {
     "id": 308,
@@ -2769,7 +3076,8 @@
     "meaning": "言い訳、〜を許す",
     "example": "That's not a good excuse.",
     "exampleJa": "それは良い言い訳ではない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 15
   },
   {
     "id": 309,
@@ -2778,7 +3086,8 @@
     "meaning": "祝う",
     "example": "We celebrated her birthday together.",
     "exampleJa": "私たちは一緒に彼女の誕生日を祝った。",
-    "level": 1
+    "level": 1,
+    "leapNo": 16
   },
   {
     "id": 310,
@@ -2787,7 +3096,8 @@
     "meaning": "祝う、お祝いを言う",
     "example": "I congratulated him on his success.",
     "exampleJa": "私は彼の成功を祝った。",
-    "level": 1
+    "level": 1,
+    "leapNo": 17
   },
   {
     "id": 311,
@@ -2796,7 +3106,8 @@
     "meaning": "称賛する",
     "example": "I admire her courage.",
     "exampleJa": "私は彼女の勇気に感心する。",
-    "level": 1
+    "level": 1,
+    "leapNo": 18
   },
   {
     "id": 312,
@@ -2805,7 +3116,8 @@
     "meaning": "賞、〜に賞を与える",
     "example": "She won an award for her novel.",
     "exampleJa": "彼女は小説で賞を受賞した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 20
   },
   {
     "id": 313,
@@ -2814,7 +3126,8 @@
     "meaning": "表現する",
     "example": "It's hard to express my feelings.",
     "exampleJa": "自分の気持ちを表現するのは難しい。",
-    "level": 1
+    "level": 1,
+    "leapNo": 24
   },
   {
     "id": 314,
@@ -2823,7 +3136,8 @@
     "meaning": "約束する、約束",
     "example": "He promised to call me back.",
     "exampleJa": "彼は私に折り返し電話すると約束した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 25
   },
   {
     "id": 315,
@@ -2832,7 +3146,8 @@
     "meaning": "技術、腕前",
     "example": "Cooking is a useful skill.",
     "exampleJa": "料理は役に立つ技術だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 35
   },
   {
     "id": 316,
@@ -2841,7 +3156,8 @@
     "meaning": "能力",
     "example": "She has the ability to solve problems.",
     "exampleJa": "彼女には問題を解決する能力がある。",
-    "level": 1
+    "level": 1,
+    "leapNo": 36
   },
   {
     "id": 317,
@@ -2850,7 +3166,8 @@
     "meaning": "才能",
     "example": "He has a talent for music.",
     "exampleJa": "彼には音楽の才能がある。",
-    "level": 1
+    "level": 1,
+    "leapNo": 37
   },
   {
     "id": 318,
@@ -2859,7 +3176,8 @@
     "meaning": "練習する、練習",
     "example": "Practice makes perfect.",
     "exampleJa": "練習は完璧を作る(習うより慣れよ)。",
-    "level": 1
+    "level": 1,
+    "leapNo": 39
   },
   {
     "id": 319,
@@ -2868,7 +3186,8 @@
     "meaning": "何とかやり遂げる、経営する",
     "example": "She managed to finish the work on time.",
     "exampleJa": "彼女は何とか時間通りに仕事を終わらせた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 41
   },
   {
     "id": 320,
@@ -2877,7 +3196,8 @@
     "meaning": "生産する",
     "example": "This factory produces cars.",
     "exampleJa": "この工場は車を生産している。",
-    "level": 1
+    "level": 1,
+    "leapNo": 43
   },
   {
     "id": 321,
@@ -2886,7 +3206,8 @@
     "meaning": "救う、貯める",
     "example": "He saved a lot of money for college.",
     "exampleJa": "彼は大学のために多くのお金を貯めた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 47
   },
   {
     "id": 322,
@@ -2895,7 +3216,8 @@
     "meaning": "薬、医学",
     "example": "Take this medicine after meals.",
     "exampleJa": "食後にこの薬を飲んでください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 48
   },
   {
     "id": 323,
@@ -2904,7 +3226,8 @@
     "meaning": "患者、忍耐強い",
     "example": "The doctor examined the patient.",
     "exampleJa": "医者は患者を診察した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 49
   },
   {
     "id": 324,
@@ -2913,7 +3236,8 @@
     "meaning": "状態、条件",
     "example": "The car is in good condition.",
     "exampleJa": "その車は良い状態だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 50
   },
   {
     "id": 325,
@@ -2922,7 +3246,8 @@
     "meaning": "運動",
     "example": "Regular exercise keeps you healthy.",
     "exampleJa": "定期的な運動は健康を保つ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 54
   },
   {
     "id": 326,
@@ -2931,7 +3256,8 @@
     "meaning": "呼吸する",
     "example": "Take a deep breath and breathe slowly.",
     "exampleJa": "深呼吸してゆっくり息をして。",
-    "level": 1
+    "level": 1,
+    "leapNo": 55
   },
   {
     "id": 327,
@@ -2940,7 +3266,8 @@
     "meaning": "のどが渇いた",
     "example": "I'm thirsty after the run.",
     "exampleJa": "走った後でのどが渇いている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 56
   },
   {
     "id": 328,
@@ -2949,7 +3276,8 @@
     "meaning": "味がする、味",
     "example": "This soup tastes great.",
     "exampleJa": "このスープはとても美味しい。",
-    "level": 1
+    "level": 1,
+    "leapNo": 61
   },
   {
     "id": 329,
@@ -2958,7 +3286,8 @@
     "meaning": "規則",
     "example": "Please follow the school rules.",
     "exampleJa": "学校の規則に従ってください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 62
   },
   {
     "id": 330,
@@ -2967,7 +3296,8 @@
     "meaning": "役割",
     "example": "She played an important role in the project.",
     "exampleJa": "彼女はそのプロジェクトで重要な役割を果たした。",
-    "level": 1
+    "level": 1,
+    "leapNo": 63
   },
   {
     "id": 331,
@@ -2976,7 +3306,8 @@
     "meaning": "習慣、癖",
     "example": "Reading before bed is a good habit.",
     "exampleJa": "寝る前に読書するのは良い習慣だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 64
   },
   {
     "id": 332,
@@ -2985,7 +3316,8 @@
     "meaning": "習慣、風習",
     "example": "It's a local custom to remove shoes indoors.",
     "exampleJa": "室内で靴を脱ぐのは地元の習慣だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 65
   },
   {
     "id": 333,
@@ -2994,7 +3326,8 @@
     "meaning": "社会",
     "example": "Technology has changed our society.",
     "exampleJa": "技術は私たちの社会を変えた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 67
   },
   {
     "id": 334,
@@ -3003,7 +3336,8 @@
     "meaning": "法律",
     "example": "This law protects workers' rights.",
     "exampleJa": "この法律は労働者の権利を守る。",
-    "level": 1
+    "level": 1,
+    "leapNo": 68
   },
   {
     "id": 335,
@@ -3012,7 +3346,8 @@
     "meaning": "価格",
     "example": "The price of the ticket increased.",
     "exampleJa": "チケットの価格が上がった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 86
   },
   {
     "id": 336,
@@ -3021,7 +3356,8 @@
     "meaning": "反対する",
     "example": "Many people opposed the new law.",
     "exampleJa": "多くの人々がその新しい法律に反対した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 2
   },
   {
     "id": 337,
@@ -3030,7 +3366,8 @@
     "meaning": "意思疎通する",
     "example": "It's important to communicate clearly.",
     "exampleJa": "明確に意思疎通することは重要だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 23
   },
   {
     "id": 338,
@@ -3039,7 +3376,8 @@
     "meaning": "情報",
     "example": "Please give me more information.",
     "exampleJa": "もっと情報をください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 26
   },
   {
     "id": 339,
@@ -3048,7 +3386,8 @@
     "meaning": "技術",
     "example": "New technology has changed our lives.",
     "exampleJa": "新しい技術は私たちの生活を変えた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 27
   },
   {
     "id": 340,
@@ -3057,7 +3396,8 @@
     "meaning": "研究",
     "example": "She is doing research on climate change.",
     "exampleJa": "彼女は気候変動について研究している。",
-    "level": 2
+    "level": 2,
+    "leapNo": 28
   },
   {
     "id": 341,
@@ -3066,7 +3406,8 @@
     "meaning": "材料、資料",
     "example": "This bag is made of recycled material.",
     "exampleJa": "このバッグはリサイクル素材でできている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 29
   },
   {
     "id": 342,
@@ -3075,7 +3416,8 @@
     "meaning": "人工的な",
     "example": "The lake was created by artificial means.",
     "exampleJa": "その湖は人工的な手段で作られた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 30
   },
   {
     "id": 343,
@@ -3084,7 +3426,8 @@
     "meaning": "電気の",
     "example": "We bought an electric car.",
     "exampleJa": "私たちは電気自動車を買った。",
-    "level": 2
+    "level": 2,
+    "leapNo": 31
   },
   {
     "id": 344,
@@ -3093,7 +3436,8 @@
     "meaning": "発明する",
     "example": "Who invented the telephone?",
     "exampleJa": "誰が電話を発明したのか。",
-    "level": 2
+    "level": 2,
+    "leapNo": 32
   },
   {
     "id": 345,
@@ -3102,7 +3446,8 @@
     "meaning": "医療の",
     "example": "She needs medical attention.",
     "exampleJa": "彼女は医療処置が必要だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 51
   },
   {
     "id": 346,
@@ -3111,7 +3456,8 @@
     "meaning": "ストレス",
     "example": "Too much stress can affect your health.",
     "exampleJa": "過度なストレスは健康に影響する。",
-    "level": 2
+    "level": 2,
+    "leapNo": 52
   },
   {
     "id": 347,
@@ -3120,7 +3466,8 @@
     "meaning": "苦しむ",
     "example": "He suffered from a headache all day.",
     "exampleJa": "彼は一日中頭痛に苦しんだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 53
   },
   {
     "id": 348,
@@ -3129,7 +3476,8 @@
     "meaning": "身体的な",
     "example": "Physical exercise improves your mood.",
     "exampleJa": "身体的な運動は気分を良くする。",
-    "level": 2
+    "level": 2,
+    "leapNo": 57
   },
   {
     "id": 349,
@@ -3138,7 +3486,8 @@
     "meaning": "熱",
     "example": "She has a high fever.",
     "exampleJa": "彼女は高熱がある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 58
   },
   {
     "id": 350,
@@ -3147,7 +3496,8 @@
     "meaning": "力、強さ",
     "example": "He tested his strength against the rope.",
     "exampleJa": "彼はロープに対して自分の力を試した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 59
   },
   {
     "id": 351,
@@ -3156,7 +3506,8 @@
     "meaning": "涙、引き裂く",
     "example": "She wiped away her tears.",
     "exampleJa": "彼女は涙を拭いた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 60
   },
   {
     "id": 352,
@@ -3165,7 +3516,8 @@
     "meaning": "伝統",
     "example": "This festival is an old tradition.",
     "exampleJa": "この祭りは古い伝統だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 66
   },
   {
     "id": 353,
@@ -3174,7 +3526,8 @@
     "meaning": "祖先",
     "example": "Our ancestors lived in this region.",
     "exampleJa": "私たちの祖先はこの地域に住んでいた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 69
   },
   {
     "id": 354,
@@ -3183,7 +3536,8 @@
     "meaning": "人口",
     "example": "The population of the city is growing.",
     "exampleJa": "その都市の人口は増加している。",
-    "level": 2
+    "level": 2,
+    "leapNo": 70
   },
   {
     "id": 355,
@@ -3192,7 +3546,8 @@
     "meaning": "母国の、その土地固有の",
     "example": "English is not her native language.",
     "exampleJa": "英語は彼女の母語ではない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 71
   },
   {
     "id": 356,
@@ -3201,7 +3556,8 @@
     "meaning": "地元の",
     "example": "We visited a local market.",
     "exampleJa": "私たちは地元の市場を訪れた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 73
   },
   {
     "id": 357,
@@ -3210,7 +3566,8 @@
     "meaning": "調査",
     "example": "The survey shows most people agree.",
     "exampleJa": "その調査はほとんどの人が賛成していることを示している。",
-    "level": 2
+    "level": 2,
+    "leapNo": 74
   },
   {
     "id": 358,
@@ -3219,7 +3576,8 @@
     "meaning": "価値",
     "example": "This painting has great value.",
     "exampleJa": "この絵画には大きな価値がある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 75
   },
   {
     "id": 359,
@@ -3228,7 +3586,8 @@
     "meaning": "宝物",
     "example": "They found hidden treasure on the island.",
     "exampleJa": "彼らはその島で隠された宝物を見つけた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 76
   },
   {
     "id": 360,
@@ -3237,7 +3596,8 @@
     "meaning": "流行、ファッション",
     "example": "She works in the fashion industry.",
     "exampleJa": "彼女はファッション業界で働いている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 77
   },
   {
     "id": 361,
@@ -3246,7 +3606,8 @@
     "meaning": "公共の、大衆",
     "example": "The park is open to the public.",
     "exampleJa": "その公園は一般に公開されている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 78
   },
   {
     "id": 362,
@@ -3255,7 +3616,8 @@
     "meaning": "投票する",
     "example": "Everyone has the right to vote.",
     "exampleJa": "誰もが投票する権利を持っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 80
   },
   {
     "id": 363,
@@ -3264,7 +3626,8 @@
     "meaning": "政府",
     "example": "The government announced new policies.",
     "exampleJa": "政府は新しい政策を発表した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 81
   },
   {
     "id": 364,
@@ -3273,7 +3636,8 @@
     "meaning": "国家",
     "example": "Many nations joined the agreement.",
     "exampleJa": "多くの国家がその協定に参加した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 82
   },
   {
     "id": 365,
@@ -3282,7 +3646,8 @@
     "meaning": "首都、資本",
     "example": "Tokyo is the capital of Japan.",
     "exampleJa": "東京は日本の首都だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 83
   },
   {
     "id": 366,
@@ -3291,7 +3656,8 @@
     "meaning": "州、状態",
     "example": "California is a state in the U.S.",
     "exampleJa": "カリフォルニアはアメリカの州の一つだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 84
   },
   {
     "id": 367,
@@ -3300,7 +3666,8 @@
     "meaning": "政治的な",
     "example": "She has strong political opinions.",
     "exampleJa": "彼女は強い政治的意見を持っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 85
   },
   {
     "id": 368,
@@ -3309,7 +3676,8 @@
     "meaning": "合計、金額",
     "example": "He paid a large sum of money.",
     "exampleJa": "彼は多額のお金を支払った。",
-    "level": 2
+    "level": 2,
+    "leapNo": 87
   },
   {
     "id": 369,
@@ -3318,7 +3686,8 @@
     "meaning": "予算",
     "example": "We need to stick to our budget.",
     "exampleJa": "私たちは予算を守る必要がある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 88
   },
   {
     "id": 370,
@@ -3327,7 +3696,8 @@
     "meaning": "運賃",
     "example": "The bus fare increased last month.",
     "exampleJa": "バスの運賃は先月上がった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 90
   },
   {
     "id": 371,
@@ -3336,7 +3706,8 @@
     "meaning": "請求書、法案",
     "example": "I need to pay the electricity bill.",
     "exampleJa": "電気代の請求書を払わなければならない。",
-    "level": 3
+    "level": 3,
+    "leapNo": 91
   },
   {
     "id": 372,
@@ -3345,7 +3716,8 @@
     "meaning": "貿易、取引する",
     "example": "The two countries agreed to trade goods.",
     "exampleJa": "両国は商品を取引することに合意した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 92
   },
   {
     "id": 373,
@@ -3354,7 +3726,8 @@
     "meaning": "富",
     "example": "He accumulated great wealth over time.",
     "exampleJa": "彼は長い時間をかけて大きな富を築いた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 93
   },
   {
     "id": 374,
@@ -3363,7 +3736,8 @@
     "meaning": "経済",
     "example": "The economy is growing rapidly.",
     "exampleJa": "経済は急速に成長している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 94
   },
   {
     "id": 375,
@@ -3372,7 +3746,8 @@
     "meaning": "費用、費用がかかる",
     "example": "The repair will cost a lot of money.",
     "exampleJa": "その修理には多くのお金がかかるだろう。",
-    "level": 3
+    "level": 3,
+    "leapNo": 95
   },
   {
     "id": 376,
@@ -3381,7 +3756,8 @@
     "meaning": "会社",
     "example": "She works for a large company.",
     "exampleJa": "彼女は大きな会社で働いている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 96
   },
   {
     "id": 377,
@@ -3390,7 +3766,8 @@
     "meaning": "作業、任務",
     "example": "He completed the task ahead of schedule.",
     "exampleJa": "彼は予定より早くその作業を終えた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 97
   },
   {
     "id": 378,
@@ -3399,7 +3776,8 @@
     "meaning": "傷つける、痛む",
     "example": "My leg hurts after the run.",
     "exampleJa": "走った後で脚が痛む。",
-    "level": 3
+    "level": 3,
+    "leapNo": 99
   },
   {
     "id": 379,
@@ -3408,7 +3786,8 @@
     "meaning": "けがをさせる",
     "example": "He injured his knee playing soccer.",
     "exampleJa": "彼はサッカーをしていて膝を負傷した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 100
   },
   {
     "id": 380,
@@ -3417,7 +3796,8 @@
     "meaning": "損害、損害を与える",
     "example": "The storm caused a lot of damage.",
     "exampleJa": "嵐は多くの損害をもたらした。",
-    "level": 3
+    "level": 3,
+    "leapNo": 101
   },
   {
     "id": 381,
@@ -3426,7 +3806,8 @@
     "meaning": "台無しにする",
     "example": "The rain ruined our picnic plans.",
     "exampleJa": "雨が私たちのピクニックの計画を台無しにした。",
-    "level": 3
+    "level": 3,
+    "leapNo": 103
   },
   {
     "id": 382,
@@ -3435,7 +3816,8 @@
     "meaning": "危険",
     "example": "There is danger in that area at night.",
     "exampleJa": "夜、その地域には危険がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 104
   },
   {
     "id": 383,
@@ -3444,7 +3826,8 @@
     "meaning": "隣人",
     "example": "Our neighbor is very friendly.",
     "exampleJa": "私たちの隣人はとても親切だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 105
   },
   {
     "id": 384,
@@ -3453,7 +3836,8 @@
     "meaning": "観客、聴衆",
     "example": "The audience applauded loudly.",
     "exampleJa": "観客は大きな拍手を送った。",
-    "level": 3
+    "level": 3,
+    "leapNo": 106
   },
   {
     "id": 385,
@@ -3462,7 +3846,8 @@
     "meaning": "群衆",
     "example": "A large crowd gathered at the stadium.",
     "exampleJa": "スタジアムに大勢の群衆が集まった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 107
   },
   {
     "id": 386,
@@ -3471,7 +3856,8 @@
     "meaning": "著者",
     "example": "Who is the author of this book?",
     "exampleJa": "この本の著者は誰ですか。",
-    "level": 3
+    "level": 3,
+    "leapNo": 108
   },
   {
     "id": 387,
@@ -3480,7 +3866,8 @@
     "meaning": "職員",
     "example": "All staff must wear name tags.",
     "exampleJa": "すべての職員は名札を付けなければならない。",
-    "level": 3
+    "level": 3,
+    "leapNo": 109
   },
   {
     "id": 388,
@@ -3489,7 +3876,8 @@
     "meaning": "店員、事務員",
     "example": "The clerk helped me find the item.",
     "exampleJa": "店員が商品を見つけるのを手伝ってくれた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 110
   },
   {
     "id": 389,
@@ -3498,7 +3886,8 @@
     "meaning": "客",
     "example": "The store values every customer.",
     "exampleJa": "その店はすべての客を大切にしている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 111
   },
   {
     "id": 390,
@@ -3507,7 +3896,8 @@
     "meaning": "乗客",
     "example": "The train carries many passengers daily.",
     "exampleJa": "その電車は毎日多くの乗客を運んでいる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 112
   },
   {
     "id": 391,
@@ -3516,7 +3906,8 @@
     "meaning": "年配の",
     "example": "We should help the elderly cross the street.",
     "exampleJa": "私たちは年配の方が道を渡るのを手伝うべきだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 113
   },
   {
     "id": 392,
@@ -3525,7 +3916,8 @@
     "meaning": "向かう、頭",
     "example": "They headed toward the mountains.",
     "exampleJa": "彼らは山の方へ向かった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 115
   },
   {
     "id": 393,
@@ -3534,7 +3926,8 @@
     "meaning": "従う、ついて行く",
     "example": "Please follow the instructions carefully.",
     "exampleJa": "指示に注意深く従ってください。",
-    "level": 3
+    "level": 3,
+    "leapNo": 116
   },
   {
     "id": 394,
@@ -3543,7 +3936,8 @@
     "meaning": "歩き回る",
     "example": "We wandered around the old town.",
     "exampleJa": "私たちは旧市街を歩き回った。",
-    "level": 3
+    "level": 3,
+    "leapNo": 117
   },
   {
     "id": 395,
@@ -3552,7 +3946,8 @@
     "meaning": "旅行する",
     "example": "She loves to travel abroad.",
     "exampleJa": "彼女は海外旅行が大好きだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 118
   },
   {
     "id": 396,
@@ -3561,7 +3956,8 @@
     "meaning": "通り過ぎる、合格する",
     "example": "He passed the exam easily.",
     "exampleJa": "彼は試験に簡単に合格した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 119
   },
   {
     "id": 397,
@@ -3570,7 +3966,8 @@
     "meaning": "ありそうな",
     "example": "It's likely to rain tomorrow.",
     "exampleJa": "明日は雨が降りそうだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 120
   },
   {
     "id": 398,
@@ -3579,7 +3976,8 @@
     "meaning": "自然の、当然の",
     "example": "It's natural to feel nervous before a test.",
     "exampleJa": "試験前に緊張するのは当然だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 121
   },
   {
     "id": 399,
@@ -3588,7 +3986,8 @@
     "meaning": "おそらく",
     "example": "She will probably arrive late.",
     "exampleJa": "彼女はおそらく遅れて到着するだろう。",
-    "level": 3
+    "level": 3,
+    "leapNo": 123
   },
   {
     "id": 400,
@@ -3597,7 +3996,8 @@
     "meaning": "直面する、顔",
     "example": "We must face this challenge together.",
     "exampleJa": "私たちはこの課題に一緒に立ち向かわなければならない。",
-    "level": 3
+    "level": 3,
+    "leapNo": 124
   },
   {
     "id": 401,
@@ -3606,7 +4006,8 @@
     "meaning": "解決する",
     "example": "She solved the math problem quickly.",
     "exampleJa": "彼女はその数学の問題をすぐに解いた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 126
   },
   {
     "id": 402,
@@ -3615,7 +4016,8 @@
     "meaning": "問題、困りごと",
     "example": "He got into trouble at school.",
     "exampleJa": "彼は学校で問題を起こした。",
-    "level": 1
+    "level": 1,
+    "leapNo": 127
   },
   {
     "id": 403,
@@ -3624,7 +4026,8 @@
     "meaning": "問題、論点",
     "example": "Climate change is a serious issue.",
     "exampleJa": "気候変動は深刻な問題だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 128
   },
   {
     "id": 404,
@@ -3633,7 +4036,8 @@
     "meaning": "支える、支援",
     "example": "Thank you for your support.",
     "exampleJa": "支援してくれてありがとう。",
-    "level": 1
+    "level": 1,
+    "leapNo": 131
   },
   {
     "id": 405,
@@ -3642,7 +4046,8 @@
     "meaning": "防ぐ",
     "example": "Exercise can prevent many diseases.",
     "exampleJa": "運動は多くの病気を防ぐことができる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 132
   },
   {
     "id": 406,
@@ -3651,7 +4056,8 @@
     "meaning": "否定する",
     "example": "He denied breaking the window.",
     "exampleJa": "彼は窓を割ったことを否定した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 133
   },
   {
     "id": 407,
@@ -3660,7 +4066,8 @@
     "meaning": "可能にする",
     "example": "This app enables us to learn anywhere.",
     "exampleJa": "このアプリは私たちがどこでも学ぶことを可能にする。",
-    "level": 1
+    "level": 1,
+    "leapNo": 134
   },
   {
     "id": 408,
@@ -3669,7 +4076,8 @@
     "meaning": "成功する",
     "example": "She worked hard and succeeded in the end.",
     "exampleJa": "彼女は懸命に努力し、最終的に成功した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 135
   },
   {
     "id": 409,
@@ -3678,7 +4086,8 @@
     "meaning": "逃す、恋しく思う",
     "example": "I missed the bus this morning.",
     "exampleJa": "今朝バスに乗り遅れた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 136
   },
   {
     "id": 410,
@@ -3687,7 +4096,8 @@
     "meaning": "間違い",
     "example": "Everyone makes mistakes sometimes.",
     "exampleJa": "誰でも時には間違いをする。",
-    "level": 1
+    "level": 1,
+    "leapNo": 138
   },
   {
     "id": 411,
@@ -3696,7 +4106,8 @@
     "meaning": "確認する",
     "example": "Please check your answers again.",
     "exampleJa": "もう一度答えを確認してください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 139
   },
   {
     "id": 412,
@@ -3705,7 +4116,8 @@
     "meaning": "隠れる、隠す",
     "example": "The cat hid under the bed.",
     "exampleJa": "猫はベッドの下に隠れた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 140
   },
   {
     "id": 413,
@@ -3714,7 +4126,8 @@
     "meaning": "描く、引く",
     "example": "She likes to draw pictures of animals.",
     "exampleJa": "彼女は動物の絵を描くのが好きだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 141
   },
   {
     "id": 414,
@@ -3723,7 +4136,8 @@
     "meaning": "参加する",
     "example": "Would you like to join our club?",
     "exampleJa": "私たちのクラブに参加しませんか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 142
   },
   {
     "id": 415,
@@ -3732,7 +4146,8 @@
     "meaning": "投げる",
     "example": "He threw the ball to his friend.",
     "exampleJa": "彼は友達にボールを投げた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 143
   },
   {
     "id": 416,
@@ -3741,7 +4156,8 @@
     "meaning": "操作する、手術する",
     "example": "The doctor operated on the patient.",
     "exampleJa": "医者はその患者を手術した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 144
   },
   {
     "id": 417,
@@ -3750,7 +4166,8 @@
     "meaning": "修理する",
     "example": "We need to repair the broken chair.",
     "exampleJa": "私たちは壊れた椅子を修理する必要がある。",
-    "level": 1
+    "level": 1,
+    "leapNo": 145
   },
   {
     "id": 418,
@@ -3759,7 +4176,8 @@
     "meaning": "上げる、育てる",
     "example": "She raised her hand to ask a question.",
     "exampleJa": "彼女は質問するために手を挙げた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 147
   },
   {
     "id": 419,
@@ -3768,7 +4186,8 @@
     "meaning": "給仕する、役立つ",
     "example": "This restaurant serves great pasta.",
     "exampleJa": "このレストランは美味しいパスタを出す。",
-    "level": 1
+    "level": 1,
+    "leapNo": 148
   },
   {
     "id": 420,
@@ -3777,7 +4196,8 @@
     "meaning": "〜のふりをする",
     "example": "He pretended to be asleep.",
     "exampleJa": "彼は眠っているふりをした。",
-    "level": 1
+    "level": 1,
+    "leapNo": 151
   },
   {
     "id": 421,
@@ -3786,7 +4206,8 @@
     "meaning": "起こる",
     "example": "What happened at the meeting?",
     "exampleJa": "会議で何が起こったのですか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 155
   },
   {
     "id": 422,
@@ -3795,7 +4216,8 @@
     "meaning": "残る、〜のままである",
     "example": "She remained calm during the storm.",
     "exampleJa": "彼女は嵐の間も冷静なままだった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 157
   },
   {
     "id": 423,
@@ -3804,7 +4226,8 @@
     "meaning": "生き残る",
     "example": "Few animals survive in this harsh climate.",
     "exampleJa": "この過酷な気候で生き残る動物はほとんどいない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 158
   },
   {
     "id": 424,
@@ -3813,7 +4236,8 @@
     "meaning": "共有する",
     "example": "Let's share the pizza equally.",
     "exampleJa": "ピザを均等に分けよう。",
-    "level": 1
+    "level": 1,
+    "leapNo": 165
   },
   {
     "id": 425,
@@ -3822,7 +4246,8 @@
     "meaning": "集める",
     "example": "He collects old coins as a hobby.",
     "exampleJa": "彼は趣味で古いコインを集めている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 166
   },
   {
     "id": 426,
@@ -3831,7 +4256,8 @@
     "meaning": "歴史",
     "example": "She studies Japanese history.",
     "exampleJa": "彼女は日本史を勉強している。",
-    "level": 1
+    "level": 1,
+    "leapNo": 168
   },
   {
     "id": 427,
@@ -3840,7 +4266,8 @@
     "meaning": "科目、主題",
     "example": "Math is my favorite subject.",
     "exampleJa": "数学は私の一番好きな科目だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 169
   },
   {
     "id": 428,
@@ -3849,7 +4276,8 @@
     "meaning": "教育",
     "example": "Education is important for the future.",
     "exampleJa": "教育は将来のために重要だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 170
   },
   {
     "id": 429,
@@ -3858,7 +4286,8 @@
     "meaning": "知識",
     "example": "He has deep knowledge of history.",
     "exampleJa": "彼は歴史について深い知識を持っている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 171
   },
   {
     "id": 430,
@@ -3867,7 +4296,8 @@
     "meaning": "学年、成績",
     "example": "She got good grades this semester.",
     "exampleJa": "彼女は今学期良い成績を取った。",
-    "level": 1
+    "level": 1,
+    "leapNo": 173
   },
   {
     "id": 431,
@@ -3876,7 +4306,8 @@
     "meaning": "卒業する",
     "example": "He will graduate from college next year.",
     "exampleJa": "彼は来年大学を卒業する。",
-    "level": 1
+    "level": 1,
+    "leapNo": 175
   },
   {
     "id": 432,
@@ -3885,7 +4316,8 @@
     "meaning": "選ぶ",
     "example": "It's hard to choose between the two.",
     "exampleJa": "その二つから選ぶのは難しい。",
-    "level": 1
+    "level": 1,
+    "leapNo": 181
   },
   {
     "id": 433,
@@ -3894,7 +4326,8 @@
     "meaning": "推測する",
     "example": "Can you guess what's in the box?",
     "exampleJa": "箱の中に何があるか推測できますか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 183
   },
   {
     "id": 434,
@@ -3903,7 +4336,8 @@
     "meaning": "覚えている",
     "example": "I can't remember his name.",
     "exampleJa": "彼の名前を思い出せない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 186
   },
   {
     "id": 435,
@@ -3912,7 +4346,8 @@
     "meaning": "気づく",
     "example": "She realized her mistake too late.",
     "exampleJa": "彼女は自分の間違いに気づくのが遅すぎた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 188
   },
   {
     "id": 436,
@@ -3921,7 +4356,8 @@
     "meaning": "受け入れる",
     "example": "He accepted the job offer.",
     "exampleJa": "彼はその仕事の申し出を受け入れた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 190
   },
   {
     "id": 437,
@@ -3930,7 +4366,8 @@
     "meaning": "気にする、心",
     "example": "Do you mind if I open the window?",
     "exampleJa": "窓を開けても構いませんか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 192
   },
   {
     "id": 438,
@@ -3939,7 +4376,8 @@
     "meaning": "〜かなと思う",
     "example": "I wonder if it will rain tomorrow.",
     "exampleJa": "明日雨が降るかなと思う。",
-    "level": 1
+    "level": 1,
+    "leapNo": 193
   },
   {
     "id": 439,
@@ -3948,7 +4386,8 @@
     "meaning": "〜のように思われる",
     "example": "She seems tired today.",
     "exampleJa": "彼女は今日疲れているようだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 194
   },
   {
     "id": 440,
@@ -3957,7 +4396,8 @@
     "meaning": "認める",
     "example": "He admitted that he was wrong.",
     "exampleJa": "彼は自分が間違っていたことを認めた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 199
   },
   {
     "id": 441,
@@ -3966,7 +4406,8 @@
     "meaning": "汚染、公害",
     "example": "Air pollution is a big problem in cities.",
     "exampleJa": "大気汚染は都市部で大きな問題だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 201
   },
   {
     "id": 442,
@@ -3975,7 +4416,8 @@
     "meaning": "光景、視力",
     "example": "The mountain view was a beautiful sight.",
     "exampleJa": "その山の景色は美しい光景だった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 202
   },
   {
     "id": 443,
@@ -3984,7 +4426,8 @@
     "meaning": "眺め、見解",
     "example": "We have a great view from this window.",
     "exampleJa": "この窓からは素晴らしい眺めがある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 203
   },
   {
     "id": 444,
@@ -3993,7 +4436,8 @@
     "meaning": "自然、性質",
     "example": "She loves spending time in nature.",
     "exampleJa": "彼女は自然の中で過ごすのが大好きだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 205
   },
   {
     "id": 445,
@@ -4002,7 +4446,8 @@
     "meaning": "種",
     "example": "Farmers planted seeds in the spring.",
     "exampleJa": "農家は春に種をまいた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 206
   },
   {
     "id": 446,
@@ -4011,7 +4456,8 @@
     "meaning": "植物、植える",
     "example": "We planted flowers in the garden.",
     "exampleJa": "私たちは庭に花を植えた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 207
   },
   {
     "id": 447,
@@ -4020,7 +4466,8 @@
     "meaning": "収穫",
     "example": "Farmers harvest rice in autumn.",
     "exampleJa": "農家は秋に米を収穫する。",
-    "level": 2
+    "level": 2,
+    "leapNo": 209
   },
   {
     "id": 448,
@@ -4029,7 +4476,8 @@
     "meaning": "昆虫",
     "example": "She is afraid of insects.",
     "exampleJa": "彼女は昆虫が怖い。",
-    "level": 2
+    "level": 2,
+    "leapNo": 210
   },
   {
     "id": 449,
@@ -4038,7 +4486,8 @@
     "meaning": "地震",
     "example": "A strong earthquake hit the region.",
     "exampleJa": "強い地震がその地域を襲った。",
-    "level": 2
+    "level": 2,
+    "leapNo": 211
   },
   {
     "id": 450,
@@ -4047,7 +4496,8 @@
     "meaning": "気温、体温",
     "example": "The temperature dropped suddenly last night.",
     "exampleJa": "昨夜、気温が急に下がった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 212
   },
   {
     "id": 451,
@@ -4056,7 +4506,8 @@
     "meaning": "度、程度",
     "example": "Water freezes at zero degrees Celsius.",
     "exampleJa": "水は摂氏0度で凍る。",
-    "level": 2
+    "level": 2,
+    "leapNo": 213
   },
   {
     "id": 452,
@@ -4065,7 +4516,8 @@
     "meaning": "洪水",
     "example": "The heavy rain caused a flood.",
     "exampleJa": "激しい雨が洪水を引き起こした。",
-    "level": 2
+    "level": 2,
+    "leapNo": 214
   },
   {
     "id": 453,
@@ -4074,7 +4526,8 @@
     "meaning": "凍る",
     "example": "The lake froze completely in winter.",
     "exampleJa": "湖は冬に完全に凍った。",
-    "level": 2
+    "level": 2,
+    "leapNo": 215
   },
   {
     "id": 454,
@@ -4083,7 +4536,8 @@
     "meaning": "反射する、熟考する",
     "example": "The lake reflected the mountains beautifully.",
     "exampleJa": "湖は山々を美しく映していた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 216
   },
   {
     "id": 455,
@@ -4092,7 +4546,8 @@
     "meaning": "礼儀正しい",
     "example": "He is always polite to strangers.",
     "exampleJa": "彼は見知らぬ人にもいつも礼儀正しい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 217
   },
   {
     "id": 456,
@@ -4101,7 +4556,8 @@
     "meaning": "無礼な",
     "example": "It was rude of her to interrupt.",
     "exampleJa": "彼女が話を遮ったのは失礼だった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 218
   },
   {
     "id": 457,
@@ -4110,7 +4566,8 @@
     "meaning": "孤独な",
     "example": "He felt lonely after moving to a new city.",
     "exampleJa": "彼は新しい街に引っ越して孤独を感じた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 219
   },
   {
     "id": 458,
@@ -4119,7 +4576,8 @@
     "meaning": "怠惰な",
     "example": "Don't be lazy, finish your homework.",
     "exampleJa": "怠けないで、宿題を終わらせなさい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 220
   },
   {
     "id": 459,
@@ -4128,7 +4586,8 @@
     "meaning": "厳しい",
     "example": "Our teacher is strict about deadlines.",
     "exampleJa": "私たちの先生は締め切りに厳しい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 221
   },
   {
     "id": 460,
@@ -4137,7 +4596,8 @@
     "meaning": "知的な",
     "example": "She is an intelligent and hardworking student.",
     "exampleJa": "彼女は知的で勤勉な生徒だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 223
   },
   {
     "id": 461,
@@ -4146,7 +4606,8 @@
     "meaning": "緊張して",
     "example": "I feel nervous before exams.",
     "exampleJa": "試験の前は緊張する。",
-    "level": 2
+    "level": 2,
+    "leapNo": 225
   },
   {
     "id": 462,
@@ -4155,7 +4616,8 @@
     "meaning": "目が覚めて",
     "example": "He stayed awake all night studying.",
     "exampleJa": "彼は一晩中起きて勉強していた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 226
   },
   {
     "id": 463,
@@ -4164,7 +4626,8 @@
     "meaning": "特徴",
     "example": "Kindness is one of her characteristics.",
     "exampleJa": "優しさは彼女の特徴の一つだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 230
   },
   {
     "id": 464,
@@ -4173,7 +4636,8 @@
     "meaning": "質",
     "example": "This shop sells high quality products.",
     "exampleJa": "この店は高品質の商品を売っている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 235
   },
   {
     "id": 465,
@@ -4182,7 +4646,8 @@
     "meaning": "有名な",
     "example": "She is famous for her paintings.",
     "exampleJa": "彼女は絵画で有名だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 240
   },
   {
     "id": 466,
@@ -4191,7 +4656,8 @@
     "meaning": "主要な、専攻する",
     "example": "She majors in economics.",
     "exampleJa": "彼女は経済学を専攻している。",
-    "level": 2
+    "level": 2,
+    "leapNo": 242
   },
   {
     "id": 467,
@@ -4200,7 +4666,8 @@
     "meaning": "重要である、問題",
     "example": "It doesn't matter what others think.",
     "exampleJa": "他人がどう思うかは重要ではない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 243
   },
   {
     "id": 468,
@@ -4209,7 +4676,8 @@
     "meaning": "明るい、賢い",
     "example": "She is a bright student who asks great questions.",
     "exampleJa": "彼女は良い質問をする賢い生徒だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 244
   },
   {
     "id": 469,
@@ -4218,7 +4686,8 @@
     "meaning": "快適な",
     "example": "This chair is very comfortable.",
     "exampleJa": "この椅子はとても快適だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 247
   },
   {
     "id": 470,
@@ -4227,7 +4696,8 @@
     "meaning": "心地よい",
     "example": "We had a pleasant conversation.",
     "exampleJa": "私たちは心地よい会話をした。",
-    "level": 2
+    "level": 2,
+    "leapNo": 248
   },
   {
     "id": 471,
@@ -4236,7 +4706,8 @@
     "meaning": "便利な",
     "example": "It's convenient to live near the station.",
     "exampleJa": "駅の近くに住むのは便利だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 249
   },
   {
     "id": 472,
@@ -4245,7 +4716,8 @@
     "meaning": "ひどい",
     "example": "The weather was terrible yesterday.",
     "exampleJa": "昨日の天気はひどかった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 251
   },
   {
     "id": 473,
@@ -4254,7 +4726,8 @@
     "meaning": "薄い、痩せた",
     "example": "She sliced the bread very thin.",
     "exampleJa": "彼女はパンをとても薄く切った。",
-    "level": 2
+    "level": 2,
+    "leapNo": 253
   },
   {
     "id": 474,
@@ -4263,7 +4736,8 @@
     "meaning": "空の",
     "example": "The bottle was completely empty.",
     "exampleJa": "そのボトルは完全に空だった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 257
   },
   {
     "id": 475,
@@ -4272,7 +4746,8 @@
     "meaning": "滑らかな",
     "example": "The road became smooth after repair.",
     "exampleJa": "修理後、道路は滑らかになった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 258
   },
   {
     "id": 476,
@@ -4281,7 +4756,8 @@
     "meaning": "似ている",
     "example": "Her opinion is similar to mine.",
     "exampleJa": "彼女の意見は私のものと似ている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 261
   },
   {
     "id": 477,
@@ -4290,7 +4766,8 @@
     "meaning": "異なる",
     "example": "Prices vary depending on the season.",
     "exampleJa": "価格は季節によって異なる。",
-    "level": 2
+    "level": 2,
+    "leapNo": 263
   },
   {
     "id": 478,
@@ -4299,7 +4776,8 @@
     "meaning": "特定の、明確な",
     "example": "Please give a specific example.",
     "exampleJa": "具体的な例を挙げてください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 264
   },
   {
     "id": 479,
@@ -4308,7 +4786,8 @@
     "meaning": "珍しい",
     "example": "It's unusual to see snow here.",
     "exampleJa": "ここで雪を見るのは珍しい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 266
   },
   {
     "id": 480,
@@ -4317,7 +4796,8 @@
     "meaning": "加える",
     "example": "Add some salt to the soup.",
     "exampleJa": "スープに塩を少し加えて。",
-    "level": 2
+    "level": 2,
+    "leapNo": 267
   },
   {
     "id": 481,
@@ -4326,7 +4806,8 @@
     "meaning": "減らす",
     "example": "We should reduce plastic waste.",
     "exampleJa": "私たちはプラスチックごみを減らすべきだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 269
   },
   {
     "id": 482,
@@ -4335,7 +4816,8 @@
     "meaning": "分ける",
     "example": "Divide the cake into six pieces.",
     "exampleJa": "ケーキを6つに分けてください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 270
   },
   {
     "id": 483,
@@ -4344,7 +4826,8 @@
     "meaning": "数える",
     "example": "She counted the money carefully.",
     "exampleJa": "彼女は注意深くお金を数えた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 271
   },
   {
     "id": 484,
@@ -4353,7 +4836,8 @@
     "meaning": "重さを量る",
     "example": "Please weigh the package before mailing it.",
     "exampleJa": "郵送する前に荷物の重さを量ってください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 272
   },
   {
     "id": 485,
@@ -4362,7 +4846,8 @@
     "meaning": "4分の1",
     "example": "Cut the apple into quarters.",
     "exampleJa": "リンゴを4等分に切って。",
-    "level": 3
+    "level": 3,
+    "leapNo": 273
   },
   {
     "id": 486,
@@ -4371,7 +4856,8 @@
     "meaning": "たくさん、区画",
     "example": "There's a lot of work to do today.",
     "exampleJa": "今日はやるべき仕事がたくさんある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 274
   },
   {
     "id": 487,
@@ -4380,7 +4866,8 @@
     "meaning": "山、積み重ね",
     "example": "There was a pile of books on the desk.",
     "exampleJa": "机の上に本の山があった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 275
   },
   {
     "id": 488,
@@ -4389,7 +4876,8 @@
     "meaning": "割合、料金",
     "example": "The success rate of the plan was high.",
     "exampleJa": "その計画の成功率は高かった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 276
   },
   {
     "id": 489,
@@ -4398,7 +4886,8 @@
     "meaning": "不足",
     "example": "There was a lack of information at first.",
     "exampleJa": "最初は情報の不足があった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 278
   },
   {
     "id": 490,
@@ -4407,7 +4896,8 @@
     "meaning": "準備ができて",
     "example": "Are you ready to go?",
     "exampleJa": "出発する準備はできていますか。",
-    "level": 3
+    "level": 3,
+    "leapNo": 280
   },
   {
     "id": 491,
@@ -4416,7 +4906,8 @@
     "meaning": "準備する",
     "example": "We need to prepare for the exam.",
     "exampleJa": "私たちは試験の準備をする必要がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 281
   },
   {
     "id": 492,
@@ -4425,7 +4916,8 @@
     "meaning": "似合う、都合が良い",
     "example": "That color really suits you.",
     "exampleJa": "その色は本当にあなたに似合っている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 284
   },
   {
     "id": 493,
@@ -4434,7 +4926,8 @@
     "meaning": "場合、事件",
     "example": "In that case, we should wait.",
     "exampleJa": "その場合は、待つべきだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 285
   },
   {
     "id": 494,
@@ -4443,7 +4936,8 @@
     "meaning": "場面、現場",
     "example": "The final scene of the movie was moving.",
     "exampleJa": "その映画の最後の場面は感動的だった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 286
   },
   {
     "id": 495,
@@ -4452,7 +4946,8 @@
     "meaning": "機会、可能性",
     "example": "This is a good chance to improve.",
     "exampleJa": "これは上達する良い機会だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 287
   },
   {
     "id": 496,
@@ -4461,7 +4956,8 @@
     "meaning": "好機",
     "example": "She got an opportunity to study abroad.",
     "exampleJa": "彼女は留学する機会を得た。",
-    "level": 3
+    "level": 3,
+    "leapNo": 288
   },
   {
     "id": 497,
@@ -4470,7 +4966,8 @@
     "meaning": "春、泉",
     "example": "Flowers bloom in spring.",
     "exampleJa": "花は春に咲く。",
-    "level": 3
+    "level": 3,
+    "leapNo": 291
   },
   {
     "id": 498,
@@ -4479,7 +4976,8 @@
     "meaning": "分、瞬間",
     "example": "Wait a minute, please.",
     "exampleJa": "少し待ってください。",
-    "level": 3
+    "level": 3,
+    "leapNo": 292
   },
   {
     "id": 499,
@@ -4488,7 +4986,8 @@
     "meaning": "年齢、時代",
     "example": "Technology changes with the age.",
     "exampleJa": "技術は時代とともに変わる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 293
   },
   {
     "id": 500,
@@ -4497,7 +4996,8 @@
     "meaning": "世代",
     "example": "Each generation faces different challenges.",
     "exampleJa": "それぞれの世代は異なる課題に直面する。",
-    "level": 3
+    "level": 3,
+    "leapNo": 294
   },
   {
     "id": 501,
@@ -4506,7 +5006,8 @@
     "meaning": "最近",
     "example": "Recently, more people work from home.",
     "exampleJa": "最近、より多くの人が在宅勤務をしている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 296
   },
   {
     "id": 502,
@@ -4515,7 +5016,8 @@
     "meaning": "早い、早く",
     "example": "She arrived early for the meeting.",
     "exampleJa": "彼女は会議に早く到着した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 298
   },
   {
     "id": 503,
@@ -4524,7 +5026,8 @@
     "meaning": "現代の",
     "example": "This museum has modern art.",
     "exampleJa": "この美術館には現代美術がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 301
   },
   {
     "id": 504,
@@ -4533,7 +5036,8 @@
     "meaning": "費やす",
     "example": "He spends too much time on his phone.",
     "exampleJa": "彼はスマホに時間を使いすぎる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 303
   },
   {
     "id": 505,
@@ -4542,7 +5046,8 @@
     "meaning": "遅らせる、遅延",
     "example": "The flight was delayed by two hours.",
     "exampleJa": "フライトは2時間遅れた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 304
   },
   {
     "id": 506,
@@ -4551,7 +5056,8 @@
     "meaning": "借りる",
     "example": "Can I borrow your pen?",
     "exampleJa": "あなたのペンを借りてもいいですか。",
-    "level": 3
+    "level": 3,
+    "leapNo": 305
   },
   {
     "id": 507,
@@ -4560,7 +5066,8 @@
     "meaning": "貸す",
     "example": "She lent me her umbrella.",
     "exampleJa": "彼女は私に傘を貸してくれた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 306
   },
   {
     "id": 508,
@@ -4569,7 +5076,8 @@
     "meaning": "賃借する、家賃",
     "example": "We rent an apartment near the station.",
     "exampleJa": "私たちは駅の近くのアパートを借りている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 307
   },
   {
     "id": 509,
@@ -4578,7 +5086,8 @@
     "meaning": "提供する",
     "example": "The school provides free lunch.",
     "exampleJa": "その学校は無料の給食を提供する。",
-    "level": 3
+    "level": 3,
+    "leapNo": 308
   },
   {
     "id": 510,
@@ -4587,7 +5096,8 @@
     "meaning": "メモ、注意",
     "example": "She took notes during the lecture.",
     "exampleJa": "彼女は講義中にメモを取った。",
-    "level": 3
+    "level": 3,
+    "leapNo": 313
   },
   {
     "id": 511,
@@ -4596,7 +5106,8 @@
     "meaning": "出席して、現在、プレゼント",
     "example": "All members were present at the meeting.",
     "exampleJa": "全メンバーが会議に出席していた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 314
   },
   {
     "id": 512,
@@ -4605,7 +5116,8 @@
     "meaning": "家具",
     "example": "They bought new furniture for the living room.",
     "exampleJa": "彼らはリビングのために新しい家具を買った。",
-    "level": 3
+    "level": 3,
+    "leapNo": 320
   },
   {
     "id": 513,
@@ -4614,7 +5126,8 @@
     "meaning": "交通、交通量",
     "example": "Traffic was heavy this morning.",
     "exampleJa": "今朝は交通量が多かった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 322
   },
   {
     "id": 514,
@@ -4623,7 +5136,8 @@
     "meaning": "売る",
     "example": "This store sells fresh vegetables.",
     "exampleJa": "この店は新鮮な野菜を売っている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 323
   },
   {
     "id": 515,
@@ -4632,7 +5146,8 @@
     "meaning": "支払う",
     "example": "I paid for the tickets online.",
     "exampleJa": "私はチケット代をオンラインで支払った。",
-    "level": 3
+    "level": 3,
+    "leapNo": 324
   },
   {
     "id": 516,
@@ -4641,7 +5156,8 @@
     "meaning": "身につけている",
     "example": "She was wearing a red dress.",
     "exampleJa": "彼女は赤いドレスを着ていた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 325
   },
   {
     "id": 517,
@@ -4650,7 +5166,8 @@
     "meaning": "結婚する",
     "example": "They got married last summer.",
     "exampleJa": "彼らは去年の夏に結婚した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 327
   },
   {
     "id": 518,
@@ -4659,7 +5176,8 @@
     "meaning": "注文する、命令、順序",
     "example": "We ordered pizza for dinner.",
     "exampleJa": "私たちは夕食にピザを注文した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 329
   },
   {
     "id": 519,
@@ -4668,7 +5186,8 @@
     "meaning": "部屋、余地",
     "example": "There is no room for more chairs.",
     "exampleJa": "これ以上椅子を置く余地はない。",
-    "level": 3
+    "level": 3,
+    "leapNo": 330
   },
   {
     "id": 520,
@@ -4677,7 +5196,8 @@
     "meaning": "方向、指示",
     "example": "Follow the direction of the arrow.",
     "exampleJa": "矢印の方向に従ってください。",
-    "level": 3
+    "level": 3,
+    "leapNo": 338
   },
   {
     "id": 521,
@@ -4686,7 +5206,8 @@
     "meaning": "文化",
     "example": "Each country has its own culture.",
     "exampleJa": "それぞれの国には独自の文化がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 339
   },
   {
     "id": 522,
@@ -4695,7 +5216,8 @@
     "meaning": "芸術",
     "example": "She studies art history at university.",
     "exampleJa": "彼女は大学で美術史を学んでいる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 340
   },
   {
     "id": 523,
@@ -4704,7 +5226,8 @@
     "meaning": "縫う",
     "example": "She sewed a button back onto her shirt.",
     "exampleJa": "彼女はシャツにボタンを縫い付け直した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 146
   },
   {
     "id": 524,
@@ -4713,7 +5236,8 @@
     "meaning": "注ぐ",
     "example": "He poured tea into each cup.",
     "exampleJa": "彼は各カップに紅茶を注いだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 149
   },
   {
     "id": 525,
@@ -4722,7 +5246,8 @@
     "meaning": "こぼす",
     "example": "I spilled water on the floor.",
     "exampleJa": "私は床に水をこぼした。",
-    "level": 1
+    "level": 1,
+    "leapNo": 150
   },
   {
     "id": 526,
@@ -4731,7 +5256,8 @@
     "meaning": "耐える、産む",
     "example": "I can't bear this noise any longer.",
     "exampleJa": "私はもうこの騒音に耐えられない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 153
   },
   {
     "id": 527,
@@ -4740,7 +5266,8 @@
     "meaning": "代表する、表す",
     "example": "This graph represents last year's sales.",
     "exampleJa": "このグラフは昨年の売上を表している。",
-    "level": 1
+    "level": 1,
+    "leapNo": 160
   },
   {
     "id": 528,
@@ -4749,7 +5276,8 @@
     "meaning": "基礎を置く、基盤",
     "example": "The movie is based on a true story.",
     "exampleJa": "その映画は実話に基づいている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 161
   },
   {
     "id": 529,
@@ -4758,7 +5286,8 @@
     "meaning": "自分自身の、所有する",
     "example": "She has her own room now.",
     "exampleJa": "彼女は今、自分の部屋を持っている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 164
   },
   {
     "id": 530,
@@ -4767,7 +5296,8 @@
     "meaning": "上級生、上位の",
     "example": "He is a senior at our high school.",
     "exampleJa": "彼は私たちの高校の3年生だ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 174
   },
   {
     "id": 531,
@@ -4776,7 +5306,8 @@
     "meaning": "判断する、裁判官",
     "example": "Don't judge people by their appearance.",
     "exampleJa": "見た目で人を判断してはいけない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 177
   },
   {
     "id": 532,
@@ -4785,7 +5316,8 @@
     "meaning": "やめる",
     "example": "He decided to quit his part-time job.",
     "exampleJa": "彼はアルバイトを辞めることに決めた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 178
   },
   {
     "id": 533,
@@ -4794,7 +5326,8 @@
     "meaning": "引退する",
     "example": "My grandfather retired at sixty-five.",
     "exampleJa": "私の祖父は65歳で引退した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 179
   },
   {
     "id": 534,
@@ -4803,7 +5336,8 @@
     "meaning": "復習、批評",
     "example": "Let's review today's lesson before the test.",
     "exampleJa": "テストの前に今日の授業を復習しよう。",
-    "level": 1
+    "level": 1,
+    "leapNo": 180
   },
   {
     "id": 535,
@@ -4812,7 +5346,8 @@
     "meaning": "予測する",
     "example": "No one could predict the result.",
     "exampleJa": "誰もその結果を予測できなかった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 185
   },
   {
     "id": 536,
@@ -4821,7 +5356,8 @@
     "meaning": "思い出させる",
     "example": "This song reminds me of my childhood.",
     "exampleJa": "この歌は私に子供時代を思い出させる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 187
   },
   {
     "id": 537,
@@ -4830,7 +5366,8 @@
     "meaning": "地面、根拠",
     "example": "The ball rolled along the ground.",
     "exampleJa": "ボールは地面を転がっていった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 200
   },
   {
     "id": 538,
@@ -4839,7 +5376,8 @@
     "meaning": "醜い",
     "example": "The old building looked ugly and worn out.",
     "exampleJa": "その古い建物は醜くて古びて見えた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 222
   },
   {
     "id": 539,
@@ -4848,7 +5386,8 @@
     "meaning": "ばかげた",
     "example": "That was a silly mistake to make.",
     "exampleJa": "それはばかげた間違いだった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 224
   },
   {
     "id": 540,
@@ -4857,7 +5396,8 @@
     "meaning": "一人で",
     "example": "She prefers to travel alone.",
     "exampleJa": "彼女は一人で旅行するのを好む。",
-    "level": 1
+    "level": 1,
+    "leapNo": 227
   },
   {
     "id": 541,
@@ -4866,7 +5406,8 @@
     "meaning": "素晴らしい、輝かしい",
     "example": "She came up with a brilliant idea.",
     "exampleJa": "彼女は素晴らしいアイデアを思いついた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 245
   },
   {
     "id": 542,
@@ -4875,7 +5416,8 @@
     "meaning": "活気のある",
     "example": "The market was lively and colorful.",
     "exampleJa": "その市場は活気に満ちて色鮮やかだった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 246
   },
   {
     "id": 543,
@@ -4884,7 +5426,8 @@
     "meaning": "誤った、偽の",
     "example": "His statement turned out to be false.",
     "exampleJa": "彼の発言は誤りだと分かった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 250
   },
   {
     "id": 544,
@@ -4893,7 +5436,8 @@
     "meaning": "ひどい",
     "example": "The weather was awful during our trip.",
     "exampleJa": "私たちの旅行中、天気はひどかった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 252
   },
   {
     "id": 545,
@@ -4902,7 +5446,8 @@
     "meaning": "きつい",
     "example": "These shoes feel too tight.",
     "exampleJa": "この靴はきつすぎる感じがする。",
-    "level": 1
+    "level": 1,
+    "leapNo": 254
   },
   {
     "id": 546,
@@ -4911,7 +5456,8 @@
     "meaning": "ゆるい",
     "example": "The rope came loose during the night.",
     "exampleJa": "そのロープは夜の間にゆるんだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 255
   },
   {
     "id": 547,
@@ -4920,7 +5466,8 @@
     "meaning": "生の",
     "example": "She prefers raw vegetables to cooked ones.",
     "exampleJa": "彼女は調理した野菜より生野菜を好む。",
-    "level": 1
+    "level": 1,
+    "leapNo": 256
   },
   {
     "id": 548,
@@ -4929,7 +5476,8 @@
     "meaning": "時間、回",
     "example": "This is the first time I've visited Kyoto.",
     "exampleJa": "今回が私が京都を訪れる初めてだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 290
   },
   {
     "id": 549,
@@ -4938,7 +5486,8 @@
     "meaning": "慣れている、中古の",
     "example": "I'm not used to waking up early.",
     "exampleJa": "私は早起きに慣れていない。",
-    "level": 1
+    "level": 1,
+    "leapNo": 297
   },
   {
     "id": 550,
@@ -4947,7 +5496,8 @@
     "meaning": "最初の、まず",
     "example": "First, let's check the schedule.",
     "exampleJa": "まず、スケジュールを確認しよう。",
-    "level": 1
+    "level": 1,
+    "leapNo": 299
   },
   {
     "id": 551,
@@ -4956,7 +5506,8 @@
     "meaning": "最新の",
     "example": "Have you seen the latest news?",
     "exampleJa": "最新のニュースを見ましたか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 300
   },
   {
     "id": 552,
@@ -4965,7 +5516,8 @@
     "meaning": "板、乗り込む",
     "example": "Please board the train quickly.",
     "exampleJa": "急いで電車に乗り込んでください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 309
   },
   {
     "id": 553,
@@ -4974,7 +5526,8 @@
     "meaning": "ごみ",
     "example": "Take out the garbage before you leave.",
     "exampleJa": "出かける前にごみを出してください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 310
   },
   {
     "id": 554,
@@ -4983,7 +5536,8 @@
     "meaning": "品目、項目",
     "example": "There are five items on this list.",
     "exampleJa": "このリストには5つの項目がある。",
-    "level": 1
+    "level": 1,
+    "leapNo": 311
   },
   {
     "id": 555,
@@ -4992,7 +5546,8 @@
     "meaning": "車輪",
     "example": "One of the wheels came off the bike.",
     "exampleJa": "自転車の車輪の一つが外れた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 312
   },
   {
     "id": 556,
@@ -5001,7 +5556,8 @@
     "meaning": "もの",
     "example": "Put your stuff in this bag.",
     "exampleJa": "あなたの持ち物をこの袋に入れて。",
-    "level": 1
+    "level": 1,
+    "leapNo": 316
   },
   {
     "id": 557,
@@ -5010,7 +5566,8 @@
     "meaning": "服",
     "example": "She hung the clothes out to dry.",
     "exampleJa": "彼女は服を干した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 326
   },
   {
     "id": 558,
@@ -5019,7 +5576,8 @@
     "meaning": "挨拶する",
     "example": "He greeted us warmly at the door.",
     "exampleJa": "彼はドアのところで私たちを温かく迎えた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 328
   },
   {
     "id": 559,
@@ -5028,7 +5586,8 @@
     "meaning": "階、物語",
     "example": "Our office is on the third story.",
     "exampleJa": "私たちのオフィスは3階にある。",
-    "level": 1
+    "level": 1,
+    "leapNo": 331
   },
   {
     "id": 560,
@@ -5037,7 +5596,8 @@
     "meaning": "用地、現場",
     "example": "They chose a site for the new school.",
     "exampleJa": "彼らは新しい学校の用地を選んだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 332
   },
   {
     "id": 561,
@@ -5046,7 +5606,8 @@
     "meaning": "庭",
     "example": "The children played in the yard.",
     "exampleJa": "子供たちは庭で遊んだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 333
   },
   {
     "id": 562,
@@ -5055,7 +5616,8 @@
     "meaning": "底、一番下",
     "example": "There was sand at the bottom of the box.",
     "exampleJa": "箱の底には砂があった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 334
   },
   {
     "id": 563,
@@ -5064,7 +5626,8 @@
     "meaning": "列、線",
     "example": "Please stand in line here.",
     "exampleJa": "ここに並んで立ってください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 335
   },
   {
     "id": 564,
@@ -5073,7 +5636,8 @@
     "meaning": "列",
     "example": "We sat in the front row.",
     "exampleJa": "私たちは前列に座った。",
-    "level": 1
+    "level": 1,
+    "leapNo": 336
   },
   {
     "id": 565,
@@ -5082,7 +5646,8 @@
     "meaning": "背景、経歴",
     "example": "She has a background in music.",
     "exampleJa": "彼女は音楽の経歴を持っている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 337
   },
   {
     "id": 566,
@@ -5091,7 +5656,8 @@
     "meaning": "小説",
     "example": "He is writing his first novel.",
     "exampleJa": "彼は初めての小説を書いている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 342
   },
   {
     "id": 567,
@@ -5100,7 +5666,8 @@
     "meaning": "文、判決",
     "example": "Please translate this sentence into English.",
     "exampleJa": "この文を英語に訳してください。",
-    "level": 1
+    "level": 1,
+    "leapNo": 345
   },
   {
     "id": 568,
@@ -5109,7 +5676,8 @@
     "meaning": "記事",
     "example": "I read an interesting article today.",
     "exampleJa": "今日、興味深い記事を読んだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 346
   },
   {
     "id": 569,
@@ -5118,7 +5686,8 @@
     "meaning": "兆候、標識、署名する",
     "example": "She showed no sign of tiredness.",
     "exampleJa": "彼女は疲れの兆候を見せなかった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 352
   },
   {
     "id": 570,
@@ -5127,7 +5696,8 @@
     "meaning": "意味する",
     "example": "What does this word mean?",
     "exampleJa": "この単語はどういう意味ですか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 353
   },
   {
     "id": 571,
@@ -5136,7 +5706,8 @@
     "meaning": "展示する",
     "example": "The museum displays ancient artifacts.",
     "exampleJa": "その博物館は古代の遺物を展示している。",
-    "level": 1
+    "level": 1,
+    "leapNo": 355
   },
   {
     "id": 572,
@@ -5145,7 +5716,8 @@
     "meaning": "信頼する",
     "example": "I trust you completely.",
     "exampleJa": "私はあなたを完全に信頼している。",
-    "level": 1
+    "level": 1,
+    "leapNo": 356
   },
   {
     "id": 573,
@@ -5154,7 +5726,8 @@
     "meaning": "頼る",
     "example": "You can rely on her for advice.",
     "exampleJa": "助言については彼女に頼ることができる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 358
   },
   {
     "id": 574,
@@ -5163,7 +5736,8 @@
     "meaning": "嫌う",
     "example": "He hates waiting in long lines.",
     "exampleJa": "彼は長い行列で待つのが嫌いだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 363
   },
   {
     "id": 575,
@@ -5172,7 +5746,8 @@
     "meaning": "心配する",
     "example": "Don't worry about the result.",
     "exampleJa": "結果について心配しないで。",
-    "level": 1
+    "level": 1,
+    "leapNo": 364
   },
   {
     "id": 576,
@@ -5181,7 +5756,8 @@
     "meaning": "心配して",
     "example": "She felt anxious before the interview.",
     "exampleJa": "彼女は面接の前に不安を感じた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 365
   },
   {
     "id": 577,
@@ -5190,7 +5766,8 @@
     "meaning": "関心、利子",
     "example": "She has a strong interest in science.",
     "exampleJa": "彼女は科学に強い関心を持っている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 373
   },
   {
     "id": 578,
@@ -5199,7 +5776,8 @@
     "meaning": "理由",
     "example": "What is the reason for the delay?",
     "exampleJa": "遅延の理由は何ですか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 376
   },
   {
     "id": 579,
@@ -5208,7 +5786,8 @@
     "meaning": "結果",
     "example": "The result of the test surprised everyone.",
     "exampleJa": "そのテストの結果はみんなを驚かせた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 377
   },
   {
     "id": 580,
@@ -5217,7 +5796,8 @@
     "meaning": "終わり、終わる",
     "example": "The movie ends with a surprising twist.",
     "exampleJa": "その映画は驚くべき展開で終わる。",
-    "level": 1
+    "level": 1,
+    "leapNo": 380
   },
   {
     "id": 581,
@@ -5226,7 +5806,8 @@
     "meaning": "方法、道",
     "example": "There must be a better way to solve this.",
     "exampleJa": "これを解決するもっと良い方法があるはずだ。",
-    "level": 1
+    "level": 1,
+    "leapNo": 383
   },
   {
     "id": 582,
@@ -5235,7 +5816,8 @@
     "meaning": "目的",
     "example": "What is the purpose of this meeting?",
     "exampleJa": "この会議の目的は何ですか。",
-    "level": 1
+    "level": 1,
+    "leapNo": 385
   },
   {
     "id": 583,
@@ -5244,7 +5826,8 @@
     "meaning": "正しい、右の、権利",
     "example": "You have the right to remain silent.",
     "exampleJa": "あなたには黙秘する権利がある。",
-    "level": 1
+    "level": 1,
+    "leapNo": 387
   },
   {
     "id": 584,
@@ -5253,7 +5836,8 @@
     "meaning": "ほとんど",
     "example": "We are almost finished with the project.",
     "exampleJa": "私たちはそのプロジェクトをほぼ終えている。",
-    "level": 1
+    "level": 1,
+    "leapNo": 390
   },
   {
     "id": 585,
@@ -5262,7 +5846,8 @@
     "meaning": "〜まで",
     "example": "Wait here until I come back.",
     "exampleJa": "私が戻るまでここで待っていて。",
-    "level": 1
+    "level": 1,
+    "leapNo": 398
   },
   {
     "id": 586,
@@ -5271,7 +5856,8 @@
     "meaning": "おしゃべりする",
     "example": "We chatted for hours over coffee.",
     "exampleJa": "私たちはコーヒーを飲みながら何時間もおしゃべりした。",
-    "level": 1
+    "level": 1,
+    "leapNo": 414
   },
   {
     "id": 587,
@@ -5280,7 +5866,8 @@
     "meaning": "褒める",
     "example": "The teacher praised her effort.",
     "exampleJa": "先生は彼女の努力を褒めた。",
-    "level": 1
+    "level": 1,
+    "leapNo": 412
   },
   {
     "id": 588,
@@ -5289,7 +5876,8 @@
     "meaning": "返事をする",
     "example": "She replied to my email quickly.",
     "exampleJa": "彼女は私のメールにすぐ返信した。",
-    "level": 1
+    "level": 1,
+    "leapNo": 421
   },
   {
     "id": 589,
@@ -5298,7 +5886,8 @@
     "meaning": "応答する",
     "example": "He didn't respond to the question.",
     "exampleJa": "彼はその質問に答えなかった。",
-    "level": 1
+    "level": 1,
+    "leapNo": 422
   },
   {
     "id": 590,
@@ -5307,7 +5896,8 @@
     "meaning": "観察する",
     "example": "Scientists observed the animals closely.",
     "exampleJa": "科学者たちはその動物たちを注意深く観察した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 425
   },
   {
     "id": 591,
@@ -5316,7 +5906,8 @@
     "meaning": "制服",
     "example": "Students must wear their uniform to school.",
     "exampleJa": "生徒は学校に制服を着て行かなければならない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 172
   },
   {
     "id": 592,
@@ -5325,7 +5916,8 @@
     "meaning": "集中する",
     "example": "It's hard to concentrate with all this noise.",
     "exampleJa": "この騒音では集中するのが難しい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 196
   },
   {
     "id": 593,
@@ -5334,7 +5926,8 @@
     "meaning": "風景",
     "example": "The landscape here is truly beautiful.",
     "exampleJa": "ここの風景は本当に美しい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 204
   },
   {
     "id": 594,
@@ -5343,7 +5936,8 @@
     "meaning": "開花する",
     "example": "The cherry blossoms bloom in April.",
     "exampleJa": "桜は4月に咲く。",
-    "level": 2
+    "level": 2,
+    "leapNo": 208
   },
   {
     "id": 595,
@@ -5352,7 +5946,8 @@
     "meaning": "初歩の、初等の",
     "example": "She teaches at an elementary school.",
     "exampleJa": "彼女は小学校で教えている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 241
   },
   {
     "id": 596,
@@ -5361,7 +5956,8 @@
     "meaning": "記念日",
     "example": "Today is their wedding anniversary.",
     "exampleJa": "今日は彼らの結婚記念日だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 295
   },
   {
     "id": 597,
@@ -5370,7 +5966,8 @@
     "meaning": "冷蔵庫",
     "example": "Put the milk back in the refrigerator.",
     "exampleJa": "牛乳を冷蔵庫に戻して。",
-    "level": 2
+    "level": 2,
+    "leapNo": 321
   },
   {
     "id": 598,
@@ -5379,7 +5976,8 @@
     "meaning": "お買い得品、交渉する",
     "example": "I found a great bargain at the market.",
     "exampleJa": "市場で素晴らしいお買い得品を見つけた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 315
   },
   {
     "id": 599,
@@ -5388,7 +5986,8 @@
     "meaning": "ひも、弦",
     "example": "Tie the box with this string.",
     "exampleJa": "この紐で箱を縛って。",
-    "level": 2
+    "level": 2,
+    "leapNo": 317
   },
   {
     "id": 600,
@@ -5397,7 +5996,8 @@
     "meaning": "余暇",
     "example": "He spends his leisure time reading.",
     "exampleJa": "彼は余暇を読書に使う。",
-    "level": 2
+    "level": 2,
+    "leapNo": 318
   },
   {
     "id": 601,
@@ -5406,7 +6006,8 @@
     "meaning": "食事、ダイエット",
     "example": "A balanced diet keeps you healthy.",
     "exampleJa": "バランスの取れた食事は健康を保つ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 319
   },
   {
     "id": 602,
@@ -5415,7 +6016,8 @@
     "meaning": "漫画、アニメ",
     "example": "My little brother loves watching cartoons.",
     "exampleJa": "私の弟はアニメを見るのが大好きだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 341
   },
   {
     "id": 603,
@@ -5424,7 +6026,8 @@
     "meaning": "楽器、器具",
     "example": "She plays a musical instrument every day.",
     "exampleJa": "彼女は毎日楽器を演奏する。",
-    "level": 2
+    "level": 2,
+    "leapNo": 343
   },
   {
     "id": 604,
@@ -5433,7 +6036,8 @@
     "meaning": "曲、調整する",
     "example": "He hummed a familiar tune.",
     "exampleJa": "彼はおなじみの曲を口ずさんだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 344
   },
   {
     "id": 605,
@@ -5442,7 +6046,8 @@
     "meaning": "一節、通路",
     "example": "Read the passage and answer the questions.",
     "exampleJa": "その一節を読んで質問に答えなさい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 347
   },
   {
     "id": 606,
@@ -5451,7 +6056,8 @@
     "meaning": "語彙",
     "example": "Reading books improves your vocabulary.",
     "exampleJa": "読書は語彙力を向上させる。",
-    "level": 2
+    "level": 2,
+    "leapNo": 348
   },
   {
     "id": 607,
@@ -5460,7 +6066,8 @@
     "meaning": "うわさ",
     "example": "Don't believe every rumor you hear.",
     "exampleJa": "聞くうわさを全部信じてはいけない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 349
   },
   {
     "id": 608,
@@ -5469,7 +6076,8 @@
     "meaning": "つづる",
     "example": "How do you spell your last name?",
     "exampleJa": "あなたの姓はどうつづりますか。",
-    "level": 2
+    "level": 2,
+    "leapNo": 350
   },
   {
     "id": 609,
@@ -5478,7 +6086,8 @@
     "meaning": "発音する",
     "example": "This word is difficult to pronounce.",
     "exampleJa": "この単語は発音するのが難しい。",
-    "level": 2
+    "level": 2,
+    "leapNo": 351
   },
   {
     "id": 610,
@@ -5487,7 +6096,8 @@
     "meaning": "出版する",
     "example": "The author published her first book last year.",
     "exampleJa": "その著者は去年最初の本を出版した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 354
   },
   {
     "id": 611,
@@ -5496,7 +6106,8 @@
     "meaning": "祈る",
     "example": "They prayed for good weather.",
     "exampleJa": "彼らは良い天気を祈った。",
-    "level": 2
+    "level": 2,
+    "leapNo": 359
   },
   {
     "id": 612,
@@ -5505,7 +6116,8 @@
     "meaning": "懇願する",
     "example": "He begged her to forgive him.",
     "exampleJa": "彼は彼女に許してくれるよう懇願した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 360
   },
   {
     "id": 613,
@@ -5514,7 +6126,8 @@
     "meaning": "〜の方を好む",
     "example": "I prefer tea to coffee.",
     "exampleJa": "私はコーヒーより紅茶の方が好きだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 361
   },
   {
     "id": 614,
@@ -5523,7 +6136,8 @@
     "meaning": "泣く",
     "example": "She wept quietly at the news.",
     "exampleJa": "彼女はその知らせに静かに泣いた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 362
   },
   {
     "id": 615,
@@ -5532,7 +6146,8 @@
     "meaning": "満足させる",
     "example": "The meal fully satisfied our hunger.",
     "exampleJa": "その食事は私たちの空腹を十分に満たした。",
-    "level": 2
+    "level": 2,
+    "leapNo": 366
   },
   {
     "id": 616,
@@ -5541,7 +6156,8 @@
     "meaning": "いらいらさせる",
     "example": "His constant complaining annoys everyone.",
     "exampleJa": "彼の絶え間ない不満はみんなをいらいらさせる。",
-    "level": 2
+    "level": 2,
+    "leapNo": 367
   },
   {
     "id": 617,
@@ -5550,7 +6166,8 @@
     "meaning": "悩ませる、わざわざ〜する",
     "example": "Sorry to bother you, but I have a question.",
     "exampleJa": "お手数ですが、質問があります。",
-    "level": 2
+    "level": 2,
+    "leapNo": 368
   },
   {
     "id": 618,
@@ -5559,7 +6176,8 @@
     "meaning": "邪魔をする",
     "example": "Please do not disturb the meeting.",
     "exampleJa": "会議の邪魔をしないでください。",
-    "level": 2
+    "level": 2,
+    "leapNo": 369
   },
   {
     "id": 619,
@@ -5568,7 +6186,8 @@
     "meaning": "後悔する",
     "example": "She regretted not studying harder.",
     "exampleJa": "彼女はもっと熱心に勉強しなかったことを後悔した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 371
   },
   {
     "id": 620,
@@ -5577,7 +6196,8 @@
     "meaning": "残念なこと、哀れみ",
     "example": "It's a pity you can't come to the party.",
     "exampleJa": "あなたがパーティーに来られないのは残念だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 374
   },
   {
     "id": 621,
@@ -5586,7 +6206,8 @@
     "meaning": "影響を与える",
     "example": "The weather can affect your mood.",
     "exampleJa": "天気はあなたの気分に影響を与えることがある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 382
   },
   {
     "id": 622,
@@ -5595,7 +6216,8 @@
     "meaning": "方法、態度",
     "example": "He spoke in a polite manner.",
     "exampleJa": "彼は礼儀正しい態度で話した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 384
   },
   {
     "id": 623,
@@ -5604,7 +6226,8 @@
     "meaning": "ため",
     "example": "She did it for the sake of her family.",
     "exampleJa": "彼女は家族のためにそれをした。",
-    "level": 2
+    "level": 2,
+    "leapNo": 386
   },
   {
     "id": 624,
@@ -5613,7 +6236,8 @@
     "meaning": "ほとんど〜ない",
     "example": "I hardly know him.",
     "exampleJa": "私は彼のことをほとんど知らない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 389
   },
   {
     "id": 625,
@@ -5622,7 +6246,8 @@
     "meaning": "部分的に",
     "example": "The delay was partly due to bad weather.",
     "exampleJa": "その遅延は一部、悪天候によるものだった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 391
   },
   {
     "id": 626,
@@ -5631,7 +6256,8 @@
     "meaning": "実に",
     "example": "It was, indeed, a difficult decision.",
     "exampleJa": "それは実に難しい決断だった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 392
   },
   {
     "id": 627,
@@ -5640,7 +6266,8 @@
     "meaning": "〜さえ",
     "example": "Even a child can solve this puzzle.",
     "exampleJa": "子供でさえこのパズルを解ける。",
-    "level": 2
+    "level": 2,
+    "leapNo": 393
   },
   {
     "id": 628,
@@ -5649,7 +6276,8 @@
     "meaning": "正確に",
     "example": "I don't know exactly what happened.",
     "exampleJa": "何が起きたのか正確には分からない。",
-    "level": 2
+    "level": 2,
+    "leapNo": 394
   },
   {
     "id": 629,
@@ -5658,7 +6286,8 @@
     "meaning": "徐々に",
     "example": "The sky gradually turned dark.",
     "exampleJa": "空は徐々に暗くなっていった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 395
   },
   {
     "id": 630,
@@ -5667,7 +6296,8 @@
     "meaning": "それゆえに",
     "example": "It rained all day; therefore, we stayed home.",
     "exampleJa": "一日中雨が降っていた。それゆえ私たちは家にいた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 396
   },
   {
     "id": 631,
@@ -5676,7 +6306,8 @@
     "meaning": "代わりに",
     "example": "She had tea instead of coffee.",
     "exampleJa": "彼女はコーヒーの代わりに紅茶を飲んだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 397
   },
   {
     "id": 632,
@@ -5685,7 +6316,8 @@
     "meaning": "〜に加えて",
     "example": "Besides English, she speaks French.",
     "exampleJa": "英語に加えて、彼女はフランス語も話す。",
-    "level": 2
+    "level": 2,
+    "leapNo": 399
   },
   {
     "id": 633,
@@ -5694,7 +6326,8 @@
     "meaning": "〜を除いて",
     "example": "Everyone was on time except him.",
     "exampleJa": "彼を除いて全員が時間通りだった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 400
   },
   {
     "id": 634,
@@ -5703,7 +6336,8 @@
     "meaning": "討論",
     "example": "They debated the new policy for hours.",
     "exampleJa": "彼らは新しい政策について何時間も討論した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 401
   },
   {
     "id": 635,
@@ -5712,7 +6346,8 @@
     "meaning": "批判する",
     "example": "He was criticized for his decision.",
     "exampleJa": "彼はその決断について批判された。",
-    "level": 2
+    "level": 2,
+    "leapNo": 402
   },
   {
     "id": 636,
@@ -5721,7 +6356,8 @@
     "meaning": "非難する、告訴する",
     "example": "She accused him of lying.",
     "exampleJa": "彼女は彼が嘘をついたと非難した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 403
   },
   {
     "id": 637,
@@ -5730,7 +6366,8 @@
     "meaning": "主張する",
     "example": "He insisted that he was right.",
     "exampleJa": "彼は自分が正しいと主張した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 404
   },
   {
     "id": 638,
@@ -5739,7 +6376,8 @@
     "meaning": "反対する、物、目的",
     "example": "Several people objected to the plan.",
     "exampleJa": "何人かがその計画に反対した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 405
   },
   {
     "id": 639,
@@ -5748,7 +6386,8 @@
     "meaning": "抗議する",
     "example": "They protested against the new law.",
     "exampleJa": "彼らはその新しい法律に抗議した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 406
   },
   {
     "id": 640,
@@ -5757,7 +6396,8 @@
     "meaning": "論争を呼ぶ",
     "example": "It was a controversial decision.",
     "exampleJa": "それは論争を呼ぶ決定だった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 407
   },
   {
     "id": 641,
@@ -5766,7 +6406,8 @@
     "meaning": "〜する運命の、〜行きの",
     "example": "This train is bound for Osaka.",
     "exampleJa": "この電車は大阪行きだ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 408
   },
   {
     "id": 642,
@@ -5775,7 +6416,8 @@
     "meaning": "賭ける",
     "example": "I bet she will win the race.",
     "exampleJa": "彼女がレースに勝つと私は思う。",
-    "level": 2
+    "level": 2,
+    "leapNo": 409
   },
   {
     "id": 643,
@@ -5784,7 +6426,8 @@
     "meaning": "言及する",
     "example": "She didn't mention her plans.",
     "exampleJa": "彼女は自分の計画について言及しなかった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 416
   },
   {
     "id": 644,
@@ -5793,7 +6436,8 @@
     "meaning": "伝える",
     "example": "The letter conveyed his gratitude.",
     "exampleJa": "その手紙は彼の感謝を伝えた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 417
   },
   {
     "id": 645,
@@ -5802,7 +6446,8 @@
     "meaning": "実演する、示す",
     "example": "She demonstrated how the machine works.",
     "exampleJa": "彼女はその機械の動作を実演した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 418
   },
   {
     "id": 646,
@@ -5811,7 +6456,8 @@
     "meaning": "強調する",
     "example": "The teacher emphasized the importance of practice.",
     "exampleJa": "先生は練習の重要性を強調した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 419
   },
   {
     "id": 647,
@@ -5820,7 +6466,8 @@
     "meaning": "誇張する",
     "example": "He tends to exaggerate his achievements.",
     "exampleJa": "彼は自分の功績を誇張する傾向がある。",
-    "level": 2
+    "level": 2,
+    "leapNo": 420
   },
   {
     "id": 648,
@@ -5829,7 +6476,8 @@
     "meaning": "ささやく",
     "example": "She whispered the answer to me.",
     "exampleJa": "彼女は私に答えをささやいた。",
-    "level": 2
+    "level": 2,
+    "leapNo": 423
   },
   {
     "id": 649,
@@ -5838,7 +6486,8 @@
     "meaning": "発言",
     "example": "He made an interesting remark during the talk.",
     "exampleJa": "彼は話の中で興味深い発言をした。",
-    "level": 2
+    "level": 2,
+    "leapNo": 424
   },
   {
     "id": 650,
@@ -5847,7 +6496,8 @@
     "meaning": "理論",
     "example": "The scientist proposed a new theory.",
     "exampleJa": "その科学者は新しい理論を提唱した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 426
   },
   {
     "id": 651,
@@ -5856,7 +6506,8 @@
     "meaning": "分析",
     "example": "The report includes a detailed analysis.",
     "exampleJa": "その報告書には詳細な分析が含まれている。",
-    "level": 2
+    "level": 2,
+    "leapNo": 427
   },
   {
     "id": 652,
@@ -5865,7 +6516,8 @@
     "meaning": "現象",
     "example": "This is a common phenomenon in nature.",
     "exampleJa": "これは自然界でよく見られる現象だ。",
-    "level": 2
+    "level": 2,
+    "leapNo": 428
   },
   {
     "id": 653,
@@ -5874,7 +6526,8 @@
     "meaning": "化学物質、化学の",
     "example": "The factory produces various chemicals.",
     "exampleJa": "その工場は様々な化学物質を生産している。",
-    "level": 2
+    "level": 2,
+    "leapNo": 431
   },
   {
     "id": 654,
@@ -5883,7 +6536,8 @@
     "meaning": "燃料",
     "example": "The car ran out of fuel.",
     "exampleJa": "その車は燃料切れになった。",
-    "level": 2
+    "level": 2,
+    "leapNo": 432
   },
   {
     "id": 655,
@@ -5892,7 +6546,8 @@
     "meaning": "原子力の",
     "example": "The country built a nuclear power plant.",
     "exampleJa": "その国は原子力発電所を建設した。",
-    "level": 2
+    "level": 2,
+    "leapNo": 433
   },
   {
     "id": 656,
@@ -5901,7 +6556,8 @@
     "meaning": "統計",
     "example": "These statistics show a clear trend.",
     "exampleJa": "これらの統計は明確な傾向を示している。",
-    "level": 2
+    "level": 2,
+    "leapNo": 434
   },
   {
     "id": 657,
@@ -5910,7 +6566,8 @@
     "meaning": "追求する",
     "example": "She decided to pursue a career in medicine.",
     "exampleJa": "彼女は医学の道を追求することに決めた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 435
   },
   {
     "id": 658,
@@ -5919,7 +6576,8 @@
     "meaning": "克服する",
     "example": "He overcame many difficulties to succeed.",
     "exampleJa": "彼は成功するために多くの困難を克服した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 437
   },
   {
     "id": 659,
@@ -5928,7 +6586,8 @@
     "meaning": "果たす",
     "example": "She fulfilled her promise.",
     "exampleJa": "彼女は自分の約束を果たした。",
-    "level": 3
+    "level": 3,
+    "leapNo": 438
   },
   {
     "id": 660,
@@ -5937,7 +6596,8 @@
     "meaning": "捧げる",
     "example": "He devoted his life to teaching.",
     "exampleJa": "彼は自分の人生を教育に捧げた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 439
   },
   {
     "id": 661,
@@ -5946,7 +6606,8 @@
     "meaning": "努力する",
     "example": "They strive to improve every day.",
     "exampleJa": "彼らは毎日向上しようと努力する。",
-    "level": 3
+    "level": 3,
+    "leapNo": 440
   },
   {
     "id": 662,
@@ -5955,7 +6616,8 @@
     "meaning": "狙う、目的",
     "example": "Our aim is to reduce waste.",
     "exampleJa": "私たちの目的は廃棄物を減らすことだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 441
   },
   {
     "id": 663,
@@ -5964,7 +6626,8 @@
     "meaning": "試み、裁判",
     "example": "The new product is still in the trial stage.",
     "exampleJa": "その新製品はまだ試験段階だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 443
   },
   {
     "id": 664,
@@ -5973,7 +6636,8 @@
     "meaning": "めまいがして",
     "example": "I felt dizzy after standing up quickly.",
     "exampleJa": "急に立ち上がった後、めまいがした。",
-    "level": 3
+    "level": 3,
+    "leapNo": 444
   },
   {
     "id": 665,
@@ -5982,7 +6646,8 @@
     "meaning": "食欲",
     "example": "Exercise can improve your appetite.",
     "exampleJa": "運動は食欲を改善することがある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 445
   },
   {
     "id": 666,
@@ -5991,7 +6656,8 @@
     "meaning": "飢える",
     "example": "Millions of people starve every year.",
     "exampleJa": "毎年何百万もの人々が飢えている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 446
   },
   {
     "id": 667,
@@ -6000,7 +6666,8 @@
     "meaning": "精神の",
     "example": "Mental health is as important as physical health.",
     "exampleJa": "精神の健康は身体の健康と同じくらい重要だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 447
   },
   {
     "id": 668,
@@ -6009,7 +6676,8 @@
     "meaning": "休息、残り",
     "example": "You need to get some rest.",
     "exampleJa": "あなたは少し休息を取る必要がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 448
   },
   {
     "id": 669,
@@ -6018,7 +6686,8 @@
     "meaning": "手術",
     "example": "He had surgery on his knee.",
     "exampleJa": "彼は膝の手術を受けた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 449
   },
   {
     "id": 670,
@@ -6027,7 +6696,8 @@
     "meaning": "病気",
     "example": "This disease is common among children.",
     "exampleJa": "この病気は子供の間でよく見られる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 450
   },
   {
     "id": 671,
@@ -6036,7 +6706,8 @@
     "meaning": "腹痛",
     "example": "She had a stomachache after lunch.",
     "exampleJa": "彼女は昼食後に腹痛があった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 451
   },
   {
     "id": 672,
@@ -6045,7 +6716,8 @@
     "meaning": "症状",
     "example": "A high fever is a common symptom of the flu.",
     "exampleJa": "高熱はインフルエンザによくある症状だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 452
   },
   {
     "id": 673,
@@ -6054,7 +6726,8 @@
     "meaning": "がん",
     "example": "Early detection can help treat cancer.",
     "exampleJa": "早期発見はがんの治療に役立つ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 453
   },
   {
     "id": 674,
@@ -6063,7 +6736,8 @@
     "meaning": "救急車",
     "example": "They called an ambulance right away.",
     "exampleJa": "彼らはすぐに救急車を呼んだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 454
   },
   {
     "id": 675,
@@ -6072,7 +6746,8 @@
     "meaning": "回復する",
     "example": "She quickly recovered from her cold.",
     "exampleJa": "彼女は風邪からすぐに回復した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 455
   },
   {
     "id": 676,
@@ -6081,7 +6756,8 @@
     "meaning": "痛い",
     "example": "My legs are sore from running yesterday.",
     "exampleJa": "昨日走ったせいで脚が痛い。",
-    "level": 3
+    "level": 3,
+    "leapNo": 456
   },
   {
     "id": 677,
@@ -6090,7 +6766,8 @@
     "meaning": "腫れる",
     "example": "His ankle began to swell after the fall.",
     "exampleJa": "転んだ後、彼の足首は腫れ始めた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 457
   },
   {
     "id": 678,
@@ -6099,7 +6776,8 @@
     "meaning": "咳をする",
     "example": "He has been coughing all week.",
     "exampleJa": "彼は一週間ずっと咳をしている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 458
   },
   {
     "id": 679,
@@ -6108,7 +6786,8 @@
     "meaning": "出血する",
     "example": "The cut on his hand was bleeding.",
     "exampleJa": "彼の手の傷は出血していた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 459
   },
   {
     "id": 680,
@@ -6117,7 +6796,8 @@
     "meaning": "気絶する、かすかな",
     "example": "She felt faint in the heat.",
     "exampleJa": "彼女は暑さで気が遠くなった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 460
   },
   {
     "id": 681,
@@ -6126,7 +6806,8 @@
     "meaning": "疲れ果てさせる",
     "example": "The long trip exhausted everyone.",
     "exampleJa": "長旅はみんなを疲れ果てさせた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 461
   },
   {
     "id": 682,
@@ -6135,7 +6816,8 @@
     "meaning": "治療する、治療法",
     "example": "Doctors are working to find a cure.",
     "exampleJa": "医師たちは治療法を見つけようと取り組んでいる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 462
   },
   {
     "id": 683,
@@ -6144,7 +6826,8 @@
     "meaning": "障がいのある",
     "example": "The building has facilities for disabled visitors.",
     "exampleJa": "その建物には障がいのある来場者のための設備がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 463
   },
   {
     "id": 684,
@@ -6153,7 +6836,8 @@
     "meaning": "凝った、硬い",
     "example": "My shoulders feel stiff after sitting all day.",
     "exampleJa": "一日中座っていたせいで肩が凝っている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 464
   },
   {
     "id": 685,
@@ -6162,7 +6846,8 @@
     "meaning": "筋肉",
     "example": "Regular exercise builds muscle.",
     "exampleJa": "定期的な運動は筋肉をつける。",
-    "level": 3
+    "level": 3,
+    "leapNo": 465
   },
   {
     "id": 686,
@@ -6171,7 +6856,8 @@
     "meaning": "舌、言語",
     "example": "Be careful not to bite your tongue.",
     "exampleJa": "舌を噛まないように気をつけて。",
-    "level": 3
+    "level": 3,
+    "leapNo": 466
   },
   {
     "id": 687,
@@ -6180,7 +6866,8 @@
     "meaning": "感覚、分別",
     "example": "She has a good sense of humor.",
     "exampleJa": "彼女は良いユーモアのセンスを持っている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 467
   },
   {
     "id": 688,
@@ -6189,7 +6876,8 @@
     "meaning": "汗、汗をかく",
     "example": "He was sweating after the workout.",
     "exampleJa": "彼は運動の後、汗をかいていた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 468
   },
   {
     "id": 689,
@@ -6198,7 +6886,8 @@
     "meaning": "国籍",
     "example": "What is your nationality?",
     "exampleJa": "あなたの国籍は何ですか。",
-    "level": 3
+    "level": 3,
+    "leapNo": 470
   },
   {
     "id": 690,
@@ -6207,7 +6896,8 @@
     "meaning": "市民",
     "example": "Every citizen has the right to vote.",
     "exampleJa": "すべての市民には投票する権利がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 471
   },
   {
     "id": 691,
@@ -6216,7 +6906,8 @@
     "meaning": "人種の",
     "example": "The city celebrates its racial diversity.",
     "exampleJa": "その都市は人種の多様性を祝っている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 473
   },
   {
     "id": 692,
@@ -6225,7 +6916,8 @@
     "meaning": "田舎の",
     "example": "She grew up in a rural area.",
     "exampleJa": "彼女は田舎の地域で育った。",
-    "level": 3
+    "level": 3,
+    "leapNo": 474
   },
   {
     "id": 693,
@@ -6234,7 +6926,8 @@
     "meaning": "国内の、家庭の",
     "example": "Domestic flights are usually cheaper.",
     "exampleJa": "国内線は通常より安い。",
-    "level": 3
+    "level": 3,
+    "leapNo": 475
   },
   {
     "id": 694,
@@ -6243,7 +6936,8 @@
     "meaning": "郊外",
     "example": "They moved to a quiet suburb.",
     "exampleJa": "彼らは静かな郊外に引っ越した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 477
   },
   {
     "id": 695,
@@ -6252,7 +6946,8 @@
     "meaning": "国境",
     "example": "The two countries share a long border.",
     "exampleJa": "その2国は長い国境を共有している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 478
   },
   {
     "id": 696,
@@ -6261,7 +6956,8 @@
     "meaning": "負担",
     "example": "Debt can be a heavy burden.",
     "exampleJa": "借金は重い負担になり得る。",
-    "level": 3
+    "level": 3,
+    "leapNo": 479
   },
   {
     "id": 697,
@@ -6270,7 +6966,8 @@
     "meaning": "地位、状況",
     "example": "Her job status changed after the promotion.",
     "exampleJa": "昇進後、彼女の職の地位は変わった。",
-    "level": 3
+    "level": 3,
+    "leapNo": 481
   },
   {
     "id": 698,
@@ -6279,7 +6976,8 @@
     "meaning": "関係",
     "example": "They have a close relationship.",
     "exampleJa": "彼らは親密な関係にある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 483
   },
   {
     "id": 699,
@@ -6288,7 +6986,8 @@
     "meaning": "評判",
     "example": "The restaurant has a good reputation.",
     "exampleJa": "そのレストランは良い評判を持っている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 484
   },
   {
     "id": 700,
@@ -6297,7 +6996,8 @@
     "meaning": "傾向、流行",
     "example": "This is a growing trend among young people.",
     "exampleJa": "これは若者の間で広がっている傾向だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 485
   },
   {
     "id": 701,
@@ -6306,7 +7006,8 @@
     "meaning": "事業、サービス",
     "example": "The hotel offers excellent service.",
     "exampleJa": "そのホテルは素晴らしいサービスを提供している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 486
   },
   {
     "id": 702,
@@ -6315,7 +7016,8 @@
     "meaning": "宗教",
     "example": "People practice different religions around the world.",
     "exampleJa": "世界中の人々は異なる宗教を実践している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 487
   },
   {
     "id": 703,
@@ -6324,7 +7026,8 @@
     "meaning": "道徳的な、教訓",
     "example": "The story has an important moral.",
     "exampleJa": "その物語には重要な教訓がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 488
   },
   {
     "id": 704,
@@ -6333,7 +7036,8 @@
     "meaning": "基準、標準の",
     "example": "The product meets a high standard of quality.",
     "exampleJa": "その製品は高い品質基準を満たしている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 489
   },
   {
     "id": 705,
@@ -6342,7 +7046,8 @@
     "meaning": "繁栄",
     "example": "The country enjoyed years of prosperity.",
     "exampleJa": "その国は何年もの繁栄を享受した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 490
   },
   {
     "id": 706,
@@ -6351,7 +7056,8 @@
     "meaning": "危機",
     "example": "The company faced a financial crisis.",
     "exampleJa": "その会社は財政危機に直面した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 491
   },
   {
     "id": 707,
@@ -6360,7 +7066,8 @@
     "meaning": "偏見",
     "example": "We should fight against prejudice.",
     "exampleJa": "私たちは偏見と闘うべきだ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 492
   },
   {
     "id": 708,
@@ -6369,7 +7076,8 @@
     "meaning": "差別",
     "example": "The law protects people from discrimination.",
     "exampleJa": "その法律は人々を差別から守る。",
-    "level": 3
+    "level": 3,
+    "leapNo": 493
   },
   {
     "id": 709,
@@ -6378,7 +7086,8 @@
     "meaning": "慈善",
     "example": "She donates to charity every year.",
     "exampleJa": "彼女は毎年慈善団体に寄付している。",
-    "level": 3
+    "level": 3,
+    "leapNo": 494
   },
   {
     "id": 710,
@@ -6387,7 +7096,8 @@
     "meaning": "福祉",
     "example": "The government improved social welfare.",
     "exampleJa": "政府は社会福祉を改善した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 496
   },
   {
     "id": 711,
@@ -6396,7 +7106,8 @@
     "meaning": "役人、公式の",
     "example": "This is the official announcement.",
     "exampleJa": "これは公式の発表だ。",
-    "level": 3
+    "level": 3,
+    "leapNo": 499
   },
   {
     "id": 712,
@@ -6405,7 +7116,8 @@
     "meaning": "ボランティア",
     "example": "He volunteers at the hospital every weekend.",
     "exampleJa": "彼は毎週末病院でボランティアをしている。",
-    "level": 3
+    "level": 3,
+    "leapNo": 501
   },
   {
     "id": 713,
@@ -6414,7 +7126,8 @@
     "meaning": "交流する",
     "example": "Students interact with each other in class.",
     "exampleJa": "生徒たちは授業でお互いに交流する。",
-    "level": 3
+    "level": 3,
+    "leapNo": 502
   },
   {
     "id": 714,
@@ -6423,7 +7136,8 @@
     "meaning": "貢献する",
     "example": "Everyone contributed to the project's success.",
     "exampleJa": "全員がそのプロジェクトの成功に貢献した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 503
   },
   {
     "id": 715,
@@ -6432,7 +7146,8 @@
     "meaning": "課す",
     "example": "The government imposed a new tax.",
     "exampleJa": "政府は新しい税を課した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 505
   },
   {
     "id": 716,
@@ -6441,7 +7156,8 @@
     "meaning": "利用する権利、接近する",
     "example": "Students have access to the library after school.",
     "exampleJa": "生徒は放課後に図書館を利用できる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 506
   },
   {
     "id": 717,
@@ -6450,7 +7166,8 @@
     "meaning": "責任がある",
     "example": "She is responsible for the entire project.",
     "exampleJa": "彼女はそのプロジェクト全体に責任がある。",
-    "level": 3
+    "level": 3,
+    "leapNo": 508
   },
   {
     "id": 718,
@@ -6459,7 +7176,8 @@
     "meaning": "政策、方針",
     "example": "The company changed its return policy.",
     "exampleJa": "その会社は返品方針を変更した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 509
   },
   {
     "id": 719,
@@ -6468,7 +7186,8 @@
     "meaning": "選出する",
     "example": "They elected a new class president.",
     "exampleJa": "彼らは新しいクラス委員長を選出した。",
-    "level": 3
+    "level": 3,
+    "leapNo": 510
   },
   {
     "id": 720,
@@ -6477,7 +7196,8 @@
     "meaning": "利益",
     "example": "The business made a large profit this year.",
     "exampleJa": "その事業は今年大きな利益を上げた。",
-    "level": 3
+    "level": 3,
+    "leapNo": 513
   },
   {
     "id": 721,
@@ -6486,6 +7206,7 @@
     "meaning": "税金",
     "example": "Income tax rates vary by country.",
     "exampleJa": "所得税率は国によって異なる。",
-    "level": 3
+    "level": 3,
+    "leapNo": 514
   }
 ]
