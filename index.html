@@ -131,8 +131,17 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 .sync-tag.ok{ color:var(--good); }
 .sync-tag.err{ color:var(--bad); }
 
-.controls{ display:flex; flex-direction:column; gap:16px; margin-bottom:18px; }
+.controls{ display:flex; flex-direction:column; gap:14px; margin-bottom:14px; }
 .ctrl-group{ display:flex; flex-direction:column; gap:8px; }
+.settings-toggle{
+  display:flex; align-items:center; justify-content:space-between; gap:8px;
+  width:100%; padding:10px 14px; border-radius:12px;
+  background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.07);
+  color:var(--ink-dim); font-family:var(--sans); font-size:12px; cursor:pointer;
+}
+.settings-caret{ font-size:11px; transition:transform .2s ease; }
+.settings-caret.open{ transform:rotate(180deg); }
+.settings-panel{ display:flex; flex-direction:column; gap:16px; padding-top:2px; }
 .ctrl-label{ font-size:10.5px; color:var(--ink-faint); letter-spacing:0.06em; font-weight:500; }
 .pill-row{ display:flex; gap:8px; }
 .pill{ flex:1; text-align:center; padding:10px 6px; border-radius:12px; font-size:13px; font-weight:500; color:var(--ink-dim); background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.05); cursor:pointer; transition:all .15s ease; user-select:none; }
@@ -168,8 +177,16 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 .example{ font-size:16.5px; color:var(--ink); line-height:1.7; margin-bottom:8px; }
 .example-ja{ font-size:14.5px; color:var(--ink-dim); line-height:1.6; }
 
-.judge-row{ display:flex; gap:8px; }
-.judge{ flex:1; padding:14px 4px; border-radius:14px; border:none; font-family:var(--sans); font-size:13px; font-weight:500; cursor:pointer; color:var(--bg); }
+.judge-row{
+  display:flex; gap:8px;
+  position:sticky; bottom:0; left:0; right:0;
+  padding:12px 18px calc(12px + env(safe-area-inset-bottom));
+  margin:0 -18px;
+  background:var(--bg);
+  box-shadow:0 -12px 16px -8px var(--bg);
+  z-index:30;
+}
+.judge{ flex:1; padding:16px 4px; border-radius:14px; border:none; font-family:var(--sans); font-size:13px; font-weight:500; cursor:pointer; color:var(--bg); box-shadow:0 8px 20px -6px rgba(0,0,0,0.4); }
 .judge.bad{ background:var(--bad); }
 .judge.warn{ background:var(--warn); }
 .judge.good{ background:var(--good); }
@@ -184,7 +201,15 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 .choice-btn.correct{ background:rgba(111,207,151,0.18); border-color:var(--good); color:var(--good); }
 .choice-btn.wrong{ background:rgba(232,116,138,0.18); border-color:var(--bad); color:var(--bad); }
 .choice-btn.disabled{ pointer-events:none; opacity:0.55; }
-.next-btn{ width:100%; padding:14px; border-radius:14px; border:none; background:var(--gold); color:var(--bg); font-family:var(--sans); font-weight:700; font-size:14px; cursor:pointer; }
+.next-btn{
+  width:100%; padding:16px; border-radius:14px; border:none; background:var(--gold);
+  color:var(--bg); font-family:var(--sans); font-weight:700; font-size:14px; cursor:pointer;
+  position:sticky; bottom:0; left:0;
+  margin:0 -18px; width:calc(100% + 36px);
+  padding-left:18px; padding-right:18px;
+  padding-bottom:calc(16px + env(safe-area-inset-bottom));
+  z-index:30;
+}
 footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5px; color:var(--ink-faint); }
 .empty{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; color:var(--ink-dim); gap:8px; padding:40px 10px; }
 .empty .word-en{ font-size:20px; }
@@ -320,43 +345,49 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
 
     <div class="controls">
       <div class="ctrl-group">
-        <div class="ctrl-label">学習モード</div>
         <div class="pill-row">
           <div class="pill active" id="modeFlash" onclick="setMode('flash')">フラッシュカード</div>
           <div class="pill" id="modeQuiz" onclick="setMode('quiz')">4択テスト</div>
         </div>
       </div>
 
-      <div class="ctrl-group">
-        <div class="ctrl-label">教材</div>
-        <div class="chip-row" id="textbookChips"></div>
-      </div>
+      <button class="settings-toggle" id="settingsToggle" onclick="toggleSettings()">
+        <span id="settingsSummary">教材：すべて ・ すべてのレベル ・ 通常学習</span>
+        <span class="settings-caret" id="settingsCaret">▾</span>
+      </button>
 
-      <div class="ctrl-group">
-        <div class="ctrl-label">レベル</div>
-        <div class="chip-row" id="levelChips"></div>
-      </div>
+      <div class="settings-panel hidden" id="settingsPanel">
+        <div class="ctrl-group">
+          <div class="ctrl-label">教材</div>
+          <div class="chip-row" id="textbookChips"></div>
+        </div>
 
-      <div class="ctrl-group">
-        <div class="ctrl-label">学習範囲</div>
-        <div class="chip-row" id="scopeChips"></div>
-      </div>
+        <div class="ctrl-group">
+          <div class="ctrl-label">レベル</div>
+          <div class="chip-row" id="levelChips"></div>
+        </div>
 
-      <div class="ctrl-group">
-        <div class="ctrl-label">出題オプション</div>
-        <div class="chip-row" id="optionsRow">
-          <select id="countSelect" class="mini-select" onchange="setQuestionCount(this.value)">
-            <option value="all">問題数：全部</option>
-            <option value="10">10問</option>
-            <option value="20">20問</option>
-            <option value="30">30問</option>
-          </select>
-          <select id="orderSelect" class="mini-select" onchange="setOrder(this.value)">
-            <option value="random">順番：ランダム</option>
-            <option value="priority">順番：苦手順</option>
-            <option value="leap">順番：LEAP番号順</option>
-          </select>
-          <div class="chip mini-toggle" id="directionToggle" onclick="toggleDirection()">英語→日本語</div>
+        <div class="ctrl-group">
+          <div class="ctrl-label">学習範囲</div>
+          <div class="chip-row" id="scopeChips"></div>
+        </div>
+
+        <div class="ctrl-group">
+          <div class="ctrl-label">出題オプション</div>
+          <div class="chip-row" id="optionsRow">
+            <select id="countSelect" class="mini-select" onchange="setQuestionCount(this.value)">
+              <option value="all">問題数：全部</option>
+              <option value="10">10問</option>
+              <option value="20">20問</option>
+              <option value="30">30問</option>
+            </select>
+            <select id="orderSelect" class="mini-select" onchange="setOrder(this.value)">
+              <option value="random">順番：ランダム</option>
+              <option value="priority">順番：苦手順</option>
+              <option value="leap">順番：LEAP番号順</option>
+            </select>
+            <div class="chip mini-toggle" id="directionToggle" onclick="toggleDirection()">英語→日本語</div>
+          </div>
         </div>
       </div>
     </div>
@@ -440,6 +471,22 @@ function ensureWordsLoaded(){
 ensureWordsLoaded();
 
 const LEVEL_NAMES = {1:"基礎", 2:"標準", 3:"発展", 0:"すべて"};
+
+/* ---------- 設定パネルの開閉 ---------- */
+let settingsOpen = false;
+function toggleSettings(){
+  settingsOpen = !settingsOpen;
+  document.getElementById('settingsPanel').classList.toggle('hidden', !settingsOpen);
+  document.getElementById('settingsCaret').classList.toggle('open', settingsOpen);
+}
+function updateSettingsSummary(){
+  const el = document.getElementById('settingsSummary');
+  if(!el) return;
+  const textbookLabel = state.textbook === 'leap' ? 'LEAP' : 'すべて';
+  const levelLabel = LEVEL_NAMES[state.level] === 'すべて' ? 'すべてのレベル' : LEVEL_NAMES[state.level];
+  const scopeLabel = (SCOPE_OPTIONS.find(o => o.key === state.scope) || {}).label || '通常学習';
+  el.textContent = `教材：${textbookLabel} ・ ${levelLabel} ・ ${scopeLabel}`;
+}
 
 const SCOPE_OPTIONS = [
   {key:'normal',    label:'通常学習'},
@@ -572,6 +619,7 @@ async function afterLoginSetup(){
   renderTextbookChips();
   renderChips();
   renderScopeChips();
+  updateSettingsSummary();
   buildDeck();
   render();
 }
@@ -635,6 +683,7 @@ function setTextbook(key){
   renderTextbookChips();
   renderChips();
   renderScopeChips();
+  updateSettingsSummary();
   buildDeck();
   render();
 }
@@ -724,6 +773,7 @@ function setLevel(lv){
   state.level = lv;
   renderChips();
   renderScopeChips();
+  updateSettingsSummary();
   buildDeck();
   render();
 }
@@ -731,6 +781,7 @@ function setLevel(lv){
 function setScope(key){
   state.scope = key;
   renderScopeChips();
+  updateSettingsSummary();
   buildDeck();
   render();
 }
