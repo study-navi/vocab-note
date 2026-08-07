@@ -7,28 +7,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root, [data-theme="night"]{
+:root{
   --bg:#10152b; --bg-elevate:#161d3a; --surface:#212a52; --surface-2:#2a3563;
   --ink:#eef1f8; --ink-dim:#94a0c9; --ink-faint:#5c6796;
   --gold:#e8b95f; --gold-dim:#8a733f; --good:#6fcf97; --warn:#f0c869; --bad:#e8748a;
-  --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
-}
-[data-theme="morning"]{
-  --bg:#fbf6ec; --bg-elevate:#ffffff; --surface:#fff3de; --surface-2:#ffe9c2;
-  --ink:#3a2f1c; --ink-dim:#8a7455; --ink-faint:#b6a482;
-  --gold:#d98a3d; --gold-dim:#b8763a; --good:#4e9d6f; --warn:#d98a3d; --bad:#c0563f;
-  --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
-}
-[data-theme="mint"]{
-  --bg:#0e2321; --bg-elevate:#123832; --surface:#184a41; --surface-2:#1f5c50;
-  --ink:#eafff6; --ink-dim:#8fd9c4; --ink-faint:#4f9a86;
-  --gold:#4fe3b0; --gold-dim:#2e9c78; --good:#7ee8a8; --warn:#e8d24f; --bad:#e87e8a;
-  --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
-}
-[data-theme="sakura"]{
-  --bg:#241820; --bg-elevate:#33212c; --surface:#452b3a; --surface-2:#5a3549;
-  --ink:#fff0f5; --ink-dim:#e0aec4; --ink-faint:#a9758e;
-  --gold:#f2a6c4; --gold-dim:#c47693; --good:#7ee8a8; --warn:#f0c869; --bad:#e8748a;
   --serif:'Shippori Mincho', serif; --sans:'Zen Kaku Gothic New', sans-serif;
 }
 *{box-sizing:border-box; margin:0; padding:0;}
@@ -110,12 +92,6 @@ input[type=text]{
 </div>
 
 <script>
-(function applySavedTheme(){
-  let saved = 'night';
-  try{ saved = localStorage.getItem('vocabTheme') || 'night'; }catch(e){}
-  document.documentElement.setAttribute('data-theme', saved);
-})();
-
 let WORDS = [];
 let levelFilter = 0;
 let textbookFilter = 'all'; // all | leap

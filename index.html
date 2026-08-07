@@ -94,8 +94,7 @@ body{
   flex-direction:column;
   padding:22px 18px 0;
 }
-#mainScreen{ padding-bottom:96px; }
-header{ display:flex; flex-direction:column; gap:2px; margin-bottom:12px; }
+header{ display:flex; flex-direction:column; gap:2px; margin-bottom:18px; }
 .top-row{ display:flex; justify-content:space-between; align-items:flex-start; }
 .eyebrow{ font-size:11px; letter-spacing:0.28em; color:var(--gold); font-weight:500; }
 h1{ font-family:var(--serif); font-size:26px; font-weight:700; letter-spacing:0.02em; margin-top:2px; }
@@ -119,31 +118,20 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 .login-note{ font-size:11px; color:var(--ink-faint); margin-top:14px; line-height:1.6; }
 .login-error{ font-size:12px; color:var(--bad); margin-top:10px; display:none; }
 
-.status-row{ display:flex; align-items:center; gap:14px; background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.05); border-radius:16px; padding:8px 16px; margin-bottom:10px; }
-.moon-wrap{ flex:none; width:38px; height:38px; position:relative; }
+.status-row{ display:flex; align-items:center; gap:14px; background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.05); border-radius:16px; padding:12px 16px; margin-bottom:16px; }
+.moon-wrap{ flex:none; width:46px; height:46px; position:relative; }
 .moon-phase-label{ flex:1; }
 .moon-phase-eyebrow{ font-size:9.5px; color:var(--ink-faint); letter-spacing:0.1em; margin-bottom:1px; }
-.moon-phase-name{ font-family:var(--serif); font-size:13px; color:var(--gold); font-weight:700; }
-.moon-phase-desc{ font-size:10.5px; color:var(--ink-dim); margin-top:1px; }
+.moon-phase-name{ font-family:var(--serif); font-size:14px; color:var(--gold); font-weight:700; }
+.moon-phase-desc{ font-size:11px; color:var(--ink-dim); margin-top:1px; }
 .stat-mini{ text-align:right; flex:none; }
-.stat-mini .num{ font-family:var(--serif); font-size:16px; font-weight:700; color:var(--ink); }
+.stat-mini .num{ font-family:var(--serif); font-size:18px; font-weight:700; color:var(--ink); }
 .stat-mini .lbl{ font-size:10px; color:var(--ink-faint); letter-spacing:0.05em; }
-.sync-tag{ font-size:9.5px; color:var(--ink-faint); text-align:center; margin-bottom:10px; letter-spacing:0.04em; }
+.sync-tag{ font-size:9.5px; color:var(--ink-faint); text-align:center; margin-bottom:14px; letter-spacing:0.04em; }
 .sync-tag.ok{ color:var(--good); }
 .sync-tag.err{ color:var(--bad); }
 
-.controls{ display:flex; flex-direction:column; gap:10px; margin-bottom:10px; }
-.ctrl-group{ display:flex; flex-direction:column; gap:8px; }
-.settings-toggle{
-  display:flex; align-items:center; justify-content:space-between; gap:8px;
-  width:100%; padding:10px 14px; border-radius:12px;
-  background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.07);
-  color:var(--ink-dim); font-family:var(--sans); font-size:12px; cursor:pointer;
-}
-.settings-caret{ font-size:11px; transition:transform .2s ease; }
-.settings-caret.open{ transform:rotate(180deg); }
-.settings-panel{ display:flex; flex-direction:column; gap:16px; padding-top:2px; }
-.ctrl-label{ font-size:10.5px; color:var(--ink-faint); letter-spacing:0.06em; font-weight:500; }
+.controls{ display:flex; flex-direction:column; gap:10px; margin-bottom:18px; }
 .pill-row{ display:flex; gap:8px; }
 .pill{ flex:1; text-align:center; padding:10px 6px; border-radius:12px; font-size:13px; font-weight:500; color:var(--ink-dim); background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.05); cursor:pointer; transition:all .15s ease; user-select:none; }
 .pill.active{ background:linear-gradient(160deg, var(--surface-2), var(--surface)); color:var(--gold); border-color:rgba(232,185,95,0.35); }
@@ -157,8 +145,8 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 #optionsRow{ opacity:0.9; }
 
 .stage{ flex:1; display:flex; flex-direction:column; min-height:340px; }
-.card-zone{ flex:1; perspective:1400px; margin-bottom:16px; min-height:38vh; display:flex; }
-.card{ position:relative; width:100%; height:100%; min-height:260px; cursor:pointer; flex:1; }
+.card-zone{ flex:1; perspective:1400px; margin-bottom:16px; }
+.card{ position:relative; width:100%; height:100%; min-height:280px; cursor:pointer; }
 .card-inner{ position:relative; width:100%; height:100%; min-height:280px; transition:transform .5s cubic-bezier(.4,.2,.2,1); transform-style:preserve-3d; }
 .card.flipped .card-inner{ transform:rotateY(180deg); }
 .face{ position:absolute; inset:0; backface-visibility:hidden; border-radius:22px; padding:28px 24px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(165deg, var(--surface-2) 0%, var(--surface) 100%); border:1px solid rgba(232,185,95,0.12); box-shadow:0 20px 40px -20px rgba(0,0,0,0.5); overflow-y:auto; }
@@ -178,47 +166,36 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 .example{ font-size:16.5px; color:var(--ink); line-height:1.7; margin-bottom:8px; }
 .example-ja{ font-size:14.5px; color:var(--ink-dim); line-height:1.6; }
 
-.judge-row{
-  display:flex; gap:8px;
-  position:fixed; left:50%; bottom:14px; transform:translateX(-50%);
-  width:100%; max-width:480px;
-  padding:12px 18px calc(4px + env(safe-area-inset-bottom));
-  background:var(--bg);
-  box-shadow:0 -12px 16px -8px var(--bg);
-  z-index:30;
-}
-.judge{ flex:1; padding:16px 4px; border-radius:14px; border:none; font-family:var(--sans); font-size:13px; font-weight:500; cursor:pointer; color:var(--bg); box-shadow:0 8px 20px -6px rgba(0,0,0,0.4); }
+.judge-row{ display:flex; gap:8px; }
+.judge{ flex:1; padding:14px 4px; border-radius:14px; border:none; font-family:var(--sans); font-size:13px; font-weight:500; cursor:pointer; color:var(--bg); }
 .judge.bad{ background:var(--bad); }
 .judge.warn{ background:var(--warn); }
 .judge.good{ background:var(--good); }
 
-.quiz-prompt{ border-radius:22px; background:linear-gradient(165deg, var(--surface-2) 0%, var(--surface) 100%); border:1px solid rgba(232,185,95,0.12); padding:20px 22px; text-align:center; margin-bottom:12px; position:relative; }
+.quiz-prompt{ border-radius:22px; background:linear-gradient(165deg, var(--surface-2) 0%, var(--surface) 100%); border:1px solid rgba(232,185,95,0.12); padding:30px 22px; text-align:center; margin-bottom:16px; position:relative; }
 .quiz-prompt .level-tag{ position:absolute; top:14px; left:18px; font-size:10.5px; color:var(--ink-faint); letter-spacing:.06em; }
 .quiz-q-label{ font-size:11px; color:var(--ink-faint); letter-spacing:0.08em; margin-bottom:10px; }
 .quiz-q{ font-family:var(--serif); font-size:26px; font-weight:700; }
-.choices{ display:flex; flex-direction:column; gap:8px; margin-bottom:10px; }
-.choice-btn{ text-align:left; padding:11px 16px; border-radius:14px; background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.07); color:var(--ink); font-family:var(--sans); font-size:14.5px; cursor:pointer; transition:all .15s ease; }
+.choices{ display:flex; flex-direction:column; gap:10px; margin-bottom:16px; }
+.choice-btn{ text-align:left; padding:14px 16px; border-radius:14px; background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.07); color:var(--ink); font-family:var(--sans); font-size:14.5px; cursor:pointer; transition:all .15s ease; }
 .choice-btn:active{ transform:scale(0.98); }
 .choice-btn.correct{ background:rgba(111,207,151,0.18); border-color:var(--good); color:var(--good); }
 .choice-btn.wrong{ background:rgba(232,116,138,0.18); border-color:var(--bad); color:var(--bad); }
 .choice-btn.disabled{ pointer-events:none; opacity:0.55; }
-.next-btn{
-  padding:16px; border-radius:14px; border:none; background:var(--gold);
-  color:var(--bg); font-family:var(--sans); font-weight:700; font-size:14px; cursor:pointer;
-  position:fixed; left:50%; bottom:14px; transform:translateX(-50%);
-  width:100%; max-width:480px;
-  padding-left:18px; padding-right:18px;
-  padding-bottom:calc(16px + env(safe-area-inset-bottom) - 14px);
-  box-shadow:0 -12px 16px -8px var(--bg);
-  z-index:30;
-}
+.next-btn{ width:100%; padding:14px; border-radius:14px; border:none; background:var(--gold); color:var(--bg); font-family:var(--sans); font-weight:700; font-size:14px; cursor:pointer; }
 footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5px; color:var(--ink-faint); }
 .empty{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; color:var(--ink-dim); gap:8px; padding:40px 10px; }
 .empty .word-en{ font-size:20px; }
 .hidden{ display:none !important; }
 
-.theme-panel{
+.theme-fab{
   position:fixed; top:16px; right:16px; z-index:50;
+  width:38px; height:38px; border-radius:50%; border:1px solid rgba(232,185,95,0.3);
+  background:var(--bg-elevate); color:var(--gold); font-size:16px; cursor:pointer;
+  box-shadow:0 6px 16px rgba(0,0,0,0.3);
+}
+.theme-panel{
+  position:fixed; top:60px; right:16px; z-index:50;
   background:var(--bg-elevate); border:1px solid rgba(232,185,95,0.2);
   border-radius:16px; padding:14px; box-shadow:0 12px 30px rgba(0,0,0,0.4);
   width:220px;
@@ -231,31 +208,12 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
 }
 .theme-option:hover{ background:var(--surface); }
 .theme-swatch{ width:36px; height:36px; border-radius:50%; }
-
-/* ---------- ナビゲーション ---------- */
-.app-nav{ display:flex; gap:8px; margin:10px 0 10px; }
-.nav-btn{
-  flex:1; display:flex; align-items:center; justify-content:center; gap:6px;
-  padding:9px 6px; border-radius:12px; background:var(--bg-elevate);
-  border:1px solid rgba(255,255,255,0.07); color:var(--ink-dim); font-size:12px;
-  font-family:var(--sans); text-decoration:none; cursor:pointer;
-  transition:all .15s ease;
-}
-.nav-btn:hover{ border-color:rgba(232,185,95,0.4); color:var(--ink); }
-.nav-icon{ font-size:14px; }
-
-.who-row{
-  display:flex; align-items:center; gap:6px; flex-wrap:wrap;
-  font-size:12px; color:var(--ink-dim); margin-bottom:10px;
-}
-.who-row b{ color:var(--ink); font-family:var(--serif); font-size:13px; }
-.who-sep{ color:var(--ink-faint); }
-.who-row .switch-link{ margin-left:auto; margin-top:0; }
 </style>
 </head>
 <body>
 <div class="app">
 
+  <button class="theme-fab" id="themeFab" onclick="toggleThemePanel()" aria-label="配色を変える">⚙</button>
   <div class="theme-panel hidden" id="themePanel">
     <div class="theme-panel-title">配色を選ぶ</div>
     <div class="theme-options">
@@ -307,28 +265,22 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
           <div class="eyebrow">STUDY IE — VOCAB NOTE</div>
           <h1>英単語ノート</h1>
         </div>
+        <div class="who-badge">
+          <div id="whoBranch"></div>
+          <b id="whoName"></b>
+          <div class="switch-link" onclick="logout()">生徒を切り替える</div>
+          <div class="switch-link"><a href="./words.html" style="color:inherit;">単語一覧を見る</a></div>
+          <div class="switch-link"><a href="./news.html" style="color:inherit;">お知らせ</a></div>
+        </div>
       </div>
       <div class="sub" id="wordCountSub">高校英語 精選単語</div>
-
-      <nav class="app-nav">
-        <a class="nav-btn" href="./words.html"><span class="nav-icon">📖</span>単語一覧</a>
-        <a class="nav-btn" href="./news.html"><span class="nav-icon">🔔</span>お知らせ</a>
-        <button class="nav-btn" type="button" onclick="toggleThemePanel()"><span class="nav-icon">🎨</span>配色</button>
-      </nav>
-
-      <div class="who-row">
-        <span id="whoBranch"></span>
-        <span class="who-sep">・</span>
-        <b id="whoName"></b>
-        <span class="switch-link" onclick="logout()">生徒を切り替える</span>
-      </div>
     </header>
 
     <div class="sync-tag" id="syncTag">保存先に接続しています…</div>
 
     <div class="status-row">
       <div class="moon-wrap">
-        <svg id="moonSvg" viewBox="0 0 46 46" width="38" height="38">
+        <svg id="moonSvg" viewBox="0 0 46 46" width="46" height="46">
           <defs><clipPath id="moonClip"><circle cx="23" cy="23" r="20"/></clipPath></defs>
           <circle cx="23" cy="23" r="20" fill="#1b2244" stroke="rgba(232,185,95,0.35)" stroke-width="1"/>
           <rect id="moonFill" x="0" y="0" width="0" height="46" fill="#e8b95f" clip-path="url(#moonClip)"/>
@@ -346,57 +298,32 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
     </div>
 
     <div class="controls">
-      <div class="ctrl-group">
-        <div class="pill-row">
-          <div class="pill active" id="modeFlash" onclick="setMode('flash')">フラッシュカード</div>
-          <div class="pill" id="modeQuiz" onclick="setMode('quiz')">4択テスト</div>
-        </div>
+      <div class="pill-row">
+        <div class="pill active" id="modeFlash" onclick="setMode('flash')">フラッシュカード</div>
+        <div class="pill" id="modeQuiz" onclick="setMode('quiz')">4択テスト</div>
       </div>
-
-      <button class="settings-toggle" id="settingsToggle" onclick="toggleSettings()">
-        <span id="settingsSummary">教材：すべて ・ すべてのレベル ・ 通常学習</span>
-        <span class="settings-caret" id="settingsCaret">▾</span>
-      </button>
-
-      <div class="settings-panel hidden" id="settingsPanel">
-        <div class="ctrl-group">
-          <div class="ctrl-label">教材</div>
-          <div class="chip-row" id="textbookChips"></div>
-        </div>
-
-        <div class="ctrl-group">
-          <div class="ctrl-label">レベル</div>
-          <div class="chip-row" id="levelChips"></div>
-        </div>
-
-        <div class="ctrl-group">
-          <div class="ctrl-label">学習範囲</div>
-          <div class="chip-row" id="scopeChips"></div>
-        </div>
-
-        <div class="ctrl-group">
-          <div class="ctrl-label">出題オプション</div>
-          <div class="chip-row" id="optionsRow">
-            <select id="countSelect" class="mini-select" onchange="setQuestionCount(this.value)">
-              <option value="all">問題数：全部</option>
-              <option value="10">10問</option>
-              <option value="20">20問</option>
-              <option value="30">30問</option>
-            </select>
-            <select id="orderSelect" class="mini-select" onchange="setOrder(this.value)">
-              <option value="random">順番：ランダム</option>
-              <option value="priority">順番：苦手順</option>
-              <option value="leap">順番：LEAP番号順</option>
-            </select>
-            <div class="chip mini-toggle" id="directionToggle" onclick="toggleDirection()">英語→日本語</div>
-          </div>
-        </div>
+      <div class="chip-row" id="textbookChips"></div>
+      <div class="chip-row" id="levelChips"></div>
+      <div class="chip-row" id="scopeChips"></div>
+      <div class="chip-row" id="optionsRow">
+        <select id="countSelect" class="mini-select" onchange="setQuestionCount(this.value)">
+          <option value="all">問題数：全部</option>
+          <option value="10">10問</option>
+          <option value="20">20問</option>
+          <option value="30">30問</option>
+        </select>
+        <select id="orderSelect" class="mini-select" onchange="setOrder(this.value)">
+          <option value="random">順番：ランダム</option>
+          <option value="priority">順番：苦手順</option>
+          <option value="leap">順番：LEAP番号順</option>
+        </select>
+        <div class="chip mini-toggle" id="directionToggle" onclick="toggleDirection()">英語→日本語</div>
       </div>
     </div>
 
     <div class="stage" id="stage"></div>
 
-
+    <footer>Study IE — 毎晩ひとつずつ、静かに積み上げる</footer>
   </div>
 </div>
 
@@ -473,22 +400,6 @@ function ensureWordsLoaded(){
 ensureWordsLoaded();
 
 const LEVEL_NAMES = {1:"基礎", 2:"標準", 3:"発展", 0:"すべて"};
-
-/* ---------- 設定パネルの開閉 ---------- */
-let settingsOpen = false;
-function toggleSettings(){
-  settingsOpen = !settingsOpen;
-  document.getElementById('settingsPanel').classList.toggle('hidden', !settingsOpen);
-  document.getElementById('settingsCaret').classList.toggle('open', settingsOpen);
-}
-function updateSettingsSummary(){
-  const el = document.getElementById('settingsSummary');
-  if(!el) return;
-  const textbookLabel = state.textbook === 'leap' ? 'LEAP' : 'すべて';
-  const levelLabel = LEVEL_NAMES[state.level] === 'すべて' ? 'すべてのレベル' : LEVEL_NAMES[state.level];
-  const scopeLabel = (SCOPE_OPTIONS.find(o => o.key === state.scope) || {}).label || '通常学習';
-  el.textContent = `教材：${textbookLabel} ・ ${levelLabel} ・ ${scopeLabel}`;
-}
 
 const SCOPE_OPTIONS = [
   {key:'normal',    label:'通常学習'},
@@ -621,7 +532,6 @@ async function afterLoginSetup(){
   renderTextbookChips();
   renderChips();
   renderScopeChips();
-  updateSettingsSummary();
   buildDeck();
   render();
 }
@@ -685,7 +595,6 @@ function setTextbook(key){
   renderTextbookChips();
   renderChips();
   renderScopeChips();
-  updateSettingsSummary();
   buildDeck();
   render();
 }
@@ -775,7 +684,6 @@ function setLevel(lv){
   state.level = lv;
   renderChips();
   renderScopeChips();
-  updateSettingsSummary();
   buildDeck();
   render();
 }
@@ -783,7 +691,6 @@ function setLevel(lv){
 function setScope(key){
   state.scope = key;
   renderScopeChips();
-  updateSettingsSummary();
   buildDeck();
   render();
 }
