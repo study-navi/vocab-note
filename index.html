@@ -171,6 +171,14 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
   background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12);
   border-radius:999px;
 }
+.star-btn{
+  position:absolute; bottom:14px; left:18px; z-index:5;
+  background:none; border:none; font-size:22px; line-height:1;
+  color:var(--ink-faint); cursor:pointer; padding:4px;
+  transition:transform .15s ease, color .15s ease;
+}
+.star-btn:active{ transform:scale(0.85); }
+.star-btn.active{ color:var(--gold); text-shadow:0 0 8px rgba(232,185,95,0.5); }
 .face-back{ transform:rotateY(180deg); }
 .word-en{ font-family:var(--serif); font-size:34px; font-weight:700; color:var(--ink); word-break:break-word; }
 .hint{ font-size:11px; color:var(--ink-faint); margin-top:14px; letter-spacing:0.04em; }
@@ -494,6 +502,7 @@ function updateSettingsSummary(){
 
 const SCOPE_OPTIONS = [
   {key:'normal',    label:'通常学習'},
+  {key:'starred',   label:'⭐ 星をつけた単語'},
   {key:'weak',      label:'苦手単語'},
   {key:'wrong',     label:'間違えた単語'},
   {key:'unlearned', label:'未習得単語'},
@@ -502,6 +511,7 @@ const SCOPE_OPTIONS = [
 
 const EMPTY_MSG = {
   normal:    { title:'単語がありません', desc:'レベルを変えてみてください' },
+  starred:   { title:'星をつけた単語はありません', desc:'カードの☆をタップすると、ここに追加されます' },
   weak:      { title:'🎉 現在、苦手単語はありません', desc:'このレベルはよく覚えられています' },
   wrong:     { title:'間違えた単語はまだありません', desc:'テストや復習をすると、ここに表示されます' },
   unlearned: { title:'🎉 すべて覚えました！', desc:'このレベルは全問「覚えた」判定です' },
@@ -585,7 +595,7 @@ async function loadProgressFromServer(){
   if(!supabaseClient || !currentStudent.id) return;
   const { data, error } = await supabaseClient
     .from('vocab_progress')
-    .select('word_id,status,correct_count,wrong_count,streak,last_result,last_reviewed_at')
+    .select('word_id,status,correct_count,wrong_count,streak,last_result,last_reviewed_at,starred')
     .eq('student_id', currentStudent.id);
   if(error){ console.error(error); return; }
   data.forEach(row => {
@@ -596,6 +606,7 @@ async function loadProgressFromServer(){
       streak: row.streak || 0,
       last_result: row.last_result || null,
       last_reviewed_at: row.last_reviewed_at || null,
+      starred: !!row.starred,
     };
   });
 }
@@ -614,6 +625,7 @@ async function saveProgressToServer(wordId, level, prog){
       streak: prog.streak,
       last_result: prog.last_result,
       last_reviewed_at: prog.last_reviewed_at,
+      starred: !!prog.starred,
       updated_at: new Date().toISOString()
     }, { onConflict: 'student_id,word_id' });
   if(error) console.error(error);
@@ -633,7 +645,7 @@ let state = {
   mode: "flash",       // flash | quiz
   textbook: "all",     // all | leap (今後、他の単語帳にも対応予定)
   level: 0,            // 0=すべて 1=基礎 2=標準 3=発展
-  scope: "normal",      // normal | weak | wrong | unlearned | forgotten
+  scope: "normal",      // normal | weak | wrong | unlearned | forgotten | starred
   questionCount: "all", // all | 10 | 20 | 30
   order: "random",      // random | priority | leap
   direction: "en2ja",   // en2ja | ja2en
@@ -642,11 +654,21 @@ let state = {
   flipped: false,
   quizChoices: [],
   quizAnswered: false,
-  progress: {}, // word_id -> {status, correct_count, wrong_count, streak, last_result, last_reviewed_at}
+  progress: {}, // word_id -> {status, correct_count, wrong_count, streak, last_result, last_reviewed_at, starred}
 };
 
 function getProg(id){
-  return state.progress[id] || { status:0, correct_count:0, wrong_count:0, streak:0, last_result:null, last_reviewed_at:null };
+  return state.progress[id] || { status:0, correct_count:0, wrong_count:0, streak:0, last_result:null, last_reviewed_at:null, starred:false };
+}
+
+function toggleStar(id){
+  const prev = getProg(id);
+  const updated = { ...prev, starred: !prev.starred };
+  state.progress[id] = updated;
+  const w = wordsById[id];
+  renderScopeChips();
+  render(); // 星の見た目をすぐ反映
+  if(w) saveProgressToServer(id, w.level, updated);
 }
 
 const TEXTBOOK_OPTIONS = [
@@ -726,6 +748,8 @@ function priorityScore(id){
 
 function scopePool(scopeKey, list){
   switch(scopeKey){
+    case 'starred':
+      return list.filter(w => getProg(w.id).starred);
     case 'weak':
       return list.filter(w => { const c = classify(w.id); return c === 'weak' || c === 'priority'; });
     case 'wrong':
@@ -909,9 +933,12 @@ function renderFlash(){
   const frontHint = ja2en ? "タップして単語を見る" : "タップして意味を見る";
   const backMain = ja2en ? w.word : w.meaning;
   const leapTag = (w.leapNo || w.targetNo) ? `<div class="leap-tag">${[w.leapNo ? 'LEAP No.'+w.leapNo : null, w.targetNo ? 'Target No.'+w.targetNo : null].filter(Boolean).join(' / ')}</div>` : '';
+  const starred = getProg(w.id).starred;
+  const starBtn = `<button class="star-btn ${starred?'active':''}" onclick="event.stopPropagation(); toggleStar(${w.id});">${starred ? '★' : '☆'}</button>`;
   stage.innerHTML = `
     <div class="card-zone">
       <div class="card ${state.flipped?'flipped':''}" id="flashCard" onclick="flipCard()">
+        ${starBtn}
         <div class="card-inner">
           <div class="face face-front">
             <div class="level-tag">LEVEL ${w.level} · ${LEVEL_NAMES[w.level]}</div>
@@ -942,7 +969,7 @@ function flipCard(){
   document.getElementById('flashCard').classList.toggle('flipped', state.flipped);
 }
 
-// level: 0=もう一度(不正解扱い) 1=少し不安(中間、カウント変更なし) 2=覚えた(正解扱い)
+// level: 0=もう一度(不正解解ば) 1=少し不安(中間、カウント変更なし) 2=覚えた(正解扱い)
 function judge(level){
   const w = state.deck[state.idx];
   const prev = getProg(w.id);
@@ -953,6 +980,7 @@ function judge(level){
     streak: prev.streak,
     last_result: prev.last_result,
     last_reviewed_at: new Date().toISOString(),
+    starred: prev.starred,
   };
   if(level === 2){
     updated.correct_count = prev.correct_count + 1;
@@ -1001,12 +1029,15 @@ function renderQuiz(){
   const questionMain = ja2en ? w.meaning : w.word;
   const answerField = ja2en ? 'word' : 'meaning';
   const leapTag = (w.leapNo || w.targetNo) ? `<div class="leap-tag">${[w.leapNo ? 'LEAP No.'+w.leapNo : null, w.targetNo ? 'Target No.'+w.targetNo : null].filter(Boolean).join(' / ')}</div>` : '';
+  const starred = getProg(w.id).starred;
+  const starBtn = `<button class="star-btn${starred ? ' active' : ''}" onclick="toggleStar(${w.id})">${starred ? '★' : '☆'}</button>`;
   const choicesHtml = state.quizChoices.map(c => {
     return `<button class="choice-btn" onclick="answerQuiz(this, ${JSON.stringify(c)===JSON.stringify(w[answerField])})">${c}</button>`;
   }).join("");
 
   stage.innerHTML = `
     <div class="quiz-prompt">
+      ${starBtn}
       <div class="level-tag">${state.idx+1} / ${state.deck.length} · LEVEL ${w.level}</div>
       <div class="quiz-q-label">${questionLabel}</div>
       <div class="quiz-q">${questionMain}</div>
@@ -1037,6 +1068,7 @@ function answerQuiz(btn, isCorrect){
     streak: isCorrect ? prev.streak + 1 : 0,
     last_result: isCorrect ? 'correct' : 'wrong',
     last_reviewed_at: new Date().toISOString(),
+    starred: prev.starred,
   };
   state.progress[w.id] = updated;
   updateMoon();
