@@ -120,7 +120,7 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 .login-error{ font-size:12px; color:var(--bad); margin-top:10px; display:none; }
 
 .status-row{ display:flex; align-items:center; gap:14px; background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.05); border-radius:16px; padding:8px 16px; margin-bottom:10px; }
-.moon-wrap{ flex:none; width:38px; height:38px; position:relative; }
+.goal-ring-wrap{ flex:none; width:38px; height:38px; position:relative; cursor:pointer; }
 .moon-phase-label{ flex:1; }
 .moon-phase-eyebrow{ font-size:9.5px; color:var(--ink-faint); letter-spacing:0.1em; margin-bottom:1px; }
 .moon-phase-name{ font-family:var(--serif); font-size:13px; color:var(--gold); font-weight:700; }
@@ -327,17 +327,18 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
     <div class="sync-tag" id="syncTag">保存先に接続しています…</div>
 
     <div class="status-row">
-      <div class="moon-wrap">
-        <svg id="moonSvg" viewBox="0 0 46 46" width="38" height="38">
-          <defs><clipPath id="moonClip"><circle cx="23" cy="23" r="20"/></clipPath></defs>
-          <circle cx="23" cy="23" r="20" fill="#1b2244" stroke="rgba(232,185,95,0.35)" stroke-width="1"/>
-          <rect id="moonFill" x="0" y="0" width="0" height="46" fill="#e8b95f" clip-path="url(#moonClip)"/>
+      <div class="goal-ring-wrap" onclick="editGoal()">
+        <svg id="goalRing" viewBox="0 0 46 46" width="38" height="38">
+          <circle cx="23" cy="23" r="19" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="5"/>
+          <circle id="goalRingFill" cx="23" cy="23" r="19" fill="none" stroke="#e8b95f" stroke-width="5"
+                   stroke-linecap="round" stroke-dasharray="119.4" stroke-dashoffset="119.4"
+                   transform="rotate(-90 23 23)"/>
         </svg>
       </div>
       <div class="moon-phase-label">
-        <div class="moon-phase-eyebrow">習熟度</div>
-        <div class="moon-phase-name" id="phaseName">新月</div>
-        <div class="moon-phase-desc" id="phaseDesc">この単語セットはまだ始まったばかり</div>
+        <div class="moon-phase-eyebrow">習熟度(目標に対する達成率)</div>
+        <div class="moon-phase-name" id="phaseName">0 / 100語</div>
+        <div class="moon-phase-desc" id="phaseDesc">タップして目標を変更できます</div>
       </div>
       <div class="stat-mini">
         <div class="num" id="masteredCount">0</div>
@@ -846,23 +847,49 @@ function renderScopeChips(){
   });
 }
 
-function updateMoon(){
-  const list = wordsForLevel();
-  const masteredInSet = list.filter(w => getProg(w.id).status === 2).length;
-  const pct = list.length ? masteredInSet/list.length : 0;
-  const fillW = 46 * pct;
-  document.getElementById('moonFill').setAttribute('x', 46 - fillW);
-  document.getElementById('moonFill').setAttribute('width', fillW);
+function getGoal(){
+  let g = 100;
+  try{
+    const saved = localStorage.getItem('vocabGoal');
+    if(saved) g = parseInt(saved, 10);
+  }catch(e){}
+  if(!g || g <= 0) g = 100;
+  return g;
+}
 
-  let name, desc;
-  if(pct === 0){ name="新月"; desc="このセットはまだ始まったばかり"; }
-  else if(pct < 0.3){ name="三日月"; desc="少しずつ光が差してきた"; }
-  else if(pct < 0.6){ name="上弦の月"; desc="半分まで来た、このまま静かに"; }
-  else if(pct < 1){ name="十三夜"; desc="満ちるまであと少し"; }
-  else { name="満月"; desc="このセットを覚えきった"; }
-  document.getElementById('phaseName').textContent = name;
-  document.getElementById('phaseDesc').textContent = desc;
-  document.getElementById('masteredCount').textContent = masteredInSet;
+function setGoal(num){
+  try{ localStorage.setItem('vocabGoal', String(num)); }catch(e){}
+}
+
+function editGoal(){
+  const current = getGoal();
+  const input = window.prompt('目標の単語数を入力してください(例：100)', current);
+  if(input === null) return;
+  const num = parseInt(input, 10);
+  if(!num || num <= 0){
+    alert('1以上の数字を入力してください');
+    return;
+  }
+  setGoal(num);
+  updateMoon();
+}
+
+// 「習熟度」は現在のフィルターに関わらず、全単語の中で「覚えた」判定にした語数を、
+// 自分で決めた目標語数と比べて表示する(単語数が増減しても基準がぶれないように)
+function updateMoon(){
+  const masteredTotal = WORDS.filter(w => getProg(w.id).status === 2).length;
+  const goal = getGoal();
+  const pct = goal ? Math.min(1, masteredTotal / goal) : 0;
+  const circumference = 119.4; // 2 * π * r(19) の近似値
+  const offset = circumference * (1 - pct);
+  const ring = document.getElementById('goalRingFill');
+  if(ring) ring.setAttribute('stroke-dashoffset', offset);
+
+  document.getElementById('phaseName').textContent = `${masteredTotal} / ${goal}語`;
+  const remaining = Math.max(0, goal - masteredTotal);
+  document.getElementById('phaseDesc').textContent =
+    pct >= 1 ? '目標達成！タップで目標を変更できます' : `目標まであと${remaining}語 ・ タップで目標を変更`;
+  document.getElementById('masteredCount').textContent = masteredTotal;
 }
 
 function emptyMessageHtml(){
