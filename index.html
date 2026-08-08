@@ -197,7 +197,6 @@ select:focus, input[type=text]:focus{ outline:2px solid var(--gold); }
 }
 .judge{ flex:1; padding:16px 4px; border-radius:14px; border:none; font-family:var(--sans); font-size:13px; font-weight:500; cursor:pointer; color:var(--bg); box-shadow:0 8px 20px -6px rgba(0,0,0,0.4); }
 .judge.bad{ background:var(--bad); }
-.judge.warn{ background:var(--warn); }
 .judge.good{ background:var(--good); }
 
 .quiz-prompt{ border-radius:22px; background:linear-gradient(165deg, var(--surface-2) 0%, var(--surface) 100%); border:1px solid rgba(232,185,95,0.12); padding:20px 22px; text-align:center; margin-bottom:12px; position:relative; }
@@ -957,8 +956,7 @@ function renderFlash(){
       </div>
     </div>
     <div class="judge-row">
-      <button class="judge bad" onclick="judge(0)">もう一度</button>
-      <button class="judge warn" onclick="judge(1)">少し不安</button>
+      <button class="judge bad" onclick="judge(0)">覚えてない</button>
       <button class="judge good" onclick="judge(2)">覚えた</button>
     </div>
   `;
@@ -969,7 +967,7 @@ function flipCard(){
   document.getElementById('flashCard').classList.toggle('flipped', state.flipped);
 }
 
-// level: 0=もう一度(不正解解ば) 1=少し不安(中間、カウント変更なし) 2=覚えた(正解扱い)
+// level: 0=覚えてない(不正解扱い) 2=覚えた(正解扱い)
 function judge(level){
   const w = state.deck[state.idx];
   const prev = getProg(w.id);
@@ -991,7 +989,6 @@ function judge(level){
     updated.streak = 0;
     updated.last_result = 'wrong';
   }
-  // level===1(少し不安)は正解/不正解カウントを変更しない
   state.progress[w.id] = updated;
   updateMoon();
   renderScopeChips();
