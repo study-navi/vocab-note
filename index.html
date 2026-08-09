@@ -285,6 +285,12 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
     </div>
   </div>
 
+  <div class="login-screen hidden" id="autoLoginLoading">
+    <div class="eyebrow">STUDY IE — VOCAB NOTE</div>
+    <h1 style="margin-bottom:8px;">英単語ノート</h1>
+    <div style="text-align:center; color:var(--ink-dim); font-size:13px; padding-top:20px;">読み込んでいます…</div>
+  </div>
+
   <div class="login-screen" id="loginScreen">
     <div class="eyebrow">STUDY IE — VOCAB NOTE</div>
     <h1 style="margin-bottom:8px;">英単語ノート</h1>
@@ -534,6 +540,9 @@ async function loginStudent(branch, name){
   const ok = await ensureWordsLoaded();
   if(!ok){
     document.getElementById('loginBtn').disabled = false;
+    const loading = document.getElementById('autoLoginLoading');
+    if(loading) loading.classList.add('hidden');
+    document.getElementById('loginScreen').classList.remove('hidden');
     const err = document.getElementById('loginError');
     err.textContent = "単語データの読み込みに失敗しました。再読み込みしてください。";
     err.style.display = 'block';
@@ -542,6 +551,7 @@ async function loginStudent(branch, name){
 
   if(!supabaseClient){
     currentStudent = { id: null, branch, name };
+    saveStudentToLocal(branch, name);
     showMain();
     const tag = document.getElementById('syncTag');
     tag.textContent = "⚠ Supabase未設定のためこの端末のみで保存されます(index.html冒頭のSUPABASE_URL / ANON_KEYを設定してください)";
@@ -558,6 +568,7 @@ async function loginStudent(branch, name){
       .single();
     if(error) throw error;
     currentStudent = { id: data.id, branch: data.branch, name: data.name };
+    saveStudentToLocal(data.branch, data.name);
     showMain();
     const tag = document.getElementById('syncTag');
     tag.textContent = "他の端末でも同じ校舎・名前で入れば続きから学習できます";
@@ -567,15 +578,36 @@ async function loginStudent(branch, name){
   }catch(e){
     console.error(e);
     document.getElementById('loginBtn').disabled = false;
+    const loading = document.getElementById('autoLoginLoading');
+    if(loading) loading.classList.add('hidden');
+    document.getElementById('loginScreen').classList.remove('hidden');
     const err = document.getElementById('loginError');
     err.textContent = "接続に失敗しました。時間をおいて再試行してください。";
     err.style.display = 'block';
   }
 }
 
+// ---------- ログイン情報を端末に記憶(ページ移動しても再ログイン不要にする) ----------
+function saveStudentToLocal(branch, name){
+  try{ localStorage.setItem('vocabStudent', JSON.stringify({ branch, name })); }catch(e){}
+}
+function getSavedStudent(){
+  try{
+    const raw = localStorage.getItem('vocabStudent');
+    if(!raw) return null;
+    const obj = JSON.parse(raw);
+    if(obj && obj.branch && obj.name) return obj;
+  }catch(e){}
+  return null;
+}
+function clearSavedStudent(){
+  try{ localStorage.removeItem('vocabStudent'); }catch(e){}
+}
+
 function logout(){
   currentStudent = null;
   state.progress = {};
+  clearSavedStudent();
   document.getElementById('mainScreen').classList.add('hidden');
   document.getElementById('loginScreen').classList.remove('hidden');
   document.getElementById('loginBtn').disabled = false;
@@ -583,6 +615,8 @@ function logout(){
 
 function showMain(){
   document.getElementById('loginScreen').classList.add('hidden');
+  const loading = document.getElementById('autoLoginLoading');
+  if(loading) loading.classList.add('hidden');
   document.getElementById('mainScreen').classList.remove('hidden');
   document.getElementById('whoBranch').textContent = currentStudent.branch;
   document.getElementById('whoName').textContent = currentStudent.name;
@@ -1086,6 +1120,21 @@ function render(){
   else renderQuiz();
   updateMoon();
 }
+
+/* ---------- ページを開いた時点で、保存済みの生徒情報があれば自動的にログインし直す ----------
+   (単語一覧・お知らせページから「学習に戻る」で戻った時にログイン画面に戻らないようにするため) */
+(function autoLoginIfSaved(){
+  const saved = getSavedStudent();
+  if(!saved) return;
+  // ログイン画面が一瞬見えてしまうのを防ぐため、先に隠して代わりにローディングを出す
+  const loginScreen = document.getElementById('loginScreen');
+  if(loginScreen) loginScreen.classList.add('hidden');
+  const loading = document.getElementById('autoLoginLoading');
+  if(loading) loading.classList.remove('hidden');
+  document.getElementById('branchSelect').value = saved.branch;
+  document.getElementById('nameInput').value = saved.name;
+  loginStudent(saved.branch, saved.name);
+})();
 </script>
 </body>
 </html>
