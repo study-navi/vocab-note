@@ -102,6 +102,7 @@ td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
             <th>正答率</th>
             <th>基礎/標準/発展</th>
             <th>最終学習</th>
+            <th>最終ログイン</th>
             <th></th>
           </tr>
         </thead>
@@ -176,7 +177,7 @@ async function loadData(){
 
   const { data: students, error: sErr } = await supabaseClient
     .from('vocab_students')
-    .select('id,name')
+    .select('id,name,last_login_at')
     .eq('branch', branch)
     .order('name');
   if(sErr){ console.error(sErr); return; }
@@ -207,7 +208,7 @@ async function loadData(){
 
   const byStudent = {};
   students.forEach(s => byStudent[s.id] = {
-    id:s.id, name:s.name, mastered:0, l1:0, l2:0, l3:0, lastUpdate:null,
+    id:s.id, name:s.name, mastered:0, l1:0, l2:0, l3:0, lastUpdate:null, lastLogin:s.last_login_at || null,
     correctSum:0, wrongSum:0, weakCount:0, priorityCount:0,
   });
 
@@ -235,7 +236,7 @@ async function loadData(){
   // サマリー
   const totalStudents = rows.length;
   const avgMastered = totalStudents ? Math.round(rows.reduce((s,r)=>s+r.mastered,0)/totalStudents) : 0;
-  const activeStudents = rows.filter(r=>r.lastUpdate && (Date.now()-new Date(r.lastUpdate).getTime()) < 7*24*3600*1000).length;
+  const activeStudents = rows.filter(r=>r.lastLogin && (Date.now()-new Date(r.lastLogin).getTime()) < 7*24*3600*1000).length;
   summaryRow.innerHTML = `
     <div class="summary-item"><div class="num">${totalStudents}</div><div class="lbl">登録生徒数</div></div>
     <div class="summary-item"><div class="num">${avgMastered}</div><div class="lbl">平均・覚えた語数</div></div>
@@ -245,6 +246,9 @@ async function loadData(){
   tbody.innerHTML = rows.map(r => {
     const pct = Math.round((r.mastered/TOTAL_WORDS)*100);
     const last = r.lastUpdate ? new Date(r.lastUpdate).toLocaleDateString('ja-JP', {month:'numeric', day:'numeric'}) : "-";
+    const lastLoginStr = r.lastLogin
+      ? new Date(r.lastLogin).toLocaleString('ja-JP', {month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit'})
+      : "-";
     const total = r.correctSum + r.wrongSum;
     const accuracy = total ? Math.round((r.correctSum/total)*100) : null;
     return `
@@ -260,6 +264,7 @@ async function loadData(){
         <td class="small">${accuracy===null ? '-' : accuracy + '%'}</td>
         <td class="small">${r.l1}/${TOTAL_L1} · ${r.l2}/${TOTAL_L2} · ${r.l3}/${TOTAL_L3}</td>
         <td class="small">${last}</td>
+        <td class="small">${lastLoginStr}</td>
         <td class="small"><button class="del-btn" onclick="deleteStudent('${r.id}','${r.name.replace(/'/g,"\\'")}')">削除</button></td>
       </tr>
     `;

@@ -564,7 +564,7 @@ async function loginStudent(branch, name){
   try{
     const { data, error } = await supabaseClient
       .from('vocab_students')
-      .upsert({ branch, name }, { onConflict: 'branch,name' })
+      .upsert({ branch, name, last_login_at: new Date().toISOString() }, { onConflict: 'branch,name' })
       .select()
       .single();
     if(error) throw error;
