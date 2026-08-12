@@ -402,6 +402,7 @@ footer{ margin-top:22px; padding-bottom:10px; text-align:center; font-size:10.5p
               <option value="priority">順番：苦手順</option>
               <option value="leap">順番：LEAP番号順</option>
               <option value="target1900">順番：ターゲット1900番号順</option>
+              <option value="idiom">順番：熟語番号順</option>
             </select>
             <div class="chip mini-toggle" id="directionToggle" onclick="toggleDirection()">英語→日本語</div>
           </div>
@@ -708,6 +709,7 @@ const TEXTBOOK_OPTIONS = [
   {key:'all', label:'すべて', field:null},
   {key:'leap', label:'LEAP', field:'leapNo'},
   {key:'target1900', label:'ターゲット1900', field:'targetNo'},
+  {key:'idiom', label:'熟語', field:'idiomNo'},
 ];
 function textbookField(key){
   const opt = TEXTBOOK_OPTIONS.find(o => o.key === key);
@@ -741,7 +743,7 @@ function setTextbook(key){
   state.textbook = key;
   if(key !== 'all' && state.order === 'random'){
     // 教材を選んだら、番号順に並べる方が使いやすいのでデフォルトを切り替える
-    state.order = key === 'leap' ? 'leap' : 'target1900';
+    state.order = key;
     const sel = document.getElementById('orderSelect');
     if(sel) sel.value = state.order;
   }
@@ -817,6 +819,8 @@ function buildDeck(){
     pool = pool.slice().sort((a,b) => (a.leapNo ?? 99999) - (b.leapNo ?? 99999));
   }else if(state.order === 'target1900'){
     pool = pool.slice().sort((a,b) => (a.targetNo ?? 99999) - (b.targetNo ?? 99999));
+  }else if(state.order === 'idiom'){
+    pool = pool.slice().sort((a,b) => (a.idiomNo ?? 99999) - (b.idiomNo ?? 99999));
   }else{
     pool = shuffle(pool);
   }
@@ -965,7 +969,7 @@ function renderFlash(){
   const frontMain = ja2en ? w.meaning : w.word;
   const frontHint = ja2en ? "タップして単語を見る" : "タップして意味を見る";
   const backMain = ja2en ? w.word : w.meaning;
-  const leapTag = (w.leapNo || w.targetNo) ? `<div class="leap-tag">${[w.leapNo ? 'LEAP No.'+w.leapNo : null, w.targetNo ? 'Target No.'+w.targetNo : null].filter(Boolean).join(' / ')}</div>` : '';
+  const leapTag = (w.leapNo || w.targetNo || w.idiomNo) ? `<div class="leap-tag">${[w.leapNo ? 'LEAP No.'+w.leapNo : null, w.targetNo ? 'Target No.'+w.targetNo : null, w.idiomNo ? 'Target熟語1000 No.'+w.idiomNo : null].filter(Boolean).join(' / ')}</div>` : '';
   const starred = getProg(w.id).starred;
   const starBtn = `<button class="star-btn ${starred?'active':''}" onclick="event.stopPropagation(); toggleStar(${w.id});">${starred ? '★' : '☆'}</button>`;
   stage.innerHTML = `
@@ -1059,7 +1063,7 @@ function renderQuiz(){
   const questionLabel = ja2en ? "この意味に合う単語は？" : "この単語の意味は？";
   const questionMain = ja2en ? w.meaning : w.word;
   const answerField = ja2en ? 'word' : 'meaning';
-  const leapTag = (w.leapNo || w.targetNo) ? `<div class="leap-tag">${[w.leapNo ? 'LEAP No.'+w.leapNo : null, w.targetNo ? 'Target No.'+w.targetNo : null].filter(Boolean).join(' / ')}</div>` : '';
+  const leapTag = (w.leapNo || w.targetNo || w.idiomNo) ? `<div class="leap-tag">${[w.leapNo ? 'LEAP No.'+w.leapNo : null, w.targetNo ? 'Target No.'+w.targetNo : null, w.idiomNo ? 'Target熟語1000 No.'+w.idiomNo : null].filter(Boolean).join(' / ')}</div>` : '';
   const starred = getProg(w.id).starred;
   const starBtn = `<button class="star-btn${starred ? ' active' : ''}" onclick="toggleStar(${w.id})">${starred ? '★' : '☆'}</button>`;
   const choicesHtml = state.quizChoices.map(c => {

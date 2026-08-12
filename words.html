@@ -101,6 +101,7 @@ input[type=text]{
         <option value="default">並び順：通常</option>
         <option value="leap">並び順：LEAP番号順</option>
         <option value="target1900">並び順：ターゲット1900番号順</option>
+        <option value="idiom">並び順：熟語番号順</option>
       </select>
     </div>
     <div class="count-line" id="countLine"></div>
@@ -123,6 +124,7 @@ const TEXTBOOK_OPTIONS = [
   {key:'all', label:'すべて', field:null},
   {key:'leap', label:'LEAP', field:'leapNo'},
   {key:'target1900', label:'ターゲット1900', field:'targetNo'},
+  {key:'idiom', label:'熟語', field:'idiomNo'},
 ];
 function textbookField(key){
   const opt = TEXTBOOK_OPTIONS.find(o => o.key === key);
@@ -191,7 +193,8 @@ function renderList(){
       w.word.toLowerCase().includes(q) ||
       w.meaning.toLowerCase().includes(q) ||
       (w.leapNo && String(w.leapNo) === q) ||
-      (w.targetNo && String(w.targetNo) === q)
+      (w.targetNo && String(w.targetNo) === q) ||
+      (w.idiomNo && String(w.idiomNo) === q)
     );
   }
   const sortMode = document.getElementById('sortSelect').value;
@@ -199,6 +202,8 @@ function renderList(){
     list = list.slice().sort((a,b) => (a.leapNo ?? 99999) - (b.leapNo ?? 99999));
   }else if(sortMode === 'target1900'){
     list = list.slice().sort((a,b) => (a.targetNo ?? 99999) - (b.targetNo ?? 99999));
+  }else if(sortMode === 'idiom'){
+    list = list.slice().sort((a,b) => (a.idiomNo ?? 99999) - (b.idiomNo ?? 99999));
   }
   document.getElementById('countLine').textContent = `${list.length}件表示中`;
 
@@ -213,7 +218,7 @@ function renderList(){
 
   const levelNames = {1:'基礎', 2:'標準', 3:'発展'};
   wrap.innerHTML = list.map(w => {
-    const badges = [w.leapNo ? `LEAP No.${w.leapNo}` : null, w.targetNo ? `Target No.${w.targetNo}` : null].filter(Boolean).join(' / ');
+    const badges = [w.leapNo ? `LEAP No.${w.leapNo}` : null, w.targetNo ? `Target No.${w.targetNo}` : null, w.idiomNo ? `Target熟語1000 No.${w.idiomNo}` : null].filter(Boolean).join(' / ');
     return `
     <div class="word-card" onclick="this.classList.toggle('open')">
       <div class="word-card-top">
