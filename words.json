@@ -30088,11 +30088,11 @@
   },
   {
     "id": 2799,
-    "word": "what is more",
+    "word": "It happens that ...",
     "pos": "熟",
-    "meaning": "その上",
-    "example": "She's smart, and what is more, kind.",
-    "exampleJa": "彼女は賢い、その上、親切だ。",
+    "meaning": "たまたま…だ、折よく[運悪く]…だ",
+    "example": "It happens that I have some free time this afternoon.",
+    "exampleJa": "たまたま今日の午後は空き時間がある。",
     "level": 3,
     "idiomNo": 720
   },
@@ -32764,7 +32764,7 @@
     "example": "In the wake of the scandal, he resigned.",
     "exampleJa": "そのスキャンダルの結果、彼は辞任した。",
     "level": 3,
-    "idiomNo": 959
+    "idiomNo": 960
   },
   {
     "id": 3169,
@@ -32774,7 +32774,7 @@
     "example": "As of today, the offer is no longer valid.",
     "exampleJa": "今日現在、その申し出はもう有効ではない。",
     "level": 3,
-    "idiomNo": 960
+    "idiomNo": 961
   },
   {
     "id": 3170,
@@ -32784,7 +32784,7 @@
     "example": "But for your help, I couldn't have finished.",
     "exampleJa": "あなたの助けがなければ、私は終えられなかっただろう。",
     "level": 3,
-    "idiomNo": 961
+    "idiomNo": 962
   },
   {
     "id": 3171,
@@ -32794,7 +32794,7 @@
     "example": "She is on good terms with her neighbors.",
     "exampleJa": "彼女は近所の人と良好な関係にある。",
     "level": 3,
-    "idiomNo": 962
+    "idiomNo": 963
   },
   {
     "id": 3172,
@@ -32804,7 +32804,7 @@
     "example": "The company was on the verge of bankruptcy.",
     "exampleJa": "その会社はまさに倒産寸前だった。",
     "level": 3,
-    "idiomNo": 963
+    "idiomNo": 964
   },
   {
     "id": 3173,
@@ -32814,7 +32814,7 @@
     "example": "The hotel is within walking distance of the station.",
     "exampleJa": "そのホテルは駅から歩いて行ける距離にある。",
     "level": 3,
-    "idiomNo": 964
+    "idiomNo": 965
   },
   {
     "id": 3174,
@@ -32824,7 +32824,7 @@
     "example": "He made a statement to the effect that prices would rise.",
     "exampleJa": "彼は物価が上がるという趣旨の発言をした。",
     "level": 3,
-    "idiomNo": 965
+    "idiomNo": 966
   },
   {
     "id": 3175,
@@ -32834,7 +32834,7 @@
     "example": "This project is a case in point.",
     "exampleJa": "このプロジェクトは適切な例だ。",
     "level": 3,
-    "idiomNo": 966
+    "idiomNo": 967
   },
   {
     "id": 3176,
@@ -32844,7 +32844,7 @@
     "example": "We discussed the pros and cons of the plan.",
     "exampleJa": "私たちはその計画の長所と短所について話し合った。",
     "level": 3,
-    "idiomNo": 967
+    "idiomNo": 968
   },
   {
     "id": 3177,
@@ -32854,7 +32854,7 @@
     "example": "The old stadium became a white elephant.",
     "exampleJa": "その古いスタジアムは無用の長物になった。",
     "level": 3,
-    "idiomNo": 968
+    "idiomNo": 969
   },
   {
     "id": 3178,
@@ -32864,7 +32864,7 @@
     "example": "No one mentioned the elephant in the room during the meeting.",
     "exampleJa": "会議中、誰もその触れにくい問題について言及しなかった。",
     "level": 3,
-    "idiomNo": 969
+    "idiomNo": 970
   },
   {
     "id": 3179,
@@ -32874,7 +32874,7 @@
     "example": "Risk is part and parcel of running a business.",
     "exampleJa": "リスクは事業を営むことの重要な一部だ。",
     "level": 3,
-    "idiomNo": 970
+    "idiomNo": 971
   },
   {
     "id": 3180,
@@ -32884,7 +32884,7 @@
     "example": "I knew the truth all along.",
     "exampleJa": "私は初めからずっとその真実を知っていた。",
     "level": 3,
-    "idiomNo": 971
+    "idiomNo": 972
   },
   {
     "id": 3181,
@@ -32894,7 +32894,7 @@
     "example": "The vacation ended all too soon.",
     "exampleJa": "休暇はあまりにも早く終わってしまった。",
     "level": 3,
-    "idiomNo": 972
+    "idiomNo": 973
   },
   {
     "id": 3182,
@@ -32904,7 +32904,7 @@
     "example": "He is an expert, and as such, his advice is valuable.",
     "exampleJa": "彼は専門家であり、そういうものとして彼の助言は貴重だ。",
     "level": 3,
-    "idiomNo": 973
+    "idiomNo": 974
   },
   {
     "id": 3183,
@@ -32914,7 +32914,7 @@
     "example": "She learned the news at first hand.",
     "exampleJa": "彼女はその知らせを直接知った。",
     "level": 3,
-    "idiomNo": 974
+    "idiomNo": 975
   },
   {
     "id": 3184,
@@ -32924,7 +32924,7 @@
     "example": "Please call me at your convenience.",
     "exampleJa": "ご都合の良い時にお電話ください。",
     "level": 3,
-    "idiomNo": 975
+    "idiomNo": 976
   },
   {
     "id": 3185,
@@ -32934,7 +32934,7 @@
     "example": "We had to move at short notice.",
     "exampleJa": "私たちは急な知らせで引っ越さなければならなかった。",
     "level": 3,
-    "idiomNo": 976
+    "idiomNo": 977
   },
   {
     "id": 3186,
@@ -32944,7 +32944,7 @@
     "example": "He can change plans at will.",
     "exampleJa": "彼は思いのままに計画を変えることができる。",
     "level": 3,
-    "idiomNo": 977
+    "idiomNo": 978
   },
   {
     "id": 3187,
@@ -32954,7 +32954,7 @@
     "example": "By and large, the trip was a success.",
     "exampleJa": "概して、その旅行は成功だった。",
     "level": 3,
-    "idiomNo": 978
+    "idiomNo": 979
   },
   {
     "id": 3188,
@@ -32964,7 +32964,7 @@
     "example": "We might expand the business down the road.",
     "exampleJa": "私たちは将来この事業を拡大するかもしれない。",
     "level": 3,
-    "idiomNo": 979
+    "idiomNo": 980
   },
   {
     "id": 3189,
@@ -32974,7 +32974,7 @@
     "example": "She showed talent early on in her career.",
     "exampleJa": "彼女はキャリアの早い段階で才能を示した。",
     "level": 3,
-    "idiomNo": 980
+    "idiomNo": 981
   },
   {
     "id": 3190,
@@ -32984,7 +32984,7 @@
     "example": "Let's eat out for a change.",
     "exampleJa": "気分転換に外食しましょう。",
     "level": 3,
-    "idiomNo": 981
+    "idiomNo": 982
   },
   {
     "id": 3191,
@@ -32994,7 +32994,7 @@
     "example": "For all I know, he might already be there.",
     "exampleJa": "私の知る限りでは、彼はもうそこにいるかもしれない。",
     "level": 3,
-    "idiomNo": 982
+    "idiomNo": 983
   },
   {
     "id": 3192,
@@ -33004,7 +33004,7 @@
     "example": "All our efforts were for nothing.",
     "exampleJa": "私たちの努力はすべて無駄だった。",
     "level": 3,
-    "idiomNo": 983
+    "idiomNo": 984
   },
   {
     "id": 3193,
@@ -33014,7 +33014,7 @@
     "example": "If anything, the situation has improved.",
     "exampleJa": "どちらかと言えば、状況は改善した。",
     "level": 3,
-    "idiomNo": 984
+    "idiomNo": 985
   },
   {
     "id": 3194,
@@ -33024,7 +33024,7 @@
     "example": "She won three matches in a row.",
     "exampleJa": "彼女は3試合連続で勝った。",
     "level": 3,
-    "idiomNo": 985
+    "idiomNo": 986
   },
   {
     "id": 3195,
@@ -33034,7 +33034,7 @@
     "example": "Please pick up the ticket in person.",
     "exampleJa": "チケットは本人が直接受け取ってください。",
     "level": 3,
-    "idiomNo": 986
+    "idiomNo": 987
   },
   {
     "id": 3196,
@@ -33044,7 +33044,7 @@
     "example": "In retrospect, we should have planned better.",
     "exampleJa": "振り返ってみると、私たちはもっとよく計画するべきだった。",
     "level": 3,
-    "idiomNo": 987
+    "idiomNo": 988
   },
   {
     "id": 3197,
@@ -33054,7 +33054,7 @@
     "example": "More often than not, he is right.",
     "exampleJa": "たいてい、彼は正しい。",
     "level": 3,
-    "idiomNo": 988
+    "idiomNo": 989
   },
   {
     "id": 3198,
@@ -33064,7 +33064,7 @@
     "example": "On second thought, let's postpone the meeting.",
     "exampleJa": "考え直してみると、会議を延期しましょう。",
     "level": 3,
-    "idiomNo": 989
+    "idiomNo": 990
   },
   {
     "id": 3199,
@@ -33074,7 +33074,7 @@
     "example": "On the face of it, the plan seems reasonable.",
     "exampleJa": "一見したところ、その計画は妥当に思える。",
     "level": 3,
-    "idiomNo": 990
+    "idiomNo": 991
   },
   {
     "id": 3200,
@@ -33084,7 +33084,7 @@
     "example": "He was offered the job on the spot.",
     "exampleJa": "彼はその場でその仕事を提示された。",
     "level": 3,
-    "idiomNo": 991
+    "idiomNo": 992
   },
   {
     "id": 3201,
@@ -33094,7 +33094,7 @@
     "example": "Let's settle this once and for all.",
     "exampleJa": "これを最後にこの件を解決しましょう。",
     "level": 3,
-    "idiomNo": 992
+    "idiomNo": 993
   },
   {
     "id": 3202,
@@ -33104,7 +33104,7 @@
     "example": "I'll visit you one of these days.",
     "exampleJa": "近いうちにあなたを訪ねます。",
     "level": 3,
-    "idiomNo": 993
+    "idiomNo": 994
   },
   {
     "id": 3203,
@@ -33114,7 +33114,7 @@
     "example": "Once upon a time, there lived a king.",
     "exampleJa": "昔々、ある王様が住んでいた。",
     "level": 3,
-    "idiomNo": 994
+    "idiomNo": 995
   },
   {
     "id": 3204,
@@ -33124,7 +33124,7 @@
     "example": "I'm only too happy to help.",
     "exampleJa": "喜んでお手伝いします。",
     "level": 3,
-    "idiomNo": 995
+    "idiomNo": 996
   },
   {
     "id": 3205,
@@ -33134,7 +33134,7 @@
     "example": "It's sort of complicated to explain.",
     "exampleJa": "説明するのはいくぶん複雑だ。",
     "level": 3,
-    "idiomNo": 996
+    "idiomNo": 997
   },
   {
     "id": 3206,
@@ -33144,7 +33144,7 @@
     "example": "You can use my car, such as it is.",
     "exampleJa": "大した車ではないが、私の車を使ってもいいですよ。",
     "level": 3,
-    "idiomNo": 997
+    "idiomNo": 998
   },
   {
     "id": 3207,
@@ -33154,7 +33154,7 @@
     "example": "Actually, it's the other way around.",
     "exampleJa": "実際は、逆なのです。",
     "level": 3,
-    "idiomNo": 998
+    "idiomNo": 999
   },
   {
     "id": 3208,
@@ -33164,6 +33164,16 @@
     "example": "To date, no one has solved this puzzle.",
     "exampleJa": "現在まで、誰もこのパズルを解いていない。",
     "level": 3,
-    "idiomNo": 999
+    "idiomNo": 1000
+  },
+  {
+    "id": 3209,
+    "word": "in proportion to ~",
+    "pos": "熟",
+    "meaning": "～に比例して",
+    "example": "Salary should be in proportion to effort.",
+    "exampleJa": "給料は努力に比例するべきだ。",
+    "level": 3,
+    "idiomNo": 959
   }
 ]
