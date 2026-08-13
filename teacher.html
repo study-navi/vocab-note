@@ -101,6 +101,7 @@ td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
             <th>最優先</th>
             <th>正答率</th>
             <th>基礎/標準/発展</th>
+            <th>熟語</th>
             <th>最終学習</th>
             <th>最終ログイン</th>
             <th></th>
@@ -123,7 +124,8 @@ const SUPABASE_ANON_KEY = "sb_publishable_R83zSq90hslRd5jl04sIPg_hZlLxfRC";
 /* ★ 先生用の合言葉。厳密なセキュリティではなく簡易的な目隠しです ★ */
 const TEACHER_PASSCODE = "studyie2026";
 
-let TOTAL_WORDS = 0, TOTAL_L1 = 0, TOTAL_L2 = 0, TOTAL_L3 = 0;
+let TOTAL_WORDS = 0, TOTAL_L1 = 0, TOTAL_L2 = 0, TOTAL_L3 = 0, TOTAL_IDIOMS = 0;
+let idiomWordIds = new Set();
 let wordsLoaded = false;
 
 async function loadWordCounts(){
@@ -135,6 +137,9 @@ async function loadWordCounts(){
     TOTAL_L1 = words.filter(w=>w.level===1).length;
     TOTAL_L2 = words.filter(w=>w.level===2).length;
     TOTAL_L3 = words.filter(w=>w.level===3).length;
+    const idioms = words.filter(w=>w.idiomNo);
+    TOTAL_IDIOMS = idioms.length;
+    idiomWordIds = new Set(idioms.map(w=>w.id));
     wordsLoaded = true;
   }catch(e){
     console.error(e);
@@ -208,7 +213,7 @@ async function loadData(){
 
   const byStudent = {};
   students.forEach(s => byStudent[s.id] = {
-    id:s.id, name:s.name, mastered:0, l1:0, l2:0, l3:0, lastUpdate:null, lastLogin:s.last_login_at || null,
+    id:s.id, name:s.name, mastered:0, l1:0, l2:0, l3:0, idiomMastered:0, lastUpdate:null, lastLogin:s.last_login_at || null,
     correctSum:0, wrongSum:0, weakCount:0, priorityCount:0,
   });
 
@@ -220,6 +225,7 @@ async function loadData(){
       if(row.level===1) bucket.l1++;
       if(row.level===2) bucket.l2++;
       if(row.level===3) bucket.l3++;
+      if(idiomWordIds.has(row.word_id)) bucket.idiomMastered++;
     }
     bucket.correctSum += row.correct_count || 0;
     bucket.wrongSum += row.wrong_count || 0;
@@ -263,6 +269,7 @@ async function loadData(){
         <td class="small">${r.priorityCount}</td>
         <td class="small">${accuracy===null ? '-' : accuracy + '%'}</td>
         <td class="small">${r.l1}/${TOTAL_L1} · ${r.l2}/${TOTAL_L2} · ${r.l3}/${TOTAL_L3}</td>
+        <td class="small">${r.idiomMastered} / ${TOTAL_IDIOMS}</td>
         <td class="small">${last}</td>
         <td class="small">${lastLoginStr}</td>
         <td class="small"><button class="del-btn" onclick="deleteStudent('${r.id}','${r.name.replace(/'/g,"\\'")}')">削除</button></td>
