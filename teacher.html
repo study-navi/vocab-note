@@ -42,25 +42,73 @@ select, input[type=password]{
 .filter-row{ display:flex; gap:10px; align-items:flex-end; margin-bottom:18px; flex-wrap:wrap; }
 .filter-row select{ margin-bottom:0; width:auto; min-width:200px; }
 
-table{ width:100%; border-collapse:collapse; font-size:13.5px; }
-th, td{ text-align:left; padding:10px 8px; border-bottom:1px solid rgba(255,255,255,0.06); }
-th{ color:var(--ink-faint); font-weight:500; font-size:11.5px; letter-spacing:0.04em; }
-td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
-.bar-cell{ min-width:120px; }
-.bar-bg{ background:rgba(255,255,255,0.07); border-radius:999px; height:8px; overflow:hidden; }
-.bar-fill{ background:var(--gold); height:100%; }
 .small{ font-size:11px; color:var(--ink-faint); }
-.del-btn{
-  padding:5px 10px; border-radius:8px; border:1px solid rgba(232,116,138,0.4);
-  background:transparent; color:var(--bad); font-size:11px; cursor:pointer;
-}
-.del-btn:hover{ background:rgba(232,116,138,0.15); }
-.summary-row{ display:flex; gap:14px; margin-bottom:18px; flex-wrap:wrap; }
-.summary-item{ background:var(--surface); border-radius:14px; padding:14px 18px; flex:1; min-width:120px; }
-.summary-item .num{ font-family:var(--serif); font-size:22px; color:var(--gold); font-weight:700; }
-.summary-item .lbl{ font-size:11px; color:var(--ink-dim); margin-top:2px; }
 .hidden{ display:none !important; }
 .empty-msg{ color:var(--ink-dim); font-size:13px; padding:20px 0; text-align:center; }
+.summary-row{ display:flex; gap:10px; margin-bottom:18px; flex-wrap:wrap; }
+.summary-item{ background:var(--surface); border-radius:14px; padding:14px 16px; flex:1; min-width:100px; }
+.summary-item .num{ font-family:var(--serif); font-size:22px; color:var(--gold); font-weight:700; }
+.summary-item .lbl{ font-size:10.5px; color:var(--ink-dim); margin-top:2px; }
+
+/* ---------- 生徒カード一覧 ---------- */
+.sort-row{ display:flex; gap:6px; margin-bottom:14px; flex-wrap:wrap; }
+.sort-chip{
+  padding:7px 13px; border-radius:999px; font-size:11.5px; color:var(--ink-dim);
+  background:var(--bg-elevate); border:1px solid rgba(255,255,255,0.1); cursor:pointer;
+  user-select:none; transition:all .15s ease;
+}
+.sort-chip.active{ background:var(--gold); color:var(--bg); border-color:var(--gold); font-weight:700; }
+
+.student-list{ display:flex; flex-direction:column; gap:12px; }
+.student-card{
+  background:var(--bg-elevate); border:1px solid rgba(232,185,95,0.12);
+  border-radius:18px; padding:16px 18px; position:relative;
+}
+.card-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; margin-bottom:12px; }
+.card-name{ font-family:var(--serif); font-size:17px; font-weight:700; color:var(--ink); }
+.card-login{ font-size:10.5px; color:var(--ink-faint); margin-top:3px; display:flex; align-items:center; gap:5px; }
+.login-dot{ width:7px; height:7px; border-radius:50%; background:var(--ink-faint); flex:none; }
+.login-dot.active{ background:var(--good); box-shadow:0 0 6px rgba(111,207,151,0.6); }
+.del-btn{
+  padding:6px 12px; border-radius:8px; border:1px solid rgba(232,116,138,0.35);
+  background:transparent; color:var(--bad); font-size:11px; cursor:pointer; flex:none;
+}
+.del-btn:active{ background:rgba(232,116,138,0.18); }
+
+.progress-row{ display:flex; align-items:center; gap:12px; margin-bottom:14px; }
+.ring-wrap{ flex:none; width:52px; height:52px; position:relative; }
+.ring-wrap svg{ width:100%; height:100%; }
+.ring-pct{
+  position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+  font-family:var(--serif); font-size:12.5px; font-weight:700; color:var(--gold);
+}
+.progress-info{ flex:1; }
+.progress-count{ font-family:var(--serif); font-size:19px; font-weight:700; color:var(--ink); }
+.progress-count .of{ font-size:11.5px; color:var(--ink-faint); font-weight:400; font-family:var(--sans); }
+.progress-label{ font-size:10.5px; color:var(--ink-dim); margin-top:1px; }
+
+.stat-grid{ display:grid; grid-template-columns:repeat(4, 1fr); gap:8px; margin-bottom:12px; }
+.stat-box{ background:var(--surface); border-radius:12px; padding:9px 6px; text-align:center; }
+.stat-box .v{ font-family:var(--serif); font-size:15px; font-weight:700; color:var(--ink); }
+.stat-box .v.warn{ color:var(--warn); }
+.stat-box .v.bad{ color:var(--bad); }
+.stat-box .k{ font-size:9.5px; color:var(--ink-faint); margin-top:2px; letter-spacing:0.02em; }
+
+.level-row{ display:flex; gap:6px; margin-bottom:10px; }
+.level-chip{
+  flex:1; background:var(--surface); border-radius:10px; padding:7px 4px; text-align:center;
+}
+.level-chip .lv-v{ font-size:12px; font-weight:700; color:var(--ink); }
+.level-chip .lv-k{ font-size:9px; color:var(--ink-faint); margin-top:1px; }
+
+.card-footer{
+  display:flex; justify-content:space-between; align-items:center;
+  font-size:10.5px; color:var(--ink-faint); padding-top:10px; border-top:1px solid rgba(255,255,255,0.06);
+}
+
+@media (min-width: 640px){
+  .student-list{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+}
 </style>
 </head>
 <body>
@@ -90,27 +138,15 @@ td.num{ color:var(--gold); font-family:var(--serif); font-weight:700; }
 
     <div class="summary-row" id="summaryRow"></div>
 
-    <div class="panel">
-      <table>
-        <thead>
-          <tr>
-            <th>生徒名</th>
-            <th>覚えた語数</th>
-            <th class="bar-cell">習熟度</th>
-            <th>苦手</th>
-            <th>最優先</th>
-            <th>正答率</th>
-            <th>基礎/標準/発展</th>
-            <th>熟語</th>
-            <th>最終学習</th>
-            <th>最終ログイン</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody id="tableBody"></tbody>
-      </table>
-      <div class="empty-msg hidden" id="emptyMsg">この校舎にはまだ学習記録がありません</div>
+    <div class="sort-row" id="sortRow">
+      <div class="sort-chip active" data-sort="mastered" onclick="setSort('mastered')">覚えた語数順</div>
+      <div class="sort-chip" data-sort="name" onclick="setSort('name')">名前順</div>
+      <div class="sort-chip" data-sort="login" onclick="setSort('login')">最終ログイン順</div>
+      <div class="sort-chip" data-sort="weak" onclick="setSort('weak')">苦手が多い順</div>
     </div>
+
+    <div class="student-list" id="studentList"></div>
+    <div class="empty-msg hidden" id="emptyMsg">この校舎にはまだ学習記録がありません</div>
   </div>
 </div>
 
@@ -165,12 +201,15 @@ async function checkPass(){
   }
 }
 
+let currentRows = [];
+let currentSort = 'mastered';
+
 async function loadData(){
   const branch = document.getElementById('branchFilter').value;
-  const tbody = document.getElementById('tableBody');
+  const listEl = document.getElementById('studentList');
   const emptyMsg = document.getElementById('emptyMsg');
   const summaryRow = document.getElementById('summaryRow');
-  tbody.innerHTML = "";
+  listEl.innerHTML = "";
   emptyMsg.classList.add('hidden');
 
   if(!supabaseClient){
@@ -237,43 +276,113 @@ async function loadData(){
     }
   });
 
-  const rows = Object.values(byStudent).sort((a,b)=>b.mastered-a.mastered);
+  currentRows = Object.values(byStudent);
 
   // サマリー
-  const totalStudents = rows.length;
-  const avgMastered = totalStudents ? Math.round(rows.reduce((s,r)=>s+r.mastered,0)/totalStudents) : 0;
-  const activeStudents = rows.filter(r=>r.lastLogin && (Date.now()-new Date(r.lastLogin).getTime()) < 7*24*3600*1000).length;
+  const totalStudents = currentRows.length;
+  const avgMastered = totalStudents ? Math.round(currentRows.reduce((s,r)=>s+r.mastered,0)/totalStudents) : 0;
+  const activeStudents = currentRows.filter(r=>r.lastLogin && (Date.now()-new Date(r.lastLogin).getTime()) < 7*24*3600*1000).length;
   summaryRow.innerHTML = `
     <div class="summary-item"><div class="num">${totalStudents}</div><div class="lbl">登録生徒数</div></div>
     <div class="summary-item"><div class="num">${avgMastered}</div><div class="lbl">平均・覚えた語数</div></div>
     <div class="summary-item"><div class="num">${activeStudents}</div><div class="lbl">直近7日で学習</div></div>
   `;
 
-  tbody.innerHTML = rows.map(r => {
+  renderStudentList();
+}
+
+function setSort(key){
+  currentSort = key;
+  document.querySelectorAll('.sort-chip').forEach(el=>{
+    el.classList.toggle('active', el.dataset.sort === key);
+  });
+  renderStudentList();
+}
+
+function sortRows(rows, key){
+  const sorted = rows.slice();
+  if(key === 'name'){
+    sorted.sort((a,b)=>a.name.localeCompare(b.name, 'ja'));
+  }else if(key === 'login'){
+    sorted.sort((a,b)=>{
+      const at = a.lastLogin ? new Date(a.lastLogin).getTime() : 0;
+      const bt = b.lastLogin ? new Date(b.lastLogin).getTime() : 0;
+      return bt - at;
+    });
+  }else if(key === 'weak'){
+    sorted.sort((a,b)=> (b.weakCount + b.priorityCount) - (a.weakCount + a.priorityCount));
+  }else{
+    sorted.sort((a,b)=>b.mastered-a.mastered);
+  }
+  return sorted;
+}
+
+function renderStudentList(){
+  const listEl = document.getElementById('studentList');
+  const emptyMsg = document.getElementById('emptyMsg');
+  const rows = sortRows(currentRows, currentSort);
+
+  if(rows.length === 0){
+    listEl.innerHTML = "";
+    emptyMsg.classList.remove('hidden');
+    return;
+  }
+  emptyMsg.classList.add('hidden');
+
+  listEl.innerHTML = rows.map(r => {
     const pct = Math.round((r.mastered/TOTAL_WORDS)*100);
-    const last = r.lastUpdate ? new Date(r.lastUpdate).toLocaleDateString('ja-JP', {month:'numeric', day:'numeric'}) : "-";
+    const circumference = 2 * Math.PI * 21; // r=21
+    const offset = circumference * (1 - Math.min(1, pct/100));
+    const last = r.lastUpdate ? new Date(r.lastUpdate).toLocaleDateString('ja-JP', {month:'numeric', day:'numeric'}) : "まだ学習なし";
     const lastLoginStr = r.lastLogin
       ? new Date(r.lastLogin).toLocaleString('ja-JP', {month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit'})
-      : "-";
+      : "未ログイン";
+    const isRecentlyActive = r.lastLogin && (Date.now()-new Date(r.lastLogin).getTime()) < 3*24*3600*1000;
     const total = r.correctSum + r.wrongSum;
     const accuracy = total ? Math.round((r.correctSum/total)*100) : null;
     return `
-      <tr>
-        <td>${r.name}</td>
-        <td class="num">${r.mastered} <span class="small">/ ${TOTAL_WORDS}</span></td>
-        <td class="bar-cell">
-          <div class="bar-bg"><div class="bar-fill" style="width:${pct}%"></div></div>
-          <div class="small">${pct}%</div>
-        </td>
-        <td class="small">${r.weakCount}</td>
-        <td class="small">${r.priorityCount}</td>
-        <td class="small">${accuracy===null ? '-' : accuracy + '%'}</td>
-        <td class="small">${r.l1}/${TOTAL_L1} · ${r.l2}/${TOTAL_L2} · ${r.l3}/${TOTAL_L3}</td>
-        <td class="small">${r.idiomMastered} / ${TOTAL_IDIOMS}</td>
-        <td class="small">${last}</td>
-        <td class="small">${lastLoginStr}</td>
-        <td class="small"><button class="del-btn" onclick="deleteStudent('${r.id}','${r.name.replace(/'/g,"\\'")}')">削除</button></td>
-      </tr>
+      <div class="student-card">
+        <div class="card-top">
+          <div>
+            <div class="card-name">${r.name}</div>
+            <div class="card-login"><span class="login-dot ${isRecentlyActive ? 'active' : ''}"></span>最終ログイン：${lastLoginStr}</div>
+          </div>
+          <button class="del-btn" onclick="deleteStudent('${r.id}','${r.name.replace(/'/g,"\\'")}')">削除</button>
+        </div>
+
+        <div class="progress-row">
+          <div class="ring-wrap">
+            <svg viewBox="0 0 48 48">
+              <circle cx="24" cy="24" r="21" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="5"/>
+              <circle cx="24" cy="24" r="21" fill="none" stroke="#e8b95f" stroke-width="5"
+                      stroke-linecap="round" stroke-dasharray="${circumference}" stroke-dashoffset="${offset}"
+                      transform="rotate(-90 24 24)"/>
+            </svg>
+            <div class="ring-pct">${pct}%</div>
+          </div>
+          <div class="progress-info">
+            <div class="progress-count">${r.mastered} <span class="of">/ ${TOTAL_WORDS}語</span></div>
+            <div class="progress-label">覚えた語数(習熟度)</div>
+          </div>
+        </div>
+
+        <div class="stat-grid">
+          <div class="stat-box"><div class="v ${r.weakCount>0?'warn':''}">${r.weakCount}</div><div class="k">苦手</div></div>
+          <div class="stat-box"><div class="v ${r.priorityCount>0?'bad':''}">${r.priorityCount}</div><div class="k">最優先</div></div>
+          <div class="stat-box"><div class="v">${accuracy===null ? '-' : accuracy + '%'}</div><div class="k">正答率</div></div>
+          <div class="stat-box"><div class="v">${r.idiomMastered}<span style="font-size:10px;color:var(--ink-faint)">/${TOTAL_IDIOMS}</span></div><div class="k">熟語</div></div>
+        </div>
+
+        <div class="level-row">
+          <div class="level-chip"><div class="lv-v">${r.l1}/${TOTAL_L1}</div><div class="lv-k">基礎</div></div>
+          <div class="level-chip"><div class="lv-v">${r.l2}/${TOTAL_L2}</div><div class="lv-k">標準</div></div>
+          <div class="level-chip"><div class="lv-v">${r.l3}/${TOTAL_L3}</div><div class="lv-k">発展</div></div>
+        </div>
+
+        <div class="card-footer">
+          <span>最終学習：${last}</span>
+        </div>
+      </div>
     `;
   }).join("");
 }
